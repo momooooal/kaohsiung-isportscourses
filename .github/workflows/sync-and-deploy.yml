@@ -44,12 +44,19 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Synchronize official iSports data
+        id: sync
+        continue-on-error: true
         env:
           ISPORTS_HEADLESS: '1'
           ISPORTS_YEAR_OFFSETS: '0,1'
         run: python scripts/sync_isports.py
 
+      - name: Report synchronization fallback
+        if: steps.sync.outcome == 'failure'
+        run: echo "Synchronization failed; deploying the most recent successful JSON already in the repository."
+
       - name: Commit synchronized JSON when changed
+        if: steps.sync.outcome == 'success'
         run: |
           if git diff --quiet -- artifacts/kaohsiung-sport-courses/public/data; then
             echo "No synchronized data changes."
