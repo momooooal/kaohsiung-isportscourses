@@ -1,12 +1,10 @@
 {
-  "lastAttemptAt": "2026-08-03T16:30:13+08:00",
+  "lastAttemptAt": "2026-08-03T16:56:21+08:00",
   "lastSuccessfulAt": "2026-08-03T16:33:07+08:00",
-  "status": "success",
-  "message": "同步完成",
+  "status": "failed",
+  "message": "同步結果為 0 筆已驗證課程。為避免清空網站，已保留前一次成功資料。",
   "courseCount": 88,
   "unmatchedCount": 0,
-  "regularDetailCount": 88,
-  "activityDetailCount": 36,
   "warnings": [
     "民國116年常態課程：來源網站沒有民國 116 年選項",
     "民國116年運動課程：來源網站沒有民國 116 年選項"
@@ -15,5 +13,6 @@
     "regularCourses": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_01V1.aspx?MENU_PRG_CD=1&ITEM_PRG_CD=6",
     "sportActivities": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_01v1.aspx?ACT_TP_CD=3&ITEM_PRG_CD=3&MENU_PRG_CD=1"
   },
-  "syncMode": "GitHub Actions 定時同步（非即時）"
+  "syncMode": "GitHub Actions 定時同步（非即時）",
+  "usingPreviousData": true
 }
