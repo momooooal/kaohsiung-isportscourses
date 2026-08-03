@@ -3,9 +3,9 @@ import { useCourses } from '@/hooks/use-courses';
 import {
   Course,
   CourseStatus,
-  CourseCategoryGroup,
+  CourseCategoryOption,
   District,
-  normalizeCourseCategory,
+  formatCourseCategories,
 } from '@/data/courses';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -20,28 +20,50 @@ import {
   Activity, ArrowUpRight, Users, ChevronRight, X, AlertCircle, Filter
 } from 'lucide-react';
 
-const DISTRICTS: District[] = ['鳳山區', '左營區', '鼓山區', '三民區', '苓雅區', '前鎮區', '楠梓區'];
-const STATUSES: CourseStatus[] = ['報名中', '即將開始', '已額滿'];
+
+const isRegistrationClosed = (status: CourseStatus) =>
+  /截止|額滿|結束|暫停|取消/.test(status);
+
+const formatFee = (fee: Course['fee']) => {
+  if (fee === null || fee === undefined || fee === '') return '未提供';
+  if (fee === '免費') return '免費';
+  if (typeof fee === 'number') return `NT$ ${fee}`;
+  return String(fee);
+};
+
+const formatSyncTime = (value?: string) => {
+  if (!value) return '尚無成功同步紀錄';
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return new Intl.DateTimeFormat('zh-TW', {
+    timeZone: 'Asia/Taipei',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+  }).format(date);
+};
 
 export default function Home() {
   const {
     courses, totalCount, filters, updateFilter, clearFilters,
-    sortBy, setSortBy, favorites, toggleFavorite, availableCategories
+    sortBy, setSortBy, favorites, toggleFavorite, availableCategories,
+    availableDistricts, availableStatuses, syncStatus, isLoading, loadError
   } = useCourses();
 
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
 
   const getStatusBadgeVariant = (status: CourseStatus) => {
-    switch (status) {
-      case '報名中': return 'success';
-      case '即將開始': return 'warning';
-      case '已額滿': return 'secondary';
-      default: return 'default';
-    }
+    if (/報名中|招生中/.test(status)) return 'success';
+    if (/即將|尚未/.test(status)) return 'warning';
+    if (/額滿|截止|結束|暫停|取消/.test(status)) return 'secondary';
+    return 'default';
   };
 
-  const handleCategoryToggle = (category: CourseCategoryGroup) => {
+  const handleCategoryToggle = (category: CourseCategoryOption) => {
     const current = filters.categories;
     const next = current.includes(category)
       ? current.filter(c => c !== category)
@@ -99,7 +121,9 @@ export default function Home() {
             </p>
             <div className="flex items-center justify-center sm:justify-start gap-2 text-sm text-primary-foreground/70 bg-black/10 w-fit px-3 py-1.5 rounded-full mx-auto sm:mx-0">
               <AlertCircle className="h-4 w-4" />
-              <span>資料最後同步：2023-10-25 10:00 (非即時)</span>
+              <span>
+                資料最後同步：{formatSyncTime(syncStatus?.lastSuccessfulAt)}（定時同步，非即時）
+              </span>
             </div>
           </div>
           <div className="w-full sm:w-auto relative max-w-md flex-1">
@@ -140,7 +164,7 @@ export default function Home() {
           <div className="space-y-3">
             <h4 className="font-medium text-sm text-slate-500 uppercase tracking-wider">報名狀態</h4>
             <div className="flex flex-col gap-2">
-              {STATUSES.map(status => (
+              {availableStatuses.map(status => (
                 <div key={status} className="flex items-center space-x-2">
                   <Checkbox 
                     id={`status-${status}`} 
@@ -156,7 +180,7 @@ export default function Home() {
           {/* Category Filter */}
           <div className="space-y-3">
             <h4 className="font-medium text-sm text-slate-500 uppercase tracking-wider">運動項目</h4>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 max-h-80 overflow-y-auto pr-2">
               {availableCategories.map(category => (
                 <div key={category} className="flex items-center space-x-2">
                   <Checkbox 
@@ -174,7 +198,7 @@ export default function Home() {
           <div className="space-y-3">
             <h4 className="font-medium text-sm text-slate-500 uppercase tracking-wider">行政區</h4>
             <div className="flex flex-col gap-2">
-              {DISTRICTS.map(district => (
+              {availableDistricts.map(district => (
                 <div key={district} className="flex items-center space-x-2">
                   <Checkbox 
                     id={`dist-${district}`} 
@@ -209,7 +233,17 @@ export default function Home() {
             </div>
           </div>
 
-          {totalCount === 0 ? (
+          {isLoading ? (
+            <div className="bg-white border border-slate-200 rounded-xl p-12 text-center text-slate-500">
+              正在載入最新課程資料…
+            </div>
+          ) : loadError ? (
+            <div className="bg-red-50 border border-red-200 rounded-xl p-8 text-center">
+              <AlertCircle className="h-8 w-8 text-red-500 mx-auto mb-3" />
+              <h3 className="text-lg font-semibold text-red-900 mb-2">課程資料載入失敗</h3>
+              <p className="text-red-700">{loadError}</p>
+            </div>
+          ) : totalCount === 0 ? (
             <div className="bg-white border border-slate-200 border-dashed rounded-xl p-12 text-center flex flex-col items-center">
               <div className="bg-slate-100 p-4 rounded-full mb-4">
                 <Search className="h-8 w-8 text-slate-400" />
@@ -235,7 +269,7 @@ export default function Home() {
                             {course.status}
                           </Badge>
                           <Badge variant="outline" className="text-slate-600 bg-slate-50 font-normal shadow-none border-slate-200">
-                            {normalizeCourseCategory(course.category)}
+                            {formatCourseCategories(course.category)}
                           </Badge>
                         </div>
                         <CardTitle className="text-lg leading-tight group-hover:text-primary transition-colors">
@@ -274,11 +308,13 @@ export default function Home() {
                       <div className="flex items-center gap-2">
                         <Users className="h-4 w-4 text-slate-400" />
                         <span className="text-sm font-medium text-slate-700">
-                          {course.status === '已額滿' ? '名額已滿' : `剩餘 ${course.spotsAvailable} 名額`}
+                          {course.spotsAvailable !== null && course.spotsAvailable !== undefined
+                            ? `剩餘 ${course.spotsAvailable} 名額`
+                            : course.status}
                         </span>
                       </div>
                       <span className="text-sm font-bold text-primary">
-                        {course.fee === '免費' ? '免費' : `NT$ ${course.fee}`}
+                        {formatFee(course.fee)}
                       </span>
                     </div>
                   </Card>
@@ -297,7 +333,7 @@ export default function Home() {
             <span className="font-semibold">高雄運動 i 臺灣課程查詢</span>
           </div>
           <div className="text-center md:text-right">
-            <p>本平台資訊整理自教育部體育署「運動 i 臺灣」計畫。</p>
+            <p>資料來源：運動部全民運動署 i運動資訊平台。</p>
             <p className="mt-1">實際報名狀況與詳細資訊，請以官方報名平台為準。</p>
           </div>
         </div>
@@ -312,7 +348,7 @@ export default function Home() {
                 <SheetHeader className="relative z-10 text-left">
                   <div className="flex flex-wrap gap-2 mb-3">
                     <Badge variant="secondary" className="bg-white/20 text-white hover:bg-white/30 border-none backdrop-blur-sm">
-                      {selectedCourse.category}
+                      {formatCourseCategories(selectedCourse.category)}
                     </Badge>
                     <Badge variant="outline" className="border-white/40 text-white backdrop-blur-sm">
                       {selectedCourse.status}
@@ -343,13 +379,19 @@ export default function Home() {
                     <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
                       <div className="text-xs text-slate-500 mb-1 flex items-center gap-1.5"><Users className="h-3.5 w-3.5"/> 報名狀況</div>
                       <div className="font-medium text-sm text-slate-900">
-                        剩餘 <span className="text-secondary font-bold text-lg">{selectedCourse.spotsAvailable}</span> / {selectedCourse.spotsTotal}
+                        {selectedCourse.spotsAvailable !== null && selectedCourse.spotsAvailable !== undefined ? (
+                          <>剩餘 <span className="text-secondary font-bold text-lg">{selectedCourse.spotsAvailable}</span>
+                            {selectedCourse.spotsTotal !== null && selectedCourse.spotsTotal !== undefined
+                              ? ` / ${selectedCourse.spotsTotal}`
+                              : ''}
+                          </>
+                        ) : selectedCourse.status}
                       </div>
                     </div>
                     <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
                       <div className="text-xs text-slate-500 mb-1 flex items-center gap-1.5">費用</div>
                       <div className="font-medium text-sm text-slate-900">
-                        {selectedCourse.fee === '免費' ? '免費' : `NT$ ${selectedCourse.fee}`}
+                        {formatFee(selectedCourse.fee)}
                       </div>
                     </div>
                   </div>
@@ -388,10 +430,10 @@ export default function Home() {
                 </Button>
                 <Button 
                   className="flex-1 h-12 text-base font-bold bg-secondary hover:bg-secondary/90 text-white"
-                  disabled={selectedCourse.status === '已額滿'}
+                  disabled={isRegistrationClosed(selectedCourse.status)}
                   onClick={() => window.open(selectedCourse.registrationUrl, '_blank')}
                 >
-                  {selectedCourse.status === '已額滿' ? '報名已截止' : '前往官方平台報名'}
+                  {isRegistrationClosed(selectedCourse.status) ? selectedCourse.status : '前往官方平台報名'}
                   <ArrowUpRight className="ml-2 h-4 w-4" />
                 </Button>
               </div>
