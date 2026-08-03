@@ -1,0 +1,9 @@
+{
+  "lastAttemptAt": null,
+  "lastSuccessfulAt": null,
+  "status": "waiting",
+  "message": "等待 GitHub Actions 完成第一次同步",
+  "courseCount": 0,
+  "unmatchedCount": 0,
+  "syncMode": "GitHub Actions 定時同步（非即時）"
+}
