@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "高雄運動 i 臺灣課程查詢"
+description = "A focused public search experience for discovering Kaohsiung sports courses connected to the Sports iTaiwan program, with clear filtering, course details, official registration links, and sync transparency."
+version = "1.0.0"
+id = "artifacts/kaohsiung-sport-courses"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18222
+
+[services.development]
+run = "pnpm --filter @workspace/kaohsiung-sport-courses run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/kaohsiung-sport-courses", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/kaohsiung-sport-courses/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18222"
+BASE_PATH = "/"
