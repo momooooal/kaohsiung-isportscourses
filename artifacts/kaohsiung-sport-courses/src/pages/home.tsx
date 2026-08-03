@@ -1,324 +1,244 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useCourses } from '@/hooks/use-courses';
-import type { Course, CourseCategory, CourseStatus, District } from '@/data/courses';
+import {
+  Course,
+  CourseStatus,
+  CourseCategoryGroup,
+  District,
+  normalizeCourseCategory,
+} from '@/data/courses';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Label } from '@/components/ui/label';
 import {
-  Activity,
-  AlertCircle,
-  ArrowUpRight,
-  Bookmark,
-  BookmarkCheck,
-  Calendar,
-  Clock,
-  Filter,
-  LoaderCircle,
-  MapPin,
-  Phone,
-  Search,
-  ShieldCheck,
-  Users,
+  Search, MapPin, Calendar, Clock, Bookmark, BookmarkCheck,
+  Activity, ArrowUpRight, Users, ChevronRight, X, AlertCircle, Filter
 } from 'lucide-react';
 
-function formatDate(value?: string) {
-  if (!value) return '未提供';
-  const date = new Date(`${value}T00:00:00`);
-  if (Number.isNaN(date.getTime())) return value;
-  return new Intl.DateTimeFormat('zh-TW', {
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  }).format(date);
-}
-
-function formatDateTime(value?: string | null) {
-  if (!value) return '尚未成功同步';
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return value;
-  return new Intl.DateTimeFormat('zh-TW', {
-    timeZone: 'Asia/Taipei',
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-    hour: '2-digit',
-    minute: '2-digit',
-    hour12: false,
-  }).format(date);
-}
-
-function statusVariant(status: string): 'success' | 'warning' | 'secondary' | 'destructive' | 'default' {
-  if (/報名中|開放|招生中/.test(status)) return 'success';
-  if (/即將|尚未/.test(status)) return 'warning';
-  if (/額滿|截止|結束/.test(status)) return 'secondary';
-  if (/取消|停辦/.test(status)) return 'destructive';
-  return 'default';
-}
-
-function FilterGroup<T extends string>({
-  title,
-  values,
-  selected,
-  onToggle,
-  prefix,
-}: {
-  title: string;
-  values: T[];
-  selected: T[];
-  onToggle: (value: T) => void;
-  prefix: string;
-}) {
-  if (values.length === 0) return null;
-  return (
-    <div className="space-y-3">
-      <h4 className="text-sm font-medium uppercase tracking-wider text-slate-500">{title}</h4>
-      <div className="flex max-h-64 flex-col gap-2 overflow-y-auto pr-1">
-        {values.map((value) => {
-          const id = `${prefix}-${value}`;
-          return (
-            <div key={value} className="flex items-center space-x-2">
-              <Checkbox
-                id={id}
-                checked={selected.includes(value)}
-                onCheckedChange={() => onToggle(value)}
-              />
-              <Label htmlFor={id} className="cursor-pointer font-normal">
-                {value}
-              </Label>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
+const DISTRICTS: District[] = ['鳳山區', '左營區', '鼓山區', '三民區', '苓雅區', '前鎮區', '楠梓區'];
+const STATUSES: CourseStatus[] = ['報名中', '即將開始', '已額滿'];
 
 export default function Home() {
   const {
-    courses,
-    totalCount,
-    filters,
-    filterOptions,
-    updateFilter,
-    clearFilters,
-    sortBy,
-    setSortBy,
-    favorites,
-    toggleFavorite,
-    syncStatus,
-    isLoading,
-    loadError,
+    courses, totalCount, filters, updateFilter, clearFilters,
+    sortBy, setSortBy, favorites, toggleFavorite, availableCategories
   } = useCourses();
 
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
 
-  const toggleCategory = (category: CourseCategory) => {
-    updateFilter(
-      'categories',
-      filters.categories.includes(category)
-        ? filters.categories.filter((item) => item !== category)
-        : [...filters.categories, category],
-    );
+  const getStatusBadgeVariant = (status: CourseStatus) => {
+    switch (status) {
+      case '報名中': return 'success';
+      case '即將開始': return 'warning';
+      case '已額滿': return 'secondary';
+      default: return 'default';
+    }
   };
 
-  const toggleDistrict = (district: District) => {
-    updateFilter(
-      'districts',
-      filters.districts.includes(district)
-        ? filters.districts.filter((item) => item !== district)
-        : [...filters.districts, district],
-    );
+  const handleCategoryToggle = (category: CourseCategoryGroup) => {
+    const current = filters.categories;
+    const next = current.includes(category)
+      ? current.filter(c => c !== category)
+      : [...current, category];
+    updateFilter('categories', next);
   };
 
-  const toggleStatus = (status: CourseStatus) => {
-    updateFilter(
-      'status',
-      filters.status.includes(status)
-        ? filters.status.filter((item) => item !== status)
-        : [...filters.status, status],
-    );
+  const handleDistrictToggle = (district: District) => {
+    const current = filters.districts;
+    const next = current.includes(district)
+      ? current.filter(d => d !== district)
+      : [...current, district];
+    updateFilter('districts', next);
   };
 
-  const syncFailed = syncStatus.status === 'failed';
+  const handleStatusToggle = (status: CourseStatus) => {
+    const current = filters.status;
+    const next = current.includes(status)
+      ? current.filter(s => s !== status)
+      : [...current, status];
+    updateFilter('status', next);
+  };
 
   return (
-    <div className="flex min-h-screen flex-col bg-slate-50 font-sans text-slate-900">
-      <header className="sticky top-0 z-30 border-b border-slate-200 bg-white shadow-sm">
-        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans">
+      {/* Header */}
+      <header className="sticky top-0 z-30 bg-white border-b border-slate-200 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2 text-primary">
             <Activity className="h-6 w-6" />
-            <h1 className="text-xl font-bold tracking-tight">
-              高雄運動 i 臺灣<span className="hidden sm:inline">課程查詢</span>
-            </h1>
+            <h1 className="text-xl font-bold tracking-tight">高雄運動 i 臺灣<span className="hidden sm:inline">課程查詢</span></h1>
           </div>
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => updateFilter('showFavoritesOnly', !filters.showFavoritesOnly)}
-            className={filters.showFavoritesOnly ? 'bg-secondary/10 text-secondary' : 'text-slate-600'}
-          >
-            {filters.showFavoritesOnly ? (
-              <BookmarkCheck className="mr-2 h-4 w-4" />
-            ) : (
-              <Bookmark className="mr-2 h-4 w-4" />
-            )}
-            <span className="hidden sm:inline">我的收藏 ({favorites.size})</span>
-          </Button>
+          <div className="flex items-center gap-4">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => updateFilter('showFavoritesOnly', !filters.showFavoritesOnly)}
+              className={filters.showFavoritesOnly ? "text-secondary bg-secondary/10" : "text-slate-600"}
+            >
+              {filters.showFavoritesOnly ? <BookmarkCheck className="h-4 w-4 mr-2" /> : <Bookmark className="h-4 w-4 mr-2" />}
+              <span className="hidden sm:inline">我的收藏 ({favorites.size})</span>
+            </Button>
+          </div>
         </div>
       </header>
 
-      <section className="relative overflow-hidden bg-primary px-4 py-12 text-white sm:px-6">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white to-transparent opacity-10" />
-        <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 text-center sm:flex-row sm:text-left">
+      {/* Hero Section */}
+      <section className="bg-primary text-white py-12 px-4 sm:px-6 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white to-transparent" />
+        <div className="max-w-7xl mx-auto relative z-10 text-center sm:text-left flex flex-col sm:flex-row justify-between items-center gap-6">
           <div className="max-w-2xl">
-            <div className="mb-3 flex items-center justify-center gap-2 sm:justify-start">
-              <ShieldCheck className="h-5 w-5" />
-              <span className="text-sm font-medium">僅顯示已核對為高雄市「運動i臺灣計畫」的常態性課程</span>
-            </div>
-            <h2 className="mb-3 text-3xl font-black text-white sm:text-4xl">找到專屬於你的運動時光</h2>
-            <p className="mb-4 text-lg text-primary-foreground/90">
-              自動整合官方「運動課程」與「常態性課程」，不必再到兩個頁面交叉查找。
+            <h2 className="text-3xl sm:text-4xl font-black mb-3 text-white">找到專屬於你的運動時光</h2>
+            <p className="text-primary-foreground/90 text-lg mb-4">
+              探索高雄在地優質運動課程，促進身心健康。所有資訊皆來自「運動 i 臺灣」計畫。
             </p>
-            <div
-              className={`mx-auto flex w-fit items-center gap-2 rounded-full px-3 py-1.5 text-sm sm:mx-0 ${
-                syncFailed ? 'bg-red-950/30 text-red-50' : 'bg-black/10 text-primary-foreground/80'
-              }`}
-            >
+            <div className="flex items-center justify-center sm:justify-start gap-2 text-sm text-primary-foreground/70 bg-black/10 w-fit px-3 py-1.5 rounded-full mx-auto sm:mx-0">
               <AlertCircle className="h-4 w-4" />
-              <span>
-                {syncFailed ? '同步異常，顯示最近一次成功資料：' : '資料最後成功同步：'}
-                {formatDateTime(syncStatus.lastSuccessfulAt)}
-              </span>
+              <span>資料最後同步：2023-10-25 10:00 (非即時)</span>
             </div>
           </div>
-          <div className="w-full max-w-md flex-1 sm:w-auto">
+          <div className="w-full sm:w-auto relative max-w-md flex-1">
             <div className="relative">
-              <Search className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-400" />
               <Input
-                placeholder="搜尋課程、行政區、地點或主辦單位..."
-                className="h-12 rounded-full border-0 pl-10 text-base text-slate-900 shadow-lg focus-visible:ring-secondary"
+                placeholder="搜尋課程名稱或地點..."
+                className="pl-10 h-12 rounded-full border-0 shadow-lg text-slate-900 focus-visible:ring-secondary text-base"
                 value={filters.search}
-                onChange={(event) => updateFilter('search', event.target.value)}
+                onChange={(e) => updateFilter('search', e.target.value)}
               />
             </div>
           </div>
         </div>
       </section>
 
-      <main className="mx-auto flex w-full max-w-7xl flex-1 flex-col gap-8 px-4 py-8 sm:px-6 md:flex-row lg:px-8">
-        <div className="flex items-center justify-between rounded-lg border border-slate-200 bg-white p-4 shadow-sm md:hidden">
+      {/* Main Content */}
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex flex-col md:flex-row gap-8">
+        
+        {/* Mobile Filter Toggle */}
+        <div className="md:hidden flex justify-between items-center bg-white p-4 rounded-lg shadow-sm border border-slate-200">
           <span className="font-medium text-slate-700">找到 {totalCount} 堂課程</span>
-          <Button variant="outline" size="sm" onClick={() => setIsMobileFilterOpen((value) => !value)}>
-            <Filter className="mr-2 h-4 w-4" />篩選
+          <Button variant="outline" size="sm" onClick={() => setIsMobileFilterOpen(!isMobileFilterOpen)}>
+            <Filter className="h-4 w-4 mr-2" /> 篩選
           </Button>
         </div>
 
-        <aside className={`shrink-0 flex-col gap-6 md:flex md:w-64 ${isMobileFilterOpen ? 'flex' : 'hidden'}`}>
+        {/* Sidebar Filters */}
+        <aside className={`md:w-64 shrink-0 flex flex-col gap-6 ${isMobileFilterOpen ? 'block' : 'hidden md:flex'}`}>
           <div className="flex items-center justify-between">
-            <h3 className="text-lg font-bold text-slate-800">進階篩選</h3>
+            <h3 className="font-bold text-lg text-slate-800">進階篩選</h3>
             <Button variant="ghost" size="sm" className="h-8 text-xs text-slate-500" onClick={clearFilters}>
               清除全部
             </Button>
           </div>
-          <FilterGroup
-            title="課程辦理情形"
-            values={filterOptions.statuses}
-            selected={filters.status}
-            onToggle={toggleStatus}
-            prefix="status"
-          />
-          <FilterGroup
-            title="運動項目"
-            values={filterOptions.categories}
-            selected={filters.categories}
-            onToggle={toggleCategory}
-            prefix="category"
-          />
-          <FilterGroup
-            title="行政區"
-            values={filterOptions.districts}
-            selected={filters.districts}
-            onToggle={toggleDistrict}
-            prefix="district"
-          />
+
+          {/* Status Filter */}
+          <div className="space-y-3">
+            <h4 className="font-medium text-sm text-slate-500 uppercase tracking-wider">報名狀態</h4>
+            <div className="flex flex-col gap-2">
+              {STATUSES.map(status => (
+                <div key={status} className="flex items-center space-x-2">
+                  <Checkbox 
+                    id={`status-${status}`} 
+                    checked={filters.status.includes(status)}
+                    onCheckedChange={() => handleStatusToggle(status)}
+                  />
+                  <Label htmlFor={`status-${status}`} className="font-normal cursor-pointer">{status}</Label>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Category Filter */}
+          <div className="space-y-3">
+            <h4 className="font-medium text-sm text-slate-500 uppercase tracking-wider">運動項目</h4>
+            <div className="flex flex-col gap-2">
+              {availableCategories.map(category => (
+                <div key={category} className="flex items-center space-x-2">
+                  <Checkbox 
+                    id={`cat-${category}`} 
+                    checked={filters.categories.includes(category)}
+                    onCheckedChange={() => handleCategoryToggle(category)}
+                  />
+                  <Label htmlFor={`cat-${category}`} className="font-normal cursor-pointer">{category}</Label>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* District Filter */}
+          <div className="space-y-3">
+            <h4 className="font-medium text-sm text-slate-500 uppercase tracking-wider">行政區</h4>
+            <div className="flex flex-col gap-2">
+              {DISTRICTS.map(district => (
+                <div key={district} className="flex items-center space-x-2">
+                  <Checkbox 
+                    id={`dist-${district}`} 
+                    checked={filters.districts.includes(district)}
+                    onCheckedChange={() => handleDistrictToggle(district)}
+                  />
+                  <Label htmlFor={`dist-${district}`} className="font-normal cursor-pointer">{district}</Label>
+                </div>
+              ))}
+            </div>
+          </div>
         </aside>
 
-        <div className="min-w-0 flex-1">
-          <div className="mb-6 hidden items-center justify-between md:flex">
+        {/* Results */}
+        <div className="flex-1 min-w-0">
+          <div className="hidden md:flex justify-between items-center mb-6">
             <h2 className="text-xl font-bold text-slate-800">
-              {filters.showFavoritesOnly ? '我的收藏' : '課程列表'}
-              <span className="ml-2 text-base font-normal text-slate-500">共 {totalCount} 筆結果</span>
+              {filters.showFavoritesOnly ? '我的收藏' : '課程列表'} <span className="text-slate-500 text-base font-normal ml-2">共 {totalCount} 筆結果</span>
             </h2>
             <div className="flex items-center gap-2">
               <span className="text-sm text-slate-500">排序方式</span>
-              <Select value={sortBy} onValueChange={(value) => setSortBy(value as typeof sortBy)}>
-                <SelectTrigger className="h-9 w-[185px] bg-white">
+              <Select value={sortBy} onValueChange={(v: any) => setSortBy(v)}>
+                <SelectTrigger className="w-[160px] h-9 bg-white">
                   <SelectValue placeholder="選擇排序" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="date-asc">最近開課</SelectItem>
-                  <SelectItem value="date-desc">較晚開課</SelectItem>
-                  <SelectItem value="registration-end-asc">最近截止報名</SelectItem>
-                  <SelectItem value="title-asc">課程名稱</SelectItem>
+                  <SelectItem value="date-asc">開課日期 (由近到遠)</SelectItem>
+                  <SelectItem value="date-desc">開課日期 (由遠到近)</SelectItem>
+                  <SelectItem value="availability-desc">剩餘名額 (由多到少)</SelectItem>
                 </SelectContent>
               </Select>
             </div>
           </div>
 
-          {isLoading ? (
-            <div className="flex min-h-80 flex-col items-center justify-center rounded-xl border border-slate-200 bg-white">
-              <LoaderCircle className="mb-3 h-8 w-8 animate-spin text-primary" />
-              <p className="text-slate-600">正在讀取最新課程資料…</p>
-            </div>
-          ) : loadError ? (
-            <div className="rounded-xl border border-red-200 bg-red-50 p-8 text-center text-red-800">
-              <AlertCircle className="mx-auto mb-3 h-8 w-8" />
-              <h3 className="mb-2 font-bold">無法讀取課程資料</h3>
-              <p>{loadError}</p>
-            </div>
-          ) : totalCount === 0 ? (
-            <div className="flex min-h-80 flex-col items-center justify-center rounded-xl border border-dashed border-slate-200 bg-white p-12 text-center">
-              <div className="mb-4 rounded-full bg-slate-100 p-4">
+          {totalCount === 0 ? (
+            <div className="bg-white border border-slate-200 border-dashed rounded-xl p-12 text-center flex flex-col items-center">
+              <div className="bg-slate-100 p-4 rounded-full mb-4">
                 <Search className="h-8 w-8 text-slate-400" />
               </div>
-              <h3 className="mb-2 text-lg font-semibold text-slate-800">目前沒有符合條件的課程</h3>
-              <p className="mb-6 max-w-lg text-slate-500">
-                {syncStatus.status === 'waiting'
-                  ? '網站正在等待第一次 GitHub Actions 同步。上傳到 GitHub 後，工作流程會自動執行。'
-                  : syncStatus.message || '請放寬篩選條件，或稍後再查看官方新增的課程。'}
+              <h3 className="text-lg font-semibold text-slate-800 mb-2">找不到符合的課程</h3>
+              <p className="text-slate-500 mb-6 max-w-sm">
+                目前沒有符合您篩選條件的課程，請嘗試放寬篩選條件或搜尋其他關鍵字。
               </p>
-              <Button onClick={clearFilters} variant="outline">清除所有篩選</Button>
+              <Button onClick={clearFilters} variant="outline">
+                清除所有篩選
+              </Button>
             </div>
           ) : (
-            <div className="grid grid-cols-1 gap-4 xl:grid-cols-2">
-              {courses.map((course) => {
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
+              {courses.map(course => {
                 const isFavorite = favorites.has(course.id);
                 return (
-                  <Card
-                    key={course.id}
-                    className="group flex h-full cursor-pointer flex-col overflow-hidden border-slate-200 bg-white transition-all hover:border-primary/30 hover:shadow-md"
-                    onClick={() => setSelectedCourse(course)}
-                  >
-                    <CardHeader className="flex flex-row items-start justify-between gap-4 pb-3">
-                      <div className="min-w-0">
-                        <div className="mb-2 flex flex-wrap gap-2">
-                          <Badge variant={statusVariant(course.status)} className="font-normal shadow-none">
+                  <Card key={course.id} className="overflow-hidden group hover:border-primary/30 hover:shadow-md transition-all cursor-pointer flex flex-col h-full bg-white border-slate-200" onClick={() => setSelectedCourse(course)}>
+                    <CardHeader className="pb-3 flex flex-row items-start justify-between gap-4">
+                      <div>
+                        <div className="flex flex-wrap gap-2 mb-2">
+                          <Badge variant={getStatusBadgeVariant(course.status)} className="font-normal shadow-none">
                             {course.status}
                           </Badge>
-                          <Badge variant="outline" className="border-slate-200 bg-slate-50 font-normal text-slate-600 shadow-none">
-                            {course.category}
-                          </Badge>
-                          <Badge variant="success" className="font-normal shadow-none">
-                            來源已核對
+                          <Badge variant="outline" className="text-slate-600 bg-slate-50 font-normal shadow-none border-slate-200">
+                            {normalizeCourseCategory(course.category)}
                           </Badge>
                         </div>
-                        <CardTitle className="text-lg leading-tight transition-colors group-hover:text-primary">
+                        <CardTitle className="text-lg leading-tight group-hover:text-primary transition-colors">
                           {course.title}
                         </CardTitle>
                         <CardDescription className="mt-1.5 flex items-center gap-1.5">
@@ -326,42 +246,40 @@ export default function Home() {
                           <span className="truncate">{course.district} · {course.location}</span>
                         </CardDescription>
                       </div>
-                      <Button
-                        variant="ghost"
-                        size="icon"
-                        aria-label={isFavorite ? '取消收藏' : '加入收藏'}
-                        className={`z-10 h-8 w-8 shrink-0 rounded-full ${
-                          isFavorite
-                            ? 'bg-secondary/10 text-secondary hover:bg-secondary/20'
-                            : 'text-slate-400 hover:bg-slate-100 hover:text-secondary'
-                        }`}
-                        onClick={(event) => {
-                          event.stopPropagation();
+                      <Button 
+                        variant="ghost" 
+                        size="icon" 
+                        className={`shrink-0 h-8 w-8 rounded-full z-10 ${isFavorite ? 'text-secondary bg-secondary/10 hover:bg-secondary/20' : 'text-slate-400 hover:text-secondary hover:bg-slate-100'}`}
+                        onClick={(e) => {
+                          e.stopPropagation();
                           toggleFavorite(course.id);
                         }}
                       >
                         {isFavorite ? <BookmarkCheck className="h-4 w-4" /> : <Bookmark className="h-4 w-4" />}
                       </Button>
                     </CardHeader>
-                    <CardContent className="flex-1 pb-4 text-sm text-slate-600">
+                    <CardContent className="pb-4 text-sm text-slate-600 flex-1">
                       <div className="space-y-2">
                         <div className="flex items-start gap-2">
-                          <Calendar className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
-                          <span>{formatDate(course.startDate)} ～ {formatDate(course.endDate)}</span>
+                          <Calendar className="h-4 w-4 shrink-0 mt-0.5 text-slate-400" />
+                          <span>{course.startDate.replace(/-/g, '/')} ~ {course.endDate.replace(/-/g, '/')}</span>
                         </div>
                         <div className="flex items-start gap-2">
-                          <Clock className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
+                          <Clock className="h-4 w-4 shrink-0 mt-0.5 text-slate-400" />
                           <span>{course.time}</span>
-                        </div>
-                        <div className="flex items-start gap-2">
-                          <Users className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
-                          <span>{course.targetAudience}</span>
                         </div>
                       </div>
                     </CardContent>
-                    <div className="mt-auto flex items-center justify-between border-t border-slate-100 bg-slate-50/50 p-4 text-sm">
-                      <span className="truncate pr-3 text-slate-600">{course.organizer}</span>
-                      <span className="shrink-0 font-medium text-primary">查看詳情</span>
+                    <div className="mt-auto border-t border-slate-100 bg-slate-50/50 p-4 flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <Users className="h-4 w-4 text-slate-400" />
+                        <span className="text-sm font-medium text-slate-700">
+                          {course.status === '已額滿' ? '名額已滿' : `剩餘 ${course.spotsAvailable} 名額`}
+                        </span>
+                      </div>
+                      <span className="text-sm font-bold text-primary">
+                        {course.fee === '免費' ? '免費' : `NT$ ${course.fee}`}
+                      </span>
                     </div>
                   </Card>
                 );
@@ -371,129 +289,110 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="mt-auto bg-slate-900 py-8 text-sm text-slate-400">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 sm:px-6 md:flex-row lg:px-8">
+      {/* Footer */}
+      <footer className="bg-slate-900 text-slate-400 py-8 text-sm mt-auto">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2 text-slate-300">
             <Activity className="h-5 w-5" />
             <span className="font-semibold">高雄運動 i 臺灣課程查詢</span>
           </div>
-          <div className="max-w-2xl text-center md:text-right">
-            <p>資料來源：運動部全民運動署 i運動資訊平台。</p>
-            <p className="mt-1">本網站提供整合查詢；實際課程、名額、辦理情形及報名資訊，以官方平台及主辦單位公告為準。</p>
+          <div className="text-center md:text-right">
+            <p>本平台資訊整理自教育部體育署「運動 i 臺灣」計畫。</p>
+            <p className="mt-1">實際報名狀況與詳細資訊，請以官方報名平台為準。</p>
           </div>
         </div>
       </footer>
 
-      <Sheet open={Boolean(selectedCourse)} onOpenChange={(open) => !open && setSelectedCourse(null)}>
-        <SheetContent side="right" className="flex w-full flex-col border-l-0 bg-slate-50 p-0 sm:max-w-xl">
+      {/* Detail Sheet */}
+      <Sheet open={!!selectedCourse} onOpenChange={(open) => !open && setSelectedCourse(null)}>
+        <SheetContent side="right" className="w-full sm:max-w-md p-0 flex flex-col bg-slate-50 border-l-0">
           {selectedCourse && (
             <>
-              <div className="relative bg-primary px-6 py-8 text-white">
+              <div className="bg-primary px-6 py-8 relative text-white">
                 <SheetHeader className="relative z-10 text-left">
-                  <div className="mb-3 flex flex-wrap gap-2">
-                    <Badge variant="secondary" className="border-none bg-white/20 text-white hover:bg-white/30">
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    <Badge variant="secondary" className="bg-white/20 text-white hover:bg-white/30 border-none backdrop-blur-sm">
                       {selectedCourse.category}
                     </Badge>
-                    <Badge variant="outline" className="border-white/40 text-white">
+                    <Badge variant="outline" className="border-white/40 text-white backdrop-blur-sm">
                       {selectedCourse.status}
                     </Badge>
-                    <Badge variant="success">運動i臺灣來源已核對</Badge>
                   </div>
-                  <SheetTitle className="mb-2 text-2xl font-bold leading-tight text-white">
+                  <SheetTitle className="text-2xl font-bold text-white mb-2 leading-tight">
                     {selectedCourse.title}
                   </SheetTitle>
-                  <div className="flex items-center gap-2 text-sm text-primary-foreground/90">
-                    <MapPin className="h-4 w-4" />
-                    {selectedCourse.district} · {selectedCourse.location}
+                  <div className="text-primary-foreground/90 flex items-center gap-2 text-sm">
+                    <MapPin className="h-4 w-4" /> {selectedCourse.district} · {selectedCourse.location}
                   </div>
                 </SheetHeader>
+                <div className="absolute inset-0 bg-gradient-to-t from-primary to-primary/80" />
               </div>
 
               <div className="flex-1 overflow-y-auto p-6">
-                <div className="space-y-5">
-                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                    <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-                      <div className="mb-1 flex items-center gap-1.5 text-xs text-slate-500"><Calendar className="h-3.5 w-3.5" />課程期間</div>
-                      <div className="text-sm font-medium text-slate-900">{formatDate(selectedCourse.startDate)}<br />{formatDate(selectedCourse.endDate)}</div>
+                <div className="space-y-6">
+                  {/* Quick Info Grid */}
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                      <div className="text-xs text-slate-500 mb-1 flex items-center gap-1.5"><Calendar className="h-3.5 w-3.5"/> 課程期間</div>
+                      <div className="font-medium text-sm text-slate-900">{selectedCourse.startDate} <br/> {selectedCourse.endDate}</div>
                     </div>
-                    <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-                      <div className="mb-1 flex items-center gap-1.5 text-xs text-slate-500"><Clock className="h-3.5 w-3.5" />上課時間</div>
-                      <div className="text-sm font-medium text-slate-900">{selectedCourse.time}</div>
+                    <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                      <div className="text-xs text-slate-500 mb-1 flex items-center gap-1.5"><Clock className="h-3.5 w-3.5"/> 上課時間</div>
+                      <div className="font-medium text-sm text-slate-900">{selectedCourse.time}</div>
                     </div>
-                    <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-                      <div className="mb-1 flex items-center gap-1.5 text-xs text-slate-500"><Users className="h-3.5 w-3.5" />招生人數</div>
-                      <div className="text-sm font-medium text-slate-900">{selectedCourse.spotsTotal ?? '官方未提供'}</div>
+                    <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                      <div className="text-xs text-slate-500 mb-1 flex items-center gap-1.5"><Users className="h-3.5 w-3.5"/> 報名狀況</div>
+                      <div className="font-medium text-sm text-slate-900">
+                        剩餘 <span className="text-secondary font-bold text-lg">{selectedCourse.spotsAvailable}</span> / {selectedCourse.spotsTotal}
+                      </div>
                     </div>
-                    <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
-                      <div className="mb-1 flex items-center gap-1.5 text-xs text-slate-500"><Calendar className="h-3.5 w-3.5" />報名期間</div>
-                      <div className="text-sm font-medium text-slate-900">{formatDate(selectedCourse.registrationStartDate)}<br />{formatDate(selectedCourse.registrationEndDate)}</div>
+                    <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                      <div className="text-xs text-slate-500 mb-1 flex items-center gap-1.5">費用</div>
+                      <div className="font-medium text-sm text-slate-900">
+                        {selectedCourse.fee === '免費' ? '免費' : `NT$ ${selectedCourse.fee}`}
+                      </div>
                     </div>
                   </div>
 
-                  <div className="space-y-5 rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-                    <section>
-                      <h4 className="mb-2 border-b border-slate-100 pb-2 text-sm font-bold text-slate-900">課程簡介</h4>
-                      <p className="whitespace-pre-line text-sm leading-relaxed text-slate-600">{selectedCourse.description}</p>
-                    </section>
-                    <section>
-                      <h4 className="mb-2 border-b border-slate-100 pb-2 text-sm font-bold text-slate-900">適合對象</h4>
+                  {/* Details */}
+                  <div className="bg-white rounded-xl border border-slate-200 p-5 space-y-4 shadow-sm">
+                    <div>
+                      <h4 className="text-sm font-bold text-slate-900 mb-2 border-b border-slate-100 pb-2">課程簡介</h4>
+                      <p className="text-sm text-slate-600 leading-relaxed">{selectedCourse.description}</p>
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-slate-900 mb-2 border-b border-slate-100 pb-2">適合對象</h4>
                       <p className="text-sm text-slate-600">{selectedCourse.targetAudience}</p>
-                    </section>
-                    <section>
-                      <h4 className="mb-2 border-b border-slate-100 pb-2 text-sm font-bold text-slate-900">辦理單位與講師</h4>
-                      <p className="text-sm text-slate-600">{selectedCourse.organizer}</p>
-                      <p className="mt-1 text-sm text-slate-500">{selectedCourse.instructor}</p>
-                    </section>
-                    <section>
-                      <h4 className="mb-2 border-b border-slate-100 pb-2 text-sm font-bold text-slate-900">上課地點</h4>
-                      <p className="text-sm text-slate-600">{selectedCourse.location}</p>
-                      <p className="mt-1 text-xs text-slate-400">{selectedCourse.address || '完整地址請參閱官方頁面'}</p>
-                    </section>
-                    {(selectedCourse.contactName || selectedCourse.contactPhone) && (
-                      <section>
-                        <h4 className="mb-2 border-b border-slate-100 pb-2 text-sm font-bold text-slate-900">聯絡資訊</h4>
-                        <p className="flex items-center gap-2 text-sm text-slate-600"><Phone className="h-4 w-4" />{selectedCourse.contactName} {selectedCourse.contactPhone}</p>
-                      </section>
-                    )}
-                    {selectedCourse.activityName && (
-                      <section>
-                        <h4 className="mb-2 border-b border-slate-100 pb-2 text-sm font-bold text-slate-900">所屬運動i臺灣活動</h4>
-                        <p className="text-sm text-slate-600">{selectedCourse.activityName}</p>
-                        <p className="mt-1 text-xs text-slate-400">配對依據：{selectedCourse.matchReasons?.join('、') || '官方資料交叉核對'}</p>
-                      </section>
-                    )}
-                    {selectedCourse.sessions.length > 0 && (
-                      <section>
-                        <h4 className="mb-2 border-b border-slate-100 pb-2 text-sm font-bold text-slate-900">課程場次</h4>
-                        <div className="space-y-3">
-                          {selectedCourse.sessions.map((session, index) => (
-                            <div key={`${session.topic}-${index}`} className="rounded-lg bg-slate-50 p-3 text-sm text-slate-600">
-                              <p className="font-medium text-slate-800">{session.topic}</p>
-                              <p className="mt-1">{session.dates}｜{session.time}</p>
-                              <p className="mt-1 text-xs text-slate-500">{session.location} · {session.address}</p>
-                            </div>
-                          ))}
-                        </div>
-                      </section>
-                    )}
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-slate-900 mb-2 border-b border-slate-100 pb-2">指導單位 / 教練</h4>
+                      <p className="text-sm text-slate-600">{selectedCourse.organizer} · {selectedCourse.instructor}</p>
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-slate-900 mb-2 border-b border-slate-100 pb-2">上課地點</h4>
+                      <p className="text-sm text-slate-600">{selectedCourse.location} <br/><span className="text-slate-400 text-xs">{selectedCourse.address}</span></p>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div className="z-20 flex items-center gap-3 border-t border-slate-200 bg-white p-4 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
-                <Button
-                  variant="outline"
+              {/* Action Footer */}
+              <div className="p-4 bg-white border-t border-slate-200 flex items-center gap-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] z-20">
+                <Button 
+                  variant="outline" 
                   size="icon"
-                  className={`h-12 w-12 shrink-0 border-slate-200 ${favorites.has(selectedCourse.id) ? 'border-secondary/30 bg-secondary/5 text-secondary' : 'text-slate-500'}`}
+                  className={`h-12 w-12 shrink-0 border-slate-200 ${favorites.has(selectedCourse.id) ? 'text-secondary bg-secondary/5 border-secondary/30' : 'text-slate-500'}`}
                   onClick={() => toggleFavorite(selectedCourse.id)}
                 >
                   {favorites.has(selectedCourse.id) ? <BookmarkCheck className="h-5 w-5" /> : <Bookmark className="h-5 w-5" />}
                 </Button>
-                <Button
-                  className="h-12 flex-1 bg-secondary text-base font-bold text-white hover:bg-secondary/90"
-                  onClick={() => window.open(selectedCourse.registrationUrl || selectedCourse.detailUrl, '_blank', 'noopener,noreferrer')}
+                <Button 
+                  className="flex-1 h-12 text-base font-bold bg-secondary hover:bg-secondary/90 text-white"
+                  disabled={selectedCourse.status === '已額滿'}
+                  onClick={() => window.open(selectedCourse.registrationUrl, '_blank')}
                 >
-                  前往官方課程頁面<ArrowUpRight className="ml-2 h-4 w-4" />
+                  {selectedCourse.status === '已額滿' ? '報名已截止' : '前往官方平台報名'}
+                  <ArrowUpRight className="ml-2 h-4 w-4" />
                 </Button>
               </div>
             </>

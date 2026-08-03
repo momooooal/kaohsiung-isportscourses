@@ -1,49 +1,26 @@
-import { useEffect, useMemo, useState } from 'react';
-import type {
+import { useState, useMemo, useEffect } from 'react';
+import {
   Course,
-  CourseCategory,
-  CourseStatus,
+  MOCK_COURSES,
+  COURSE_CATEGORY_GROUPS,
+  CourseCategoryGroup,
   District,
-  SyncStatus,
+  CourseStatus,
+  normalizeCourseCategory,
 } from '../data/courses';
 
 export interface FilterState {
   search: string;
-  categories: CourseCategory[];
+  categories: CourseCategoryGroup[];
   districts: District[];
   status: CourseStatus[];
   showFavoritesOnly: boolean;
 }
 
-export type SortOption =
-  | 'date-asc'
-  | 'date-desc'
-  | 'registration-end-asc'
-  | 'title-asc';
-
-const EMPTY_STATUS: SyncStatus = {
-  lastAttemptAt: null,
-  lastSuccessfulAt: null,
-  status: 'waiting',
-  message: '等待 GitHub Actions 完成第一次同步',
-  courseCount: 0,
-  unmatchedCount: 0,
-};
-
-function dataUrl(fileName: string) {
-  return `${import.meta.env.BASE_URL}data/${fileName}`;
-}
-
-function asTimestamp(value: string) {
-  const timestamp = Date.parse(value);
-  return Number.isNaN(timestamp) ? Number.POSITIVE_INFINITY : timestamp;
-}
+type SortOption = 'date-asc' | 'date-desc' | 'availability-desc';
 
 export function useCourses() {
-  const [allCourses, setAllCourses] = useState<Course[]>([]);
-  const [syncStatus, setSyncStatus] = useState<SyncStatus>(EMPTY_STATUS);
-  const [isLoading, setIsLoading] = useState(true);
-  const [loadError, setLoadError] = useState('');
+  const [courses] = useState<Course[]>(MOCK_COURSES);
   const [filters, setFilters] = useState<FilterState>({
     search: '',
     categories: [],
@@ -59,63 +36,15 @@ export function useCourses() {
     if (saved) {
       try {
         setFavorites(new Set(JSON.parse(saved)));
-      } catch {
-        localStorage.removeItem('ks-sport-favorites');
+      } catch (e) {
+        console.error('Failed to parse favorites');
       }
     }
   }, []);
-
-  useEffect(() => {
-    let cancelled = false;
-
-    async function loadData() {
-      setIsLoading(true);
-      setLoadError('');
-      try {
-        const [coursesResponse, statusResponse] = await Promise.all([
-          fetch(dataUrl('courses.json'), { cache: 'no-store' }),
-          fetch(dataUrl('sync-status.json'), { cache: 'no-store' }),
-        ]);
-        if (!coursesResponse.ok) {
-          throw new Error(`課程資料讀取失敗（${coursesResponse.status}）`);
-        }
-        const courses = (await coursesResponse.json()) as Course[];
-        const status = statusResponse.ok
-          ? ((await statusResponse.json()) as SyncStatus)
-          : EMPTY_STATUS;
-        if (!cancelled) {
-          setAllCourses(Array.isArray(courses) ? courses : []);
-          setSyncStatus(status);
-        }
-      } catch (error) {
-        if (!cancelled) {
-          setLoadError(error instanceof Error ? error.message : '課程資料讀取失敗');
-        }
-      } finally {
-        if (!cancelled) {
-          setIsLoading(false);
-        }
-      }
-    }
-
-    void loadData();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  const filterOptions = useMemo(
-    () => ({
-      categories: Array.from(new Set(allCourses.map((course) => course.category).filter(Boolean))).sort(),
-      districts: Array.from(new Set(allCourses.map((course) => course.district).filter(Boolean))).sort(),
-      statuses: Array.from(new Set(allCourses.map((course) => course.status).filter(Boolean))).sort(),
-    }),
-    [allCourses],
-  );
 
   const toggleFavorite = (courseId: string) => {
-    setFavorites((previous) => {
-      const next = new Set(previous);
+    setFavorites(prev => {
+      const next = new Set(prev);
       if (next.has(courseId)) {
         next.delete(courseId);
       } else {
@@ -126,59 +55,53 @@ export function useCourses() {
     });
   };
 
-  const filteredAndSortedCourses = useMemo(() => {
-    let result = [...allCourses];
+  const availableCategories = useMemo(() => {
+    const categories = new Set(courses.map(course => normalizeCourseCategory(course.category)));
+    return COURSE_CATEGORY_GROUPS.filter(category => categories.has(category));
+  }, [courses]);
 
-    if (filters.search.trim()) {
-      const query = filters.search.trim().toLocaleLowerCase('zh-TW');
-      result = result.filter((course) =>
-        [
-          course.title,
-          course.activityName,
-          course.location,
-          course.address,
-          course.district,
-          course.organizer,
-          course.category,
-          course.targetAudience,
-          course.studentCategory,
-        ]
-          .filter(Boolean)
-          .some((value) => value.toLocaleLowerCase('zh-TW').includes(query)),
+  const filteredAndSortedCourses = useMemo(() => {
+    let result = courses;
+
+    if (filters.search) {
+      const query = filters.search.toLowerCase();
+      result = result.filter(
+        c => c.title.toLowerCase().includes(query) || c.location.toLowerCase().includes(query)
       );
     }
 
     if (filters.categories.length > 0) {
-      result = result.filter((course) => filters.categories.includes(course.category));
+      result = result.filter(c => filters.categories.includes(normalizeCourseCategory(c.category)));
     }
+
     if (filters.districts.length > 0) {
-      result = result.filter((course) => filters.districts.includes(course.district));
+      result = result.filter(c => filters.districts.includes(c.district));
     }
+
     if (filters.status.length > 0) {
-      result = result.filter((course) => filters.status.includes(course.status));
+      result = result.filter(c => filters.status.includes(c.status));
     }
+
     if (filters.showFavoritesOnly) {
-      result = result.filter((course) => favorites.has(course.id));
+      result = result.filter(c => favorites.has(c.id));
     }
 
     result.sort((a, b) => {
       if (sortBy === 'date-asc') {
-        return asTimestamp(a.startDate) - asTimestamp(b.startDate);
+        return new Date(a.startDate).getTime() - new Date(b.startDate).getTime();
+      } else if (sortBy === 'date-desc') {
+        return new Date(b.startDate).getTime() - new Date(a.startDate).getTime();
+      } else if (sortBy === 'availability-desc') {
+        return b.spotsAvailable - a.spotsAvailable;
       }
-      if (sortBy === 'date-desc') {
-        return asTimestamp(b.startDate) - asTimestamp(a.startDate);
-      }
-      if (sortBy === 'registration-end-asc') {
-        return asTimestamp(a.registrationEndDate) - asTimestamp(b.registrationEndDate);
-      }
-      return a.title.localeCompare(b.title, 'zh-TW');
+      return 0;
     });
 
     return result;
-  }, [allCourses, filters, sortBy, favorites]);
+  }, [courses, filters, sortBy, favorites]);
 
   const updateFilter = <K extends keyof FilterState>(key: K, value: FilterState[K]) => {
-    setFilters((previous) => ({ ...previous, [key]: value }));
+    setFilters(prev => ({ ...prev, [key]: value }));
   };
 
   const clearFilters = () => {
@@ -193,18 +116,14 @@ export function useCourses() {
 
   return {
     courses: filteredAndSortedCourses,
-    allCourses,
     totalCount: filteredAndSortedCourses.length,
     filters,
-    filterOptions,
     updateFilter,
     clearFilters,
     sortBy,
     setSortBy,
     favorites,
     toggleFavorite,
-    syncStatus,
-    isLoading,
-    loadError,
+    availableCategories,
   };
 }
