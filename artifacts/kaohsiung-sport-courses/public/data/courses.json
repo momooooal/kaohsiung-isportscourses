@@ -9144,6 +9144,135 @@
     ]
   },
   {
+    "id": "course-4850",
+    "coursePkno": "4850",
+    "title": "台灣全適能健康促進協會1-六大主題運動班",
+    "category": "舞蹈、其它(體適能、拳擊有氧)",
+    "location": "Be Live工作室",
+    "district": "三民區",
+    "address": "高雄市三民區褒揚街91號",
+    "time": "1330~1500",
+    "startDate": "2026-08-05",
+    "endDate": "2026-10-30",
+    "registrationStartDate": "2026-04-07",
+    "registrationEndDate": "2026-04-30",
+    "status": "報名已截止",
+    "spotsTotal": 20,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "得標廠商媒合合格師資",
+    "description": "體適能、拳擊有氧",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4850",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4850",
+    "organizer": "台灣全適能健康促進協會",
+    "targetAudience": "不限制參與對象及比例、銀髮族",
+    "studentCategory": "銀髮族",
+    "contactName": "陳珮瑜",
+    "contactPhone": "(07)3983527",
+    "sessions": [
+      {
+        "topic": "六大主題運動班",
+        "dates": "1150805~1151028 每周三",
+        "time": "1330~1500",
+        "location": "Be Live工作室",
+        "address": "高雄市三民區褒揚街91號"
+      },
+      {
+        "topic": "六大主題運動班",
+        "dates": "1150807~1150918 每周五",
+        "time": "1330~1500",
+        "location": "Be Live工作室",
+        "address": "高雄市三民區褒揚街91號"
+      },
+      {
+        "topic": "六大主題運動班",
+        "dates": "1151002~1151030 每周五",
+        "time": "1330~1500",
+        "location": "Be Live工作室",
+        "address": "高雄市三民區褒揚街91浩"
+      }
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "activityName": "台灣全適能健康促進協會運動班-全方位體適能",
+    "activityPkno": "44824",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44824&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "high",
+    "rawRegistrationPeriod": "1150407~1150430",
+    "rawCoursePeriod": "1150805~1151030",
+    "matchScore": 14,
+    "matchReasons": [
+      "辦理單位完全相同",
+      "辦理日期重疊",
+      "活動與課程名稱高度相近"
+    ]
+  },
+  {
+    "id": "course-3924",
+    "coursePkno": "3924",
+    "title": "台灣全適能健康促進協會2-六大主題運動班",
+    "category": "舞蹈、其它(體適能、拳擊有氧)",
+    "location": "德北活動中心",
+    "district": "三民區",
+    "address": "高雄市三民區德北街170號",
+    "time": "0900~1030",
+    "startDate": "2026-08-05",
+    "endDate": "2026-10-30",
+    "registrationStartDate": "2026-04-07",
+    "registrationEndDate": "2026-04-30",
+    "status": "報名已截止",
+    "spotsTotal": 20,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "得標廠商媒合合格師資",
+    "description": "體適能、拳擊有氧",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3924",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3924",
+    "organizer": "台灣全適能健康促進協會",
+    "targetAudience": "不限制參與對象及比例、銀髮族",
+    "studentCategory": "銀髮族",
+    "contactName": "陳珮瑜",
+    "contactPhone": "(07)3983527",
+    "sessions": [
+      {
+        "topic": "六大主題運動班",
+        "dates": "1150805~1151028 每周三",
+        "time": "0900~1030",
+        "location": "德北活動中心",
+        "address": "高雄市三民區德北街170號"
+      },
+      {
+        "topic": "六大主題運動班",
+        "dates": "1150807~1150918 每周五",
+        "time": "0900~1030",
+        "location": "德北活動中心",
+        "address": "高雄市三民區德北街170號"
+      },
+      {
+        "topic": "六大主題運動班",
+        "dates": "1151002~1151030 每周五",
+        "time": "0900~1030",
+        "location": "德北活動中心",
+        "address": "高雄市三民區德北街170號"
+      }
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "activityName": "台灣全適能健康促進協會運動班-全方位體適能",
+    "activityPkno": "44824",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44824&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "high",
+    "rawRegistrationPeriod": "1150407~1150430",
+    "rawCoursePeriod": "1150805~1151030",
+    "matchScore": 26,
+    "matchReasons": [
+      "官方場次地址完全相同",
+      "辦理單位完全相同",
+      "辦理日期重疊",
+      "活動與課程名稱高度相近"
+    ]
+  },
+  {
     "id": "course-4011",
     "coursePkno": "4011",
     "title": "左營運動中心運動班-基礎瑜珈",
