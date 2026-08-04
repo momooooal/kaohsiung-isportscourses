@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import {
+  ContentView,
   Course,
   CourseCategoryOption,
   District,
@@ -21,12 +22,37 @@ type SortOption = 'date-asc' | 'date-desc' | 'availability-desc';
 
 const safeText = (value: unknown) => String(value ?? '').toLowerCase();
 
+const normalizeItem = (item: Partial<Course>, fallbackType: Course['itemType']): Course => ({
+  id: String(item.id ?? ''),
+  itemType: item.itemType ?? fallbackType,
+  title: String(item.title ?? '未命名'),
+  category: String(item.category ?? '未分類'),
+  location: String(item.location ?? '地點詳見官方頁面'),
+  district: String(item.district ?? '行政區待確認'),
+  districts: Array.isArray(item.districts) ? item.districts : undefined,
+  address: String(item.address ?? ''),
+  time: String(item.time ?? '時間詳見官方頁面'),
+  startDate: String(item.startDate ?? ''),
+  endDate: String(item.endDate ?? ''),
+  status: String(item.status ?? '狀態未提供'),
+  spotsTotal: typeof item.spotsTotal === 'number' ? item.spotsTotal : null,
+  spotsAvailable: typeof item.spotsAvailable === 'number' ? item.spotsAvailable : null,
+  fee: item.fee ?? '未提供',
+  instructor: String(item.instructor ?? ''),
+  description: String(item.description ?? '內容請參閱官方頁面。'),
+  registrationUrl: String(item.registrationUrl ?? item.detailUrl ?? ''),
+  organizer: String(item.organizer ?? '未提供'),
+  targetAudience: String(item.targetAudience ?? '未提供'),
+  ...item,
+  itemType: item.itemType ?? fallbackType,
+} as Course);
+
 export function useCourses() {
-  // 正式網站只讀取 GitHub Actions 同步產生的 JSON，不使用內建示範資料。
-  const [courses, setCourses] = useState<Course[]>([]);
+  const [allItems, setAllItems] = useState<Course[]>([]);
   const [syncStatus, setSyncStatus] = useState<SyncStatus | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [contentView, setContentView] = useState<ContentView>('all');
   const [filters, setFilters] = useState<FilterState>({
     search: '',
     categories: [],
@@ -58,8 +84,12 @@ export function useCourses() {
       setLoadError(null);
 
       try {
-        const [coursesResponse, statusResponse] = await Promise.all([
+        const [coursesResponse, seriesResponse, statusResponse] = await Promise.all([
           fetch(`${base}courses.json?${cacheBuster}`, {
+            cache: 'no-store',
+            signal: controller.signal,
+          }),
+          fetch(`${base}series-activities.json?${cacheBuster}`, {
             cache: 'no-store',
             signal: controller.signal,
           }),
@@ -70,15 +100,29 @@ export function useCourses() {
         ]);
 
         if (!coursesResponse.ok) {
-          throw new Error(`課程資料讀取失敗（HTTP ${coursesResponse.status}）`);
+          throw new Error(`常態課程資料讀取失敗（HTTP ${coursesResponse.status}）`);
         }
 
         const loadedCourses: unknown = await coursesResponse.json();
         if (!Array.isArray(loadedCourses)) {
-          throw new Error('課程資料格式不正確');
+          throw new Error('常態課程資料格式不正確');
         }
 
-        setCourses(loadedCourses as Course[]);
+        let loadedSeries: unknown = [];
+        if (seriesResponse.ok) {
+          loadedSeries = await seriesResponse.json();
+          if (!Array.isArray(loadedSeries)) {
+            throw new Error('系列活動資料格式不正確');
+          }
+        }
+
+        const regularItems = loadedCourses.map(item =>
+          normalizeItem(item as Partial<Course>, 'regular-course')
+        );
+        const seriesItems = (loadedSeries as Partial<Course>[]).map(item =>
+          normalizeItem(item, 'series-activity')
+        );
+        setAllItems([...regularItems, ...seriesItems]);
 
         if (statusResponse.ok) {
           setSyncStatus((await statusResponse.json()) as SyncStatus);
@@ -86,8 +130,8 @@ export function useCourses() {
       } catch (error) {
         if (error instanceof DOMException && error.name === 'AbortError') return;
         console.error(error);
-        setCourses([]);
-        setLoadError(error instanceof Error ? error.message : '課程資料讀取失敗');
+        setAllItems([]);
+        setLoadError(error instanceof Error ? error.message : '資料讀取失敗');
       } finally {
         setIsLoading(false);
       }
@@ -97,25 +141,25 @@ export function useCourses() {
     return () => controller.abort();
   }, []);
 
-  const toggleFavorite = (courseId: string) => {
+  const toggleFavorite = (itemId: string) => {
     setFavorites(previous => {
       const next = new Set(previous);
-      if (next.has(courseId)) next.delete(courseId);
-      else next.add(courseId);
+      if (next.has(itemId)) next.delete(itemId);
+      else next.add(itemId);
       localStorage.setItem('ks-sport-favorites', JSON.stringify(Array.from(next)));
       return next;
     });
   };
 
-  /**
-   * 由實際 2026 課程資料動態產生運動項目。
-   * 複合欄位會拆開，僅移除真正重複值，不再壓縮成 11 個大分類。
-   */
+  const contextItems = useMemo(() => {
+    if (contentView === 'all') return allItems;
+    return allItems.filter(item => item.itemType === contentView);
+  }, [allItems, contentView]);
+
   const availableCategories = useMemo(() => {
     const counts = new Map<string, number>();
-
-    courses.forEach(course => {
-      getCourseCategoryOptions(course.category).forEach(category => {
+    contextItems.forEach(item => {
+      getCourseCategoryOptions(item.category).forEach(category => {
         counts.set(category, (counts.get(category) ?? 0) + 1);
       });
     });
@@ -124,59 +168,69 @@ export function useCourses() {
       const countDifference = (counts.get(b) ?? 0) - (counts.get(a) ?? 0);
       return countDifference !== 0 ? countDifference : a.localeCompare(b, 'zh-Hant');
     });
-  }, [courses]);
+  }, [contextItems]);
 
   const availableDistricts = useMemo(() => {
-    const districts = new Set<string>(courses.map(course => course.district).filter(Boolean));
+    const districts = new Set<string>();
+    contextItems.forEach(item => {
+      const itemDistricts = item.districts?.length ? item.districts : [item.district];
+      itemDistricts.filter(Boolean).forEach(district => districts.add(district));
+    });
     const ordered = KAOHSIUNG_DISTRICT_ORDER.filter(district => districts.has(district));
     const remaining = Array.from(districts)
       .filter(district => !ordered.includes(district as (typeof KAOHSIUNG_DISTRICT_ORDER)[number]))
       .sort((a, b) => a.localeCompare(b, 'zh-Hant'));
     return [...ordered, ...remaining] as District[];
-  }, [courses]);
+  }, [contextItems]);
 
   const availableStatuses = useMemo(() => {
-    return Array.from(new Set<string>(courses.map(course => course.status).filter(Boolean))).sort(
+    return Array.from(new Set<string>(contextItems.map(item => item.status).filter(Boolean))).sort(
       (a, b) => a.localeCompare(b, 'zh-Hant')
     );
-  }, [courses]);
+  }, [contextItems]);
 
   const filteredAndSortedCourses = useMemo(() => {
-    let result = [...courses];
+    let result = [...contextItems];
 
     if (filters.search.trim()) {
       const query = filters.search.trim().toLowerCase();
-      result = result.filter(course =>
+      result = result.filter(item =>
         [
-          course.title,
-          course.location,
-          course.address,
-          course.district,
-          course.organizer,
-          course.category,
-          course.targetAudience,
-          course.activityName,
+          item.title,
+          item.location,
+          item.address,
+          item.district,
+          ...(item.districts ?? []),
+          item.organizer,
+          item.category,
+          item.targetAudience,
+          item.activityName,
+          item.description,
+          ...(item.topics ?? []),
         ].some(value => safeText(value).includes(query))
       );
     }
 
     if (filters.categories.length > 0) {
-      result = result.filter(course => {
-        const courseCategories = getCourseCategoryOptions(course.category);
-        return filters.categories.some(category => courseCategories.includes(category));
+      result = result.filter(item => {
+        const itemCategories = getCourseCategoryOptions(item.category);
+        return filters.categories.some(category => itemCategories.includes(category));
       });
     }
 
     if (filters.districts.length > 0) {
-      result = result.filter(course => filters.districts.includes(course.district));
+      result = result.filter(item => {
+        const itemDistricts = item.districts?.length ? item.districts : [item.district];
+        return filters.districts.some(district => itemDistricts.includes(district));
+      });
     }
 
     if (filters.status.length > 0) {
-      result = result.filter(course => filters.status.includes(course.status));
+      result = result.filter(item => filters.status.includes(item.status));
     }
 
     if (filters.showFavoritesOnly) {
-      result = result.filter(course => favorites.has(course.id));
+      result = result.filter(item => favorites.has(item.id));
     }
 
     result.sort((a, b) => {
@@ -193,7 +247,7 @@ export function useCourses() {
     });
 
     return result;
-  }, [courses, filters, sortBy, favorites]);
+  }, [contextItems, filters, sortBy, favorites]);
 
   const updateFilter = <K extends keyof FilterState>(key: K, value: FilterState[K]) => {
     setFilters(previous => ({ ...previous, [key]: value }));
@@ -209,9 +263,14 @@ export function useCourses() {
     });
   };
 
+  const regularCourseCount = allItems.filter(item => item.itemType === 'regular-course').length;
+  const seriesActivityCount = allItems.filter(item => item.itemType === 'series-activity').length;
+
   return {
     courses: filteredAndSortedCourses,
-    sourceCourseCount: courses.length,
+    sourceCourseCount: regularCourseCount,
+    regularCourseCount,
+    seriesActivityCount,
     totalCount: filteredAndSortedCourses.length,
     filters,
     updateFilter,
@@ -223,6 +282,8 @@ export function useCourses() {
     availableCategories,
     availableDistricts,
     availableStatuses,
+    contentView,
+    setContentView,
     syncStatus,
     isLoading,
     loadError,
