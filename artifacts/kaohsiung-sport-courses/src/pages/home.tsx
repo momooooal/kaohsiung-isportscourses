@@ -221,6 +221,27 @@ export default function Home() {
         </div>
       </section>
 
+      {contentView !== 'series-activity' && (
+        <section className="bg-sky-50 border-b border-sky-200">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div className="rounded-xl border border-sky-200 bg-white px-4 py-4 shadow-sm flex items-start gap-3">
+              <div className="rounded-full bg-sky-100 text-sky-700 p-2 shrink-0">
+                <PhoneCall className="h-5 w-5" />
+              </div>
+              <div className="min-w-0">
+                <h3 className="font-bold text-sky-950">報名截止不一定代表不能參加</h3>
+                <p className="mt-1 text-sm leading-relaxed text-sky-900">
+                  部分常態課程在報名截止後，仍可能接受民眾先電話詢問再加入；但涉及名額、分組、競賽、獎品、保證金或正式名單的課程，不一定能讓未報名者參加。請務必先向主辦單位確認，並以主辦單位回覆為準。
+                </p>
+                <p className="mt-2 text-xs text-sky-700">
+                  尚在辦理且報名已截止的課程，課程卡片會另外顯示藍色或黃色電話確認提示。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex flex-col md:flex-row gap-8">
         <div className="md:hidden flex justify-between items-center bg-white p-4 rounded-lg shadow-sm border border-slate-200">
           <span className="font-medium text-slate-700">找到 {totalCount} {noun}</span>
@@ -299,6 +320,7 @@ export default function Home() {
                   <SelectValue placeholder="選擇排序" />
                 </SelectTrigger>
                 <SelectContent>
+                  <SelectItem value="active-first">尚在辦理／即將開始優先</SelectItem>
                   <SelectItem value="date-asc">開始日期（由近到遠）</SelectItem>
                   <SelectItem value="date-desc">開始日期（由遠到近）</SelectItem>
                   <SelectItem value="availability-desc">剩餘名額（由多到少）</SelectItem>

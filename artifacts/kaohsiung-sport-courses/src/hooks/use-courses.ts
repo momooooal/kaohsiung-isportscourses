@@ -18,7 +18,7 @@ export interface FilterState {
   showFavoritesOnly: boolean;
 }
 
-type SortOption = 'date-asc' | 'date-desc' | 'availability-desc';
+type SortOption = 'active-first' | 'date-asc' | 'date-desc' | 'availability-desc';
 
 const safeText = (value: unknown) => String(value ?? '').toLowerCase();
 
@@ -60,7 +60,7 @@ export function useCourses() {
     status: [],
     showFavoritesOnly: false,
   });
-  const [sortBy, setSortBy] = useState<SortOption>('date-asc');
+  const [sortBy, setSortBy] = useState<SortOption>('active-first');
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
 
   useEffect(() => {
@@ -234,6 +234,23 @@ export function useCourses() {
     }
 
     result.sort((a, b) => {
+      if (sortBy === 'active-first') {
+        const today = new Intl.DateTimeFormat('en-CA', {
+          timeZone: 'Asia/Taipei',
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit',
+        }).format(new Date());
+        const getRank = (item: Course) => {
+          if (/暫停|取消|停辦/.test(item.status)) return 3;
+          if (item.endDate && item.endDate < today) return 2;
+          if (item.startDate && item.startDate > today) return 1;
+          return 0;
+        };
+        const rankDifference = getRank(a) - getRank(b);
+        if (rankDifference !== 0) return rankDifference;
+        return new Date(a.endDate || '9999-12-31').getTime() - new Date(b.endDate || '9999-12-31').getTime();
+      }
       if (sortBy === 'date-asc') {
         return new Date(a.startDate || '9999-12-31').getTime() - new Date(b.startDate || '9999-12-31').getTime();
       }
