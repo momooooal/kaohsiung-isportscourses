@@ -117,3 +117,65 @@ export interface SyncStatus {
   seriesWarnings?: string[];
   syncMode?: string;
 }
+
+export interface ParticipationAdvisory {
+  kind: 'call-first' | 'capacity-limited';
+  title: string;
+  message: string;
+}
+
+const REGISTRATION_CLOSED_PATTERN = /報名.*截止|招生.*截止|報名.*額滿|已額滿|額滿/;
+const COURSE_UNAVAILABLE_PATTERN = /暫停|取消|停辦|課程已結束|活動已結束/;
+const CAPACITY_SENSITIVE_PATTERN = /競賽|比賽|賽事|參賽|分組|分隊|獎品|獎項|排名|名次|名額|限額|限員|額滿|抽籤|錄取|正式名單|保險名冊/;
+
+const toDateKey = (value?: string): number | null => {
+  const match = String(value ?? '').match(/^(\d{4})-(\d{2})-(\d{2})/);
+  return match ? Number(`${match[1]}${match[2]}${match[3]}`) : null;
+};
+
+/**
+ * 報名截止不一定代表完全不能參與。
+ * 只針對尚未結束的常態課程顯示電話詢問提示；暫停、取消、停辦或已結束課程不提示。
+ * 若課程文字涉及名額、分組、競賽、獎品等限制，改用較嚴格的提醒文字。
+ */
+export function getCourseParticipationAdvisory(
+  course: Course,
+  now: Date = new Date(),
+): ParticipationAdvisory | null {
+  if (course.itemType !== 'regular-course') return null;
+  if (!REGISTRATION_CLOSED_PATTERN.test(course.status)) return null;
+  if (COURSE_UNAVAILABLE_PATTERN.test(course.status)) return null;
+
+  const endDateKey = toDateKey(course.endDate);
+  const todayKey = Number(
+    `${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}${String(now.getDate()).padStart(2, '0')}`,
+  );
+  if (endDateKey !== null && endDateKey < todayKey) return null;
+
+  const searchableText = [
+    course.title,
+    course.status,
+    course.category,
+    course.description,
+    course.targetAudience,
+    ...(course.topics ?? []),
+    ...(course.sessions ?? []).flatMap(session => [session.topic, session.location]),
+  ].join(' ');
+
+  if (CAPACITY_SENSITIVE_PATTERN.test(searchableText)) {
+    return {
+      kind: 'capacity-limited',
+      title: '名額或活動規則可能有限制，請先電話確認',
+      message:
+        '此課程可能涉及名額、分組、競賽、獎品或正式名單等限制。未完成報名者不一定能直接參加，建議先致電主辦單位詢問是否可候補、旁聽或加入，並以主辦單位回覆為準。',
+    };
+  }
+
+  return {
+    kind: 'call-first',
+    title: '報名截止後仍可電話詢問',
+    message:
+      '部分運動i臺灣常態課程在報名截止後，仍可能視現場及課程情形接受參與。請先致電主辦單位確認是否能加入，不建議未確認就直接前往。',
+  };
+}
+
