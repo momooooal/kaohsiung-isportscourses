@@ -7,6 +7,7 @@ import {
   CourseCategoryOption,
   District,
   formatCourseCategories,
+  getCourseParticipationAdvisory,
 } from '@/data/courses';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -30,6 +31,7 @@ import {
   Filter,
   Layers3,
   Dumbbell,
+  PhoneCall,
 } from 'lucide-react';
 
 const isRegistrationClosed = (status: CourseStatus) =>
@@ -58,6 +60,15 @@ const formatSyncTime = (value?: string) => {
 };
 
 const formatDate = (value?: string) => value ? value.replace(/-/g, '/') : '日期詳見官方頁面';
+
+const buildTelHref = (phone: string) => {
+  const extensionMatch = phone.match(/(?:#|分機|ext\.?)[\s：:]*(\d+)/i);
+  const mainNumber = phone
+    .replace(/(?:#|分機|ext\.?)[\s：:]*\d+/gi, '')
+    .replace(/[^\d+]/g, '');
+  return `tel:${mainNumber}${extensionMatch ? `;ext=${extensionMatch[1]}` : ''}`;
+};
+
 
 const viewLabels: Record<ContentView, string> = {
   all: '全部資訊',
@@ -130,6 +141,9 @@ export default function Home() {
   };
 
   const selectedIsSeries = selectedCourse?.itemType === 'series-activity';
+  const selectedParticipationAdvisory = selectedCourse
+    ? getCourseParticipationAdvisory(selectedCourse)
+    : null;
   const noun = contentView === 'regular-course' ? '課程' : contentView === 'series-activity' ? '活動' : '筆資料';
 
   return (
@@ -319,6 +333,7 @@ export default function Home() {
               {courses.map(item => {
                 const isFavorite = favorites.has(item.id);
                 const isSeries = item.itemType === 'series-activity';
+                const participationAdvisory = getCourseParticipationAdvisory(item);
                 return (
                   <Card
                     key={item.id}
@@ -368,6 +383,22 @@ export default function Home() {
                           <Clock className="h-4 w-4 shrink-0 mt-0.5 text-slate-400" />
                           <span>{item.time}</span>
                         </div>
+                        {participationAdvisory && (
+                          <div
+                            className={`mt-3 rounded-lg border px-3 py-2 flex items-start gap-2 ${
+                              participationAdvisory.kind === 'capacity-limited'
+                                ? 'border-amber-200 bg-amber-50 text-amber-900'
+                                : 'border-sky-200 bg-sky-50 text-sky-900'
+                            }`}
+                          >
+                            <PhoneCall className="h-4 w-4 shrink-0 mt-0.5" />
+                            <span className="text-xs font-medium leading-relaxed">
+                              {participationAdvisory.kind === 'capacity-limited'
+                                ? '涉及名額或活動規則，請先電話確認'
+                                : '報名截止仍可電話詢問是否能參加'}
+                            </span>
+                          </div>
+                        )}
                       </div>
                     </CardContent>
                     <div className="mt-auto border-t border-slate-100 bg-slate-50/50 p-4 flex items-center justify-between gap-3">
@@ -468,6 +499,54 @@ export default function Home() {
                     </div>
                   </div>
 
+                  {selectedParticipationAdvisory && (
+                    <div
+                      className={`rounded-xl border p-4 shadow-sm ${
+                        selectedParticipationAdvisory.kind === 'capacity-limited'
+                          ? 'border-amber-200 bg-amber-50'
+                          : 'border-sky-200 bg-sky-50'
+                      }`}
+                    >
+                      <div className="flex items-start gap-3">
+                        <div
+                          className={`rounded-full p-2 shrink-0 ${
+                            selectedParticipationAdvisory.kind === 'capacity-limited'
+                              ? 'bg-amber-100 text-amber-700'
+                              : 'bg-sky-100 text-sky-700'
+                          }`}
+                        >
+                          <PhoneCall className="h-4 w-4" />
+                        </div>
+                        <div className="min-w-0">
+                          <h4 className="font-bold text-sm text-slate-900">
+                            {selectedParticipationAdvisory.title}
+                          </h4>
+                          <p className="mt-1 text-sm leading-relaxed text-slate-700">
+                            {selectedParticipationAdvisory.message}
+                          </p>
+                          {selectedCourse.contactPhone ? (
+                            <Button
+                              type="button"
+                              variant="outline"
+                              size="sm"
+                              className="mt-3 bg-white"
+                              onClick={() => {
+                                window.location.href = buildTelHref(selectedCourse.contactPhone ?? '');
+                              }}
+                            >
+                              <PhoneCall className="h-4 w-4 mr-2" />
+                              致電 {selectedCourse.contactPhone}
+                            </Button>
+                          ) : (
+                            <p className="mt-2 text-xs text-slate-500">
+                              本筆資料未提供電話，請至官方課程頁面查看聯絡方式。
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
                   <div className="bg-white rounded-xl border border-slate-200 p-5 space-y-4 shadow-sm">
                     <div>
                       <h4 className="text-sm font-bold text-slate-900 mb-2 border-b border-slate-100 pb-2">
@@ -533,13 +612,13 @@ export default function Home() {
                 </Button>
                 <Button
                   className="flex-1 h-12 text-base font-bold bg-secondary hover:bg-secondary/90 text-white"
-                  disabled={!selectedIsSeries && isRegistrationClosed(selectedCourse.status)}
+                  disabled={!selectedCourse.registrationUrl && !selectedCourse.detailUrl}
                   onClick={() => window.open(selectedCourse.registrationUrl || selectedCourse.detailUrl, '_blank')}
                 >
                   {selectedIsSeries
                     ? '前往官方活動頁面'
                     : isRegistrationClosed(selectedCourse.status)
-                      ? selectedCourse.status
+                      ? '查看官方課程資訊'
                       : '前往官方平台報名'}
                   <ArrowUpRight className="ml-2 h-4 w-4" />
                 </Button>
