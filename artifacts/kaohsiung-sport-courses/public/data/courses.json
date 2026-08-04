@@ -3305,17 +3305,17 @@
   {
     "id": "course-3851",
     "coursePkno": "3851",
-    "title": "果峰里銀髮運動班-體適能",
+    "title": "銀髮運動班-體適能2",
     "category": "籃球、木球、槌球、舞蹈、瑜珈、健行、其它(體適能、拳擊有氧)",
     "location": "左營果貿活動中心",
     "district": "左營區",
     "address": "高雄市左營區果峰街8號",
     "time": "0930~1100、0900~1200、0900~1030",
     "startDate": "2026-05-12",
-    "endDate": "2026-06-04",
+    "endDate": "2026-10-05",
     "registrationStartDate": "2026-04-29",
     "registrationEndDate": "2026-04-29",
-    "status": "暫停辦理",
+    "status": "報名已截止",
     "spotsTotal": 20,
     "spotsAvailable": null,
     "fee": "未提供",
@@ -3330,25 +3330,39 @@
     "contactPhone": "(07)5813680#406",
     "sessions": [
       {
-        "topic": "果峰里銀髮運動班-體適能",
+        "topic": "銀髮運動班-體適能2",
         "dates": "1150512~1150512 每周二",
         "time": "0930~1100",
         "location": "左營果貿活動中心",
         "address": "高雄市左營區果峰街8號"
       },
       {
-        "topic": "果峰里銀髮運動班-體適能",
-        "dates": "1150521~1150526 每周二,四",
+        "topic": "銀髮運動班-體適能2",
+        "dates": "1150514~1150526 每周二,四",
         "time": "0900~1200",
         "location": "左營果貿活動中心",
         "address": "高雄市左營區果峰街8號"
       },
       {
-        "topic": "果峰里銀髮運動班-體適能",
+        "topic": "銀髮運動班-體適能2",
         "dates": "1150528~1150605 每周二,四",
         "time": "0900~1030",
         "location": "左營果貿活動中心",
         "address": "高雄市左營區果峰街8號"
+      },
+      {
+        "topic": "銀髮運動班-體適能2",
+        "dates": "1150810~1150923 每周一,三",
+        "time": "0930~1100",
+        "location": "寶隆社區活動中心",
+        "address": "高雄市甲仙區寶隆里嶺頂巷1號"
+      },
+      {
+        "topic": "銀髮運動班-體適能2",
+        "dates": "1150930~1151005 每周一,三",
+        "time": "0930~1100",
+        "location": "寶隆社區活動中心",
+        "address": "高雄市甲仙區寶隆里嶺頂巷1號"
       }
     ],
     "source": "運動i臺灣計畫",
@@ -3358,7 +3372,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
-    "rawCoursePeriod": "1150512~1150604",
+    "rawCoursePeriod": "1150512~1151005",
     "matchScore": 27,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -3700,7 +3714,21 @@
       },
       {
         "topic": "職工有氧肌力運動班",
-        "dates": "1150721~1150818 每周二,四",
+        "dates": "1150721~1150730 每周二,四",
+        "time": "1820~1950",
+        "location": "維士比大樓",
+        "address": "高雄市新興區中正二路175號31樓"
+      },
+      {
+        "topic": "職工有氧肌力運動班",
+        "dates": "1150804~1150814 每周二,四",
+        "time": "1820~1950",
+        "location": "民族大樓",
+        "address": "高雄市新興區民族二路95號7樓D區"
+      },
+      {
+        "topic": "職工有氧肌力運動班",
+        "dates": "1150818",
         "time": "1820~1950",
         "location": "維士比大樓",
         "address": "高雄市新興區中正二路175號31樓"
@@ -8903,58 +8931,6 @@
     ]
   },
   {
-    "id": "course-3949",
-    "coursePkno": "3949",
-    "title": "鐵操人",
-    "category": "單車、跑步、游泳、其它(開放性水域游泳旗津福興宮)",
-    "location": "前鎮游泳池",
-    "district": "前鎮區",
-    "address": "高雄市前鎮區中山三路130號",
-    "time": "1900~2030",
-    "startDate": "2026-08-04",
-    "endDate": "2026-10-22",
-    "registrationStartDate": "2026-06-30",
-    "registrationEndDate": "2026-06-30",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "田偉璋",
-    "description": "為期12週鐵人三項訓練 1~4週準備期 以基礎有氧能力為主 5~8週專項準備期 各專項能力提升、增加專項技術熟練度 9~12週 強化最大攝氧能力、調整狀態進入比賽期",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3949",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3949",
-    "organizer": "高雄市體育總會鐵人三項委員會",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "一般",
-    "contactName": "田偉璋",
-    "contactPhone": "(07)3344471",
-    "sessions": [
-      {
-        "topic": "鐵操人",
-        "dates": "1150804~1151022 每周二,四",
-        "time": "1900~2030",
-        "location": "前鎮游泳池",
-        "address": "高雄市前鎮區中山三路130號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "鐵操人",
-    "activityPkno": "44839",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44839&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150630~1150630",
-    "rawCoursePeriod": "1150804~1151022",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位高度相符",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
-    ]
-  },
-  {
     "id": "course-4370",
     "coursePkno": "4370",
     "title": "高雄市大昌里運動班-體適能肌力訓練",
@@ -9228,6 +9204,58 @@
     "matchReasons": [
       "官方場次地址完全相同",
       "官方場次主題完全相同",
+      "辦理日期重疊",
+      "活動與課程名稱高度相近"
+    ]
+  },
+  {
+    "id": "course-3949",
+    "coursePkno": "3949",
+    "title": "鐵操人",
+    "category": "單車、跑步、游泳、其它(開放性水域游泳旗津福興宮)",
+    "location": "前鎮游泳池",
+    "district": "前鎮區",
+    "address": "高雄市前鎮區中山三路130號",
+    "time": "1900~2030",
+    "startDate": "2026-09-01",
+    "endDate": "2026-10-22",
+    "registrationStartDate": "2026-06-30",
+    "registrationEndDate": "2026-06-30",
+    "status": "報名已截止",
+    "spotsTotal": 20,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "田偉璋",
+    "description": "為期12週鐵人三項訓練 1~4週準備期 以基礎有氧能力為主 5~8週專項準備期 各專項能力提升、增加專項技術熟練度 9~12週 強化最大攝氧能力、調整狀態進入比賽期",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3949",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3949",
+    "organizer": "高雄市體育總會鐵人三項委員會",
+    "targetAudience": "不限制參與對象及比例",
+    "studentCategory": "一般",
+    "contactName": "田偉璋",
+    "contactPhone": "(07)3344471",
+    "sessions": [
+      {
+        "topic": "鐵操人",
+        "dates": "1150901~1151022 每周二,四",
+        "time": "1900~2030",
+        "location": "前鎮游泳池",
+        "address": "高雄市前鎮區中山三路130號"
+      }
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "activityName": "鐵操人",
+    "activityPkno": "44839",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44839&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "high",
+    "rawRegistrationPeriod": "1150630~1150630",
+    "rawCoursePeriod": "1150901~1151022",
+    "matchScore": 29,
+    "matchReasons": [
+      "官方場次地址完全相同",
+      "官方場次主題完全相同",
+      "辦理單位高度相符",
       "辦理日期重疊",
       "活動與課程名稱高度相近"
     ]
