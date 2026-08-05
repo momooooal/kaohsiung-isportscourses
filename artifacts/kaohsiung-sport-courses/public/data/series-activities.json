@@ -213,11 +213,13 @@
     "title": "WePlay 運動探索節",
     "category": "親子活動",
     "categorySource": "official-api",
-    "location": "地點詳見官方頁面",
-    "district": "行政區待確認",
-    "districts": [],
-    "address": "",
-    "time": "時間詳見官方頁面",
+    "location": "高雄市鳳山區三多一路1號",
+    "district": "鳳山區",
+    "districts": [
+      "鳳山區"
+    ],
+    "address": "高雄市鳳山區三多一路1號",
+    "time": "1100~1700、0800~1700",
     "startDate": "2026-04-03",
     "endDate": "2026-08-30",
     "status": "進行中",
@@ -225,17 +227,32 @@
     "spotsAvailable": null,
     "fee": "未提供",
     "instructor": "不適用",
-    "description": "活動內容請參閱官方頁面。",
+    "description": "本活動以「多元運動體驗」與「全民參與」為核心，透過低門檻、趣味化及適合各年齡層的體適能挑戰站，讓市民在輕鬆互動中體驗運動的多樣性，培養規律身體活動習慣。活動結合衛武營園區環境，設置體驗區、反應訓練、平衡挑戰與親子合作任務等，提升市民對基礎身體素質的認識與自我覺察。透過遊戲化參與方式，打造易參與、可重複、具吸引力的全民運動推廣活動，增進城市對運動的支持度與參與熱度。",
     "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44873&ACT_SOURCE_TP_CD=02",
     "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44873&ACT_SOURCE_TP_CD=02",
     "activityWebsite": "",
-    "organizer": "未提供",
-    "targetAudience": "未提供",
+    "organizer": "高雄市政府運動發展局",
+    "targetAudience": "不限制參與對象及比例",
     "studentCategory": "",
-    "contactName": "",
-    "contactPhone": "",
-    "sessions": [],
-    "topics": [],
+    "contactName": "高雄市政府運動發展局 呂孟珊 (07)5813680#408",
+    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
+    "sessions": [
+      {
+        "dates": "115/04/03~115/04/06",
+        "time": "1100~1700",
+        "address": "高雄市鳳山區三多一路1號",
+        "topic": "WePlay 運動探索節"
+      },
+      {
+        "dates": "115/08/30~115/08/30",
+        "time": "0800~1700",
+        "address": "高雄市鳳山區三多一路1號",
+        "topic": "WePlay 運動探索節"
+      }
+    ],
+    "topics": [
+      "WePlay 運動探索節"
+    ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
     "county": "高雄市",
@@ -934,6 +951,115 @@
     "rawActivityPeriod": "1150509~1150926"
   },
   {
+    "id": "series-44862",
+    "itemType": "series-activity",
+    "activityPkno": "44862",
+    "activityNo": "A000025042",
+    "title": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動",
+    "category": "水域活動",
+    "categorySource": "official-api",
+    "location": "高雄市左營區環潭路101號",
+    "district": "多區辦理",
+    "districts": [
+      "左營區",
+      "鹽埕區"
+    ],
+    "address": "高雄市左營區環潭路101號",
+    "time": "0900~1130、0900~1030、1000~1130",
+    "startDate": "2026-05-09",
+    "endDate": "2026-06-21",
+    "status": "已結束",
+    "spotsTotal": null,
+    "spotsAvailable": null,
+    "fee": "須收取費用，實際費用請洽活動主辦單位",
+    "instructor": "不適用",
+    "description": "◎水域活動：龍舟運動推廣",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44862&ACT_SOURCE_TP_CD=02",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44862&ACT_SOURCE_TP_CD=02",
+    "activityWebsite": "",
+    "organizer": "台灣水上休閒運動推廣協會",
+    "targetAudience": "不限制參與對象及比例",
+    "studentCategory": "",
+    "contactName": "台灣水上休閒運動推廣協會 謝祖耀 0977342888",
+    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
+    "sessions": [
+      {
+        "dates": "115/05/09~115/06/13 每周六,日",
+        "time": "0900~1130",
+        "address": "高雄市左營區環潭路101號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      },
+      {
+        "dates": "115/06/13",
+        "time": "0900~1030",
+        "address": "高雄市鹽埕區河西路99號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      },
+      {
+        "dates": "115/06/13",
+        "time": "1000~1130",
+        "address": "高雄市鹽埕區河西路99號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      },
+      {
+        "dates": "115/06/14",
+        "time": "0900~1030",
+        "address": "高雄市鹽埕區河西路99號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      },
+      {
+        "dates": "115/06/14",
+        "time": "1000~1130",
+        "address": "高雄市鹽埕區河西路99號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      },
+      {
+        "dates": "115/06/19",
+        "time": "0900~1030",
+        "address": "高雄市鹽埕區河西路99號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      },
+      {
+        "dates": "115/06/19",
+        "time": "1000~1130",
+        "address": "高雄市鹽埕區河西路99號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      },
+      {
+        "dates": "115/06/20",
+        "time": "0900~1030",
+        "address": "高雄市鹽埕區河西路99號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      },
+      {
+        "dates": "115/06/20",
+        "time": "1000~1130",
+        "address": "高雄市鹽埕區河西路99號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      },
+      {
+        "dates": "115/06/21",
+        "time": "0900~1030",
+        "address": "高雄市鹽埕區河西路99號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      },
+      {
+        "dates": "115/06/21",
+        "time": "1000~1130",
+        "address": "高雄市鹽埕區河西路99號",
+        "topic": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+      }
+    ],
+    "topics": [
+      "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動"
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "county": "高雄市",
+    "countyVerified": true,
+    "rawActivityPeriod": "1150509~1150621"
+  },
+  {
     "id": "series-44837",
     "itemType": "series-activity",
     "activityPkno": "44837",
@@ -986,43 +1112,6 @@
     "county": "高雄市",
     "countyVerified": true,
     "rawActivityPeriod": "1150509~1150517"
-  },
-  {
-    "id": "series-44862",
-    "itemType": "series-activity",
-    "activityPkno": "44862",
-    "activityNo": "A000025042",
-    "title": "2026高雄夏日端午節系列活動-龍舟運動暨親子體驗活動",
-    "category": "水域活動",
-    "categorySource": "official-api",
-    "location": "地點詳見官方頁面",
-    "district": "行政區待確認",
-    "districts": [],
-    "address": "",
-    "time": "時間詳見官方頁面",
-    "startDate": "2026-05-09",
-    "endDate": "2026-06-21",
-    "status": "已結束",
-    "spotsTotal": null,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "不適用",
-    "description": "活動內容請參閱官方頁面。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44862&ACT_SOURCE_TP_CD=02",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44862&ACT_SOURCE_TP_CD=02",
-    "activityWebsite": "",
-    "organizer": "未提供",
-    "targetAudience": "未提供",
-    "studentCategory": "",
-    "contactName": "",
-    "contactPhone": "",
-    "sessions": [],
-    "topics": [],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "county": "高雄市",
-    "countyVerified": true,
-    "rawActivityPeriod": "1150509~1150621"
   },
   {
     "id": "series-44853",
@@ -2423,6 +2512,72 @@
     "rawActivityPeriod": "1150816~1150817"
   },
   {
+    "id": "series-44877",
+    "itemType": "series-activity",
+    "activityPkno": "44877",
+    "activityNo": "A000025057",
+    "title": "匹克球挑戰賽",
+    "category": "其他球類",
+    "categorySource": "official-api",
+    "location": "高雄市左營區世運大道100號",
+    "district": "左營區",
+    "districts": [
+      "左營區"
+    ],
+    "address": "高雄市左營區世運大道100號",
+    "time": "1800~1930",
+    "startDate": "2026-08-19",
+    "endDate": "2026-08-28",
+    "status": "即將開始",
+    "spotsTotal": null,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "不適用",
+    "description": "匹克球融合網球、羽球及桌球等運動特色，具有規則容易入門、運動強度可彈性調整、參與年齡層廣泛等優點，近年逐漸成為新興全民運動項目。",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44877&ACT_SOURCE_TP_CD=02",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44877&ACT_SOURCE_TP_CD=02",
+    "activityWebsite": "",
+    "organizer": "高雄市政府運動發展局",
+    "targetAudience": "不限制參與對象及比例",
+    "studentCategory": "",
+    "contactName": "高雄市政府運動發展局 呂孟珊 (07)5813680#408",
+    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
+    "sessions": [
+      {
+        "dates": "115/08/19",
+        "time": "1800~1930",
+        "address": "高雄市左營區世運大道100號",
+        "topic": "匹克球挑戰賽"
+      },
+      {
+        "dates": "115/08/21",
+        "time": "1800~1930",
+        "address": "高雄市左營區世運大道100號",
+        "topic": "匹克球挑戰賽"
+      },
+      {
+        "dates": "115/08/26",
+        "time": "1800~1930",
+        "address": "高雄市左營區世運大道100號",
+        "topic": "匹克球挑戰賽"
+      },
+      {
+        "dates": "115/08/28",
+        "time": "1800~1930",
+        "address": "高雄市左營區世運大道100號",
+        "topic": "匹克球挑戰賽"
+      }
+    ],
+    "topics": [
+      "匹克球挑戰賽"
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "county": "高雄市",
+    "countyVerified": true,
+    "rawActivityPeriod": "1150819~1150828"
+  },
+  {
     "id": "series-44878",
     "itemType": "series-activity",
     "activityPkno": "44878",
@@ -2709,54 +2864,6 @@
     ],
     "topics": [
       "115年高雄市秋季大社區觀音山登山活動"
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "county": "高雄市",
-    "countyVerified": true,
-    "rawActivityPeriod": "1151003"
-  },
-  {
-    "id": "series-44877",
-    "itemType": "series-activity",
-    "activityPkno": "44877",
-    "activityNo": "A000025057",
-    "title": "極速接力挑戰賽",
-    "category": "跑步",
-    "categorySource": "official-api",
-    "location": "高雄市苓雅區中正一路99號",
-    "district": "苓雅區",
-    "districts": [
-      "苓雅區"
-    ],
-    "address": "高雄市苓雅區中正一路99號",
-    "time": "0800~1700",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "status": "即將開始",
-    "spotsTotal": null,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "不適用",
-    "description": "為提升市民跑步風氣與規律運動參與度，本活動結合苓雅運動園區安全完善的跑道場域，以短距離疾跑、彎道加速與接力合作等元素設計「疾速對決」挑戰賽，打造易參與且具速度感的城市跑步活動。透過親子、家庭及社區隊伍共同參賽，強化互動與團隊合作，營造健康活力的運動氛圍。同時藉由高觀賞性與趣味性的競賽形式，提升跑步參與意願，並活化園區運動空間，作為推動後續跑步活動之示範模式。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44877&ACT_SOURCE_TP_CD=02",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44877&ACT_SOURCE_TP_CD=02",
-    "activityWebsite": "",
-    "organizer": "高雄市政府運動發展局",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "",
-    "contactName": "高雄市政府運動發展局 呂孟珊 (07)5813680#408",
-    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
-    "sessions": [
-      {
-        "dates": "115/10/03",
-        "time": "0800~1700",
-        "address": "高雄市苓雅區中正一路99號",
-        "topic": "極速接力挑戰賽"
-      }
-    ],
-    "topics": [
-      "極速接力挑戰賽"
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
