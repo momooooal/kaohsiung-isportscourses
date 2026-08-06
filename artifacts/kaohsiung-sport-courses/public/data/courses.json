@@ -9273,6 +9273,62 @@
     ]
   },
   {
+    "id": "course-3949",
+    "coursePkno": "3949",
+    "title": "銀髮族運動推廣課程",
+    "category": "體適能運動、其它()",
+    "location": "長生全方位銀髮健身俱樂部",
+    "district": "前金區",
+    "address": "高雄市前金區中華三路30號",
+    "time": "0820~0950、1530~1700",
+    "startDate": "2026-08-08",
+    "endDate": "2026-10-28",
+    "registrationStartDate": "2026-08-01",
+    "registrationEndDate": "2026-08-07",
+    "status": "招生中",
+    "spotsTotal": 20,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "鍾仁杰，運動部國民體適能中級指導員 鄭雯琦，運動部國民體適能中級指導員 王慧芳，成吉思汗聘顧教練、辣體適能工作室負責人",
+    "description": "專為銀髮族量身打造的運動課程，著重於提升肌力、關節活動度、平衡感與心肺功能，能有效預防跌倒、減緩骨質疏鬆與延緩老化。 課程結合專業且安全的動作指導與趣味團體互動，協助長者建立規律運動習慣，不僅能改善慢性病控制與生活自理能力，更能增進社交網絡、促進心靈健康，幫助長輩重拾身體掌控感，享有充滿活力與尊嚴的銀髮生活。",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3949",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3949",
+    "organizer": "中華國際全方位照護學會",
+    "targetAudience": "銀髮族",
+    "studentCategory": "銀髮族",
+    "contactName": "林士峰",
+    "contactPhone": "(0960)043434",
+    "sessions": [
+      {
+        "topic": "銀髮族運動推廣課程",
+        "dates": "1150808~1151024 每周六",
+        "time": "0820~0950",
+        "location": "長生全方位銀髮健身俱樂部",
+        "address": "高雄市前金區中華三路30號"
+      },
+      {
+        "topic": "銀髮族運動推廣課程",
+        "dates": "1150812~1151031 每周三",
+        "time": "1530~1700",
+        "location": "長生全方位銀髮健身俱樂部",
+        "address": "高雄市前金區中華三路30號"
+      }
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "activityName": "115年中華國際全方位照護學會社區運動促進課程",
+    "activityPkno": "44826",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44826&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "high",
+    "rawRegistrationPeriod": "1150801~1150807",
+    "rawCoursePeriod": "1150808~1151028",
+    "matchScore": 20,
+    "matchReasons": [
+      "官方場次地址完全相同",
+      "辦理單位完全相同"
+    ]
+  },
+  {
     "id": "course-4011",
     "coursePkno": "4011",
     "title": "左營運動中心運動班-基礎瑜珈",
@@ -9333,58 +9389,6 @@
     "matchReasons": [
       "官方場次地址完全相同",
       "官方場次主題完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
-    ]
-  },
-  {
-    "id": "course-3949",
-    "coursePkno": "3949",
-    "title": "鐵操人",
-    "category": "單車、跑步、游泳、其它(開放性水域游泳旗津福興宮)",
-    "location": "前鎮游泳池",
-    "district": "前鎮區",
-    "address": "高雄市前鎮區中山三路130號",
-    "time": "1900~2030",
-    "startDate": "2026-09-01",
-    "endDate": "2026-10-22",
-    "registrationStartDate": "2026-06-30",
-    "registrationEndDate": "2026-06-30",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "田偉璋",
-    "description": "為期12週鐵人三項訓練 1~4週準備期 以基礎有氧能力為主 5~8週專項準備期 各專項能力提升、增加專項技術熟練度 9~12週 強化最大攝氧能力、調整狀態進入比賽期",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3949",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3949",
-    "organizer": "高雄市體育總會鐵人三項委員會",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "一般",
-    "contactName": "田偉璋",
-    "contactPhone": "(07)3344471",
-    "sessions": [
-      {
-        "topic": "鐵操人",
-        "dates": "1150901~1151022 每周二,四",
-        "time": "1900~2030",
-        "location": "前鎮游泳池",
-        "address": "高雄市前鎮區中山三路130號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "鐵操人",
-    "activityPkno": "44839",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44839&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150630~1150630",
-    "rawCoursePeriod": "1150901~1151022",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位高度相符",
       "辦理日期重疊",
       "活動與課程名稱高度相近"
     ]
