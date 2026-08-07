@@ -1996,27 +1996,28 @@
     "category": "其他運動",
     "categorySource": "official-api",
     "location": "高雄市鳳山區三多一路1號",
-    "district": "鳳山區",
+    "district": "多區辦理",
     "districts": [
-      "鳳山區"
+      "鳳山區",
+      "苓雅區"
     ],
     "address": "高雄市鳳山區三多一路1號",
-    "time": "0800~1700、1200~1700",
+    "time": "0800~1700、0900~1200、1300~1600",
     "startDate": "2026-07-04",
-    "endDate": "2026-08-08",
+    "endDate": "2026-09-20",
     "status": "進行中",
     "spotsTotal": null,
     "spotsAvailable": null,
     "fee": "須收取費用，實際費用請洽活動主辦單位",
     "instructor": "不適用",
-    "description": "「2026小小英雄挑戰村」以「勇氣、協力、突破」為主軸打造6大運動挑戰站，讓孩子透過迷你版獨木橋、跨欄、投擲、平衡、速度等多元關卡，體驗各項奧運運動的核心技巧。每一關都融合故事化引導，孩子以「小小英雄」身份，完成任務後可在護照上集章，最後兌換「英雄徽章」。活動同時鼓勵親子同心協力，提升探索與自信心，打造寓教於樂的運動體驗村。",
+    "description": "「萌動高雄」以「勇氣、速度、平衡、挑戰」為主軸打造滑步車體驗，讓孩子化身「小小騎士」，騎乘滑步車穿越彎道、繞樁、坡道等多元關卡，在挑戰中學習平衡控制、方向操控、反應力與自信心。活動更鼓勵親子攜手參與，共同享受騎乘樂趣，透過互動與陪伴激發孩子的專注力及運動興趣，打造歡樂趣味的滑步車體驗。",
     "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44871&ACT_SOURCE_TP_CD=02",
     "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44871&ACT_SOURCE_TP_CD=02",
     "activityWebsite": "",
     "organizer": "高雄市政府運動發展局",
     "targetAudience": "幼童",
     "studentCategory": "",
-    "contactName": "高雄市政府運動發展局 呂孟珊 (07)5813680#408",
+    "contactName": "高雄市政府運動發展局 呂孟珊 (07)5813680#407",
     "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
     "sessions": [
       {
@@ -2026,21 +2027,27 @@
         "topic": "花露露的迷你滑步車"
       },
       {
-        "dates": "115/08/08~115/08/08",
-        "time": "1200~1700",
-        "address": "高雄市鳳山區三多一路1號",
-        "topic": "萌動歡樂"
+        "dates": "115/09/20~115/09/20",
+        "time": "0900~1200",
+        "address": "高雄市苓雅區中正一路99號",
+        "topic": "滑步車體驗"
+      },
+      {
+        "dates": "115/09/20~115/09/20",
+        "time": "1300~1600",
+        "address": "高雄市苓雅區中正一路99號",
+        "topic": "滑步車體驗"
       }
     ],
     "topics": [
       "花露露的迷你滑步車",
-      "萌動歡樂"
+      "滑步車體驗"
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
     "county": "高雄市",
     "countyVerified": true,
-    "rawActivityPeriod": "1150704~1150808"
+    "rawActivityPeriod": "1150704~1150920"
   },
   {
     "id": "series-44874",
@@ -2384,7 +2391,7 @@
     "time": "0900~1200",
     "startDate": "2026-08-08",
     "endDate": "2026-08-08",
-    "status": "即將開始",
+    "status": "進行中",
     "spotsTotal": null,
     "spotsAvailable": null,
     "fee": "未提供",
