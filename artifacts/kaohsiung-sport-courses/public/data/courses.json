@@ -9316,16 +9316,19 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年中華國際全方位照護學會社區運動促進課程",
-    "activityPkno": "44826",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44826&ACT_SOURCE_TP_CD=02",
+    "activityName": "銀髮族運動推廣課程",
+    "activityPkno": "44839",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44839&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150801~1150807",
     "rawCoursePeriod": "1150808~1151028",
-    "matchScore": 20,
+    "matchScore": 31,
     "matchReasons": [
       "官方場次地址完全相同",
-      "辦理單位完全相同"
+      "官方場次主題完全相同",
+      "辦理單位完全相同",
+      "辦理日期重疊",
+      "活動與課程名稱高度相近"
     ]
   },
   {
