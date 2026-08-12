@@ -2050,66 +2050,6 @@
     "rawActivityPeriod": "1150704~1150920"
   },
   {
-    "id": "series-44874",
-    "itemType": "series-activity",
-    "activityPkno": "44874",
-    "activityNo": "A000025054",
-    "title": "Kaohsiung POWER Challenge 高雄全民體能挑戰賽",
-    "category": "其他運動",
-    "categorySource": "official-api",
-    "location": "高雄市左營區世運大道100號",
-    "district": "左營區",
-    "districts": [
-      "左營區"
-    ],
-    "address": "高雄市左營區世運大道100號",
-    "time": "0800~1700",
-    "startDate": "2026-07-11",
-    "endDate": "2026-09-20",
-    "status": "進行中",
-    "spotsTotal": null,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "不適用",
-    "description": "本活動以提升市民身體活動量與基礎體適能為核心，透過趣味化、短時制、低門檻的體能競賽方式，吸引不同年齡層民眾參與，進而培養規律運動習慣。活動內容結合敏捷、平衡、協調、肌耐力等基礎體適能項目，讓參與者在競賽中認識自身身體素質，提升健康意識。同時結合親子合作、團隊接力、社區參與等元素，營造全民運動氛圍，推動高雄成為友善運動城市。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44874&ACT_SOURCE_TP_CD=02",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44874&ACT_SOURCE_TP_CD=02",
-    "activityWebsite": "",
-    "organizer": "高雄市政府運動發展局",
-    "targetAudience": "原住民(50%)、移工(10%)、新住民(10%)、職工(50%)",
-    "studentCategory": "",
-    "contactName": "高雄市政府運動發展局 呂孟珊 (07)5813680#408",
-    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
-    "sessions": [
-      {
-        "dates": "115/07/11",
-        "time": "0800~1700",
-        "address": "高雄市左營區世運大道100號",
-        "topic": "Kaohsiung POWER Challenge 高雄全民體能挑戰賽"
-      },
-      {
-        "dates": "115/09/19",
-        "time": "0800~1700",
-        "address": "高雄市左營區世運大道100號",
-        "topic": "Kaohsiung POWER Challenge 高雄全民體能挑戰賽"
-      },
-      {
-        "dates": "115/09/20",
-        "time": "0800~1700",
-        "address": "高雄市左營區世運大道100號",
-        "topic": "Kaohsiung POWER Challenge 高雄全民體能挑戰賽"
-      }
-    ],
-    "topics": [
-      "Kaohsiung POWER Challenge 高雄全民體能挑戰賽"
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "county": "高雄市",
-    "countyVerified": true,
-    "rawActivityPeriod": "1150711~1150920"
-  },
-  {
     "id": "series-44864",
     "itemType": "series-activity",
     "activityPkno": "44864",
@@ -2736,58 +2676,72 @@
     "rawActivityPeriod": "1150906"
   },
   {
-    "id": "series-45732",
+    "id": "series-44874",
     "itemType": "series-activity",
-    "activityPkno": "45732",
-    "activityNo": "",
-    "title": "115年度臺東縣推動社會體育運動志願服務年度計畫",
+    "activityPkno": "44874",
+    "activityNo": "A000025054",
+    "title": "HYROX 體能推廣活動",
     "category": "其他運動",
-    "categorySource": "system-inferred",
-    "location": "臺東縣東河鄉隆昌3-6 號在台11線上.",
-    "district": "左營區",
+    "categorySource": "official-api",
+    "location": "高雄市三民區義華路168號",
+    "district": "三民區",
     "districts": [
-      "左營區"
+      "三民區"
     ],
-    "address": "臺東縣東河鄉隆昌3-6 號在台11線上.",
-    "time": "0700~1700",
-    "startDate": "2026-09-17",
-    "endDate": "2026-09-18",
+    "address": "高雄市三民區義華路168號",
+    "time": "0900~1700",
+    "startDate": "2026-09-12",
+    "endDate": "2026-10-24",
     "status": "即將開始",
     "spotsTotal": null,
     "spotsAvailable": null,
     "fee": "未提供",
     "instructor": "不適用",
-    "description": "1.協助運動i台灣活動推廣：媒合運動志工協助各項運動諮詢或指導服務。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=45732&ACT_SOURCE_TP_CD=02",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=45732&ACT_SOURCE_TP_CD=02",
+    "description": "HYROX PFT為官方體能測試，透過連續完成跑步、肌力與心肺項目，協助參與者認識自身體能表現；完成後可依官方機制上傳成績並取得金、銀、銅等級結果。本活動以降低初次接觸門檻、建立規律運動習慣及引導後續參與 HYROX 為主軸。讓民眾透過標準化測試了解體能現況，建立可比較、可追蹤的運動成果。",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44874&ACT_SOURCE_TP_CD=02",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44874&ACT_SOURCE_TP_CD=02",
     "activityWebsite": "",
-    "organizer": "臺東縣立體育場",
-    "targetAudience": "不限制參與對象及比例",
+    "organizer": "高雄市政府運動發展局",
+    "targetAudience": "原住民(50%)、移工(10%)、新住民(10%)、職工(50%)",
     "studentCategory": "",
-    "contactName": "臺東縣立體育場 高詩菱 0980261331",
+    "contactName": "高雄市政府運動發展局 呂孟珊 (07)5813680#408",
     "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
     "sessions": [
       {
-        "dates": "115/03/31",
-        "time": "0700~1700",
-        "address": "臺東縣東河鄉隆昌3-6 號在台11線上.",
-        "topic": "115年度臺東縣推動社會體育運動志願服務年度計畫"
+        "dates": "115/09/12",
+        "time": "0900~1700",
+        "address": "高雄市三民區義華路168號",
+        "topic": "PFT 體能測驗一般場暨獎牌場"
       },
       {
-        "dates": "115/09/17~115/09/18 每周四,五",
-        "time": "0700~1700",
-        "address": "高雄市左營區永清里世運大道399號",
-        "topic": "115年度臺東縣推動社會體育運動志願服務年度計畫"
+        "dates": "115/09/27",
+        "time": "0900~1700",
+        "address": "高雄市三民區義華路168號",
+        "topic": "PFT 體能測驗一般場暨獎牌場"
+      },
+      {
+        "dates": "115/10/03",
+        "time": "0900~1700",
+        "address": "高雄市三民區義華路168號",
+        "topic": "Kaohsiung POWER Challenge 高雄全民體能挑戰賽"
+      },
+      {
+        "dates": "115/10/24",
+        "time": "0900~1700",
+        "address": "高雄市三民區義華路168號",
+        "topic": "HYROX 全程模擬賽（單人／雙 人）"
       }
     ],
     "topics": [
-      "115年度臺東縣推動社會體育運動志願服務年度計畫"
+      "PFT 體能測驗一般場暨獎牌場",
+      "Kaohsiung POWER Challenge 高雄全民體能挑戰賽",
+      "HYROX 全程模擬賽（單人／雙 人）"
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
     "county": "高雄市",
     "countyVerified": true,
-    "rawActivityPeriod": "1150917~1150918"
+    "rawActivityPeriod": "1150912~1151024"
   },
   {
     "id": "series-44860",
@@ -2836,6 +2790,60 @@
     "county": "高雄市",
     "countyVerified": true,
     "rawActivityPeriod": "1150920"
+  },
+  {
+    "id": "series-45732",
+    "itemType": "series-activity",
+    "activityPkno": "45732",
+    "activityNo": "",
+    "title": "115年度臺東縣推動社會體育運動志願服務年度計畫",
+    "category": "其他運動",
+    "categorySource": "system-inferred",
+    "location": "臺東縣東河鄉隆昌3-6 號在台11線上.",
+    "district": "左營區",
+    "districts": [
+      "左營區"
+    ],
+    "address": "臺東縣東河鄉隆昌3-6 號在台11線上.",
+    "time": "0700~1700",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-02",
+    "status": "即將開始",
+    "spotsTotal": null,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "不適用",
+    "description": "1.協助運動i台灣活動推廣：媒合運動志工協助各項運動諮詢或指導服務。",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=45732&ACT_SOURCE_TP_CD=02",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=45732&ACT_SOURCE_TP_CD=02",
+    "activityWebsite": "",
+    "organizer": "臺東縣立體育場",
+    "targetAudience": "不限制參與對象及比例",
+    "studentCategory": "",
+    "contactName": "臺東縣立體育場 高詩菱 0980261331",
+    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
+    "sessions": [
+      {
+        "dates": "115/03/31",
+        "time": "0700~1700",
+        "address": "臺東縣東河鄉隆昌3-6 號在台11線上.",
+        "topic": "115年度臺東縣推動社會體育運動志願服務年度計畫"
+      },
+      {
+        "dates": "115/10/01~115/10/02 每周四,五",
+        "time": "0700~1700",
+        "address": "高雄市左營區永清里世運大道399號",
+        "topic": "115年度臺東縣推動社會體育運動志願服務年度計畫"
+      }
+    ],
+    "topics": [
+      "115年度臺東縣推動社會體育運動志願服務年度計畫"
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "county": "高雄市",
+    "countyVerified": true,
+    "rawActivityPeriod": "1151001~1151002"
   },
   {
     "id": "series-44854",
