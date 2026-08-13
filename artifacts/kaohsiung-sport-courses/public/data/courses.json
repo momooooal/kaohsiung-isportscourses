@@ -9291,8 +9291,8 @@
     "district": "前金區",
     "address": "高雄市前金區中華三路30號",
     "time": "0820~0950、1530~1700",
-    "startDate": "2026-08-08",
-    "endDate": "2026-10-28",
+    "startDate": "2026-08-12",
+    "endDate": "2026-10-31",
     "registrationStartDate": "2026-08-01",
     "registrationEndDate": "2026-08-07",
     "status": "報名已截止",
@@ -9311,7 +9311,7 @@
     "sessions": [
       {
         "topic": "銀髮族運動推廣課程",
-        "dates": "1150808~1151024 每周六",
+        "dates": "1150815~1151031 每周六",
         "time": "0820~0950",
         "location": "長生全方位銀髮健身俱樂部",
         "address": "高雄市前金區中華三路30號"
@@ -9331,7 +9331,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44839&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150801~1150807",
-    "rawCoursePeriod": "1150808~1151028",
+    "rawCoursePeriod": "1150812~1151031",
     "matchScore": 31,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -9358,15 +9358,15 @@
     "spotsTotal": 20,
     "spotsAvailable": null,
     "fee": "未提供",
-    "instructor": "曾郁涵老師(yui)",
+    "instructor": "123",
     "description": "1.1班以12週為期限，共計24堂課，每週2堂課，1次90分鐘。 2.報名資格:年齡限制為25歲至64歲。 3.週期課程每人收取2400元為保證金。 4課程介紹:基礎瑜珈適合零基礎新手，強調呼吸與體位法配合，旨在提升身體柔軟度、靈活性與穩定情緒",
     "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4011",
     "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4011",
     "organizer": "高雄市政府運動發展局",
     "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "一般",
-    "contactName": "劉字森",
-    "contactPhone": "(07)5856855",
+    "studentCategory": "銀髮族",
+    "contactName": "廖紹彤",
+    "contactPhone": "(07)5813680#405",
     "sessions": [
       {
         "topic": "左營運動中心運動班-基礎瑜珈",
