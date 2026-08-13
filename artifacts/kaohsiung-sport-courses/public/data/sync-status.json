@@ -1,11 +1,11 @@
 {
-  "lastAttemptAt": "2026-08-13T16:55:48+08:00",
-  "lastSuccessfulAt": "2026-08-13T16:56:46+08:00",
+  "lastAttemptAt": "2026-08-14T07:24:48+08:00",
+  "lastSuccessfulAt": "2026-08-14T07:25:48+08:00",
   "status": "success",
   "message": "同步完成",
-  "courseCount": 90,
+  "courseCount": 91,
   "unmatchedCount": 0,
-  "regularDetailCount": 90,
+  "regularDetailCount": 91,
   "activityDetailCount": 36,
   "warnings": [
     "民國116年常態課程：來源網站沒有民國 116 年選項",
@@ -17,8 +17,8 @@
     "seriesActivities": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_01V1.aspx?ACT_TP_CD=2&MENU_PRG_CD=1&ITEM_PRG_CD=2"
   },
   "syncMode": "GitHub Actions 定時同步（非即時）",
-  "seriesLastAttemptAt": "2026-08-13T16:55:48+08:00",
-  "seriesLastSuccessfulAt": "2026-08-13T16:56:46+08:00",
+  "seriesLastAttemptAt": "2026-08-14T07:24:48+08:00",
+  "seriesLastSuccessfulAt": "2026-08-14T07:25:48+08:00",
   "seriesStatus": "success",
   "seriesMessage": "系列活動同步完成",
   "seriesActivityCount": 42,

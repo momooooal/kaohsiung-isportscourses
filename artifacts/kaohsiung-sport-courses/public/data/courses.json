@@ -9342,68 +9342,146 @@
     ]
   },
   {
+    "id": "course-4861",
+    "coursePkno": "4861",
+    "title": "隆昌里成人運動班2",
+    "category": "體適能運動",
+    "location": "隆昌兒童公園",
+    "district": "楠梓區",
+    "address": "高雄市楠梓區後昌路837巷46號對面",
+    "time": "0930~1100、1400~1530、1800~1930",
+    "startDate": "2026-08-13",
+    "endDate": "2026-10-29",
+    "registrationStartDate": "2026-04-29",
+    "registrationEndDate": "2026-04-29",
+    "status": "報名已截止",
+    "spotsTotal": 20,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "得標廠商媒合合格師資",
+    "description": "體適能",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4861",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4861",
+    "organizer": "高雄市政府運動發展局",
+    "targetAudience": "不限制參與對象及比例",
+    "studentCategory": "一般",
+    "contactName": "楊舒涵",
+    "contactPhone": "(07)5813680#406",
+    "sessions": [
+      {
+        "topic": "隆昌里成人運動班2",
+        "dates": "1150818~1151027 每周二",
+        "time": "0930~1100",
+        "location": "隆昌兒童公園",
+        "address": "高雄市楠梓區後昌路837巷46號對面"
+      },
+      {
+        "topic": "隆昌里成人運動班2",
+        "dates": "1150820~1151029 每周四",
+        "time": "1400~1530",
+        "location": "隆昌兒童公園",
+        "address": "高雄市楠梓區後昌路837巷46號對面"
+      },
+      {
+        "topic": "隆昌里成人運動班2",
+        "dates": "1150813",
+        "time": "1800~1930",
+        "location": "隆昌兒童公園",
+        "address": "高雄市楠梓區後昌路837巷46號對面"
+      }
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "activityName": "115年高雄市「非認證村里運動專班」",
+    "activityPkno": "44881",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "high",
+    "rawRegistrationPeriod": "1150429~1150429",
+    "rawCoursePeriod": "1150813~1151029",
+    "matchScore": 24,
+    "matchReasons": [
+      "官方場次地址完全相同",
+      "辦理單位完全相同",
+      "辦理日期重疊",
+      "活動與課程名稱部分相近"
+    ]
+  },
+  {
     "id": "course-4011",
     "coursePkno": "4011",
-    "title": "左營運動中心運動班-基礎瑜珈",
-    "category": "其它(基礎瑜珈/深層拉筋)",
-    "location": "左營運動中心",
-    "district": "左營區",
-    "address": "高雄市左營區世運大道100號",
-    "time": "1500~1630",
-    "startDate": "2026-08-12",
-    "endDate": "2026-10-29",
+    "title": "隆昌里銀髮族運動班2",
+    "category": "體適能運動",
+    "location": "隆昌兒童公園",
+    "district": "楠梓區",
+    "address": "高雄市楠梓區後昌路837巷46號對面",
+    "time": "1800~1930、1400~1530、1500~1630、1400~1500",
+    "startDate": "2026-08-13",
+    "endDate": "2026-10-28",
     "registrationStartDate": "2026-04-14",
     "registrationEndDate": "2026-06-30",
     "status": "暫停辦理",
     "spotsTotal": 20,
     "spotsAvailable": null,
     "fee": "未提供",
-    "instructor": "123",
-    "description": "1.1班以12週為期限，共計24堂課，每週2堂課，1次90分鐘。 2.報名資格:年齡限制為25歲至64歲。 3.週期課程每人收取2400元為保證金。 4課程介紹:基礎瑜珈適合零基礎新手，強調呼吸與體位法配合，旨在提升身體柔軟度、靈活性與穩定情緒",
+    "instructor": "得標廠商媒合合格師資",
+    "description": "體適能",
     "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4011",
     "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4011",
     "organizer": "高雄市政府運動發展局",
-    "targetAudience": "不限制參與對象及比例",
+    "targetAudience": "不限制參與對象及比例、銀髮族",
     "studentCategory": "銀髮族",
     "contactName": "廖紹彤",
     "contactPhone": "(07)5813680#405",
     "sessions": [
       {
-        "topic": "左營運動中心運動班-基礎瑜珈",
-        "dates": "8月12,13,19,20,26,27日",
-        "time": "1500~1630",
-        "location": "左營運動中心",
-        "address": "高雄市左營區世運大道100號"
+        "topic": "隆昌里銀髮族運動班2",
+        "dates": "1150813",
+        "time": "1800~1930",
+        "location": "隆昌兒童公園",
+        "address": "高雄市楠梓區後昌路837巷46號對面"
       },
       {
-        "topic": "左營運動中心運動班-基礎瑜珈",
-        "dates": "9月2,3,9,10,16,17,23,24,30日",
-        "time": "1500~1630",
-        "location": "左營運動中心",
-        "address": "高雄市左營區世運大道100號"
+        "topic": "隆昌里銀髮族運動班2",
+        "dates": "1150817~1150921 每周一",
+        "time": "1400~1530",
+        "location": "隆昌兒童公園",
+        "address": "高雄市楠梓區後昌路837巷46號對面"
       },
       {
-        "topic": "左營運動中心運動班-基礎瑜珈",
-        "dates": "10月1,7,8,14,15,21,22,28,29日",
+        "topic": "隆昌里銀髮族運動班2",
+        "dates": "1150819~1151028 每周三",
         "time": "1500~1630",
-        "location": "左營運動中心",
-        "address": "高雄市左營區世運大道100號"
+        "location": "隆昌兒童公園",
+        "address": "高雄市楠梓區後昌路837巷46號對面"
+      },
+      {
+        "topic": "隆昌里銀髮族運動班2",
+        "dates": "1151005~1151026 每周一",
+        "time": "1400~1530",
+        "location": "隆昌兒童公園",
+        "address": "高雄市楠梓區後昌路837巷46號對面"
+      },
+      {
+        "topic": "隆昌里銀髮族運動班2",
+        "dates": "1151002",
+        "time": "1400~1500",
+        "location": "隆昌兒童公園",
+        "address": "高雄市楠梓區後昌路837巷46號對面"
       }
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "左營運動中心-全民瘋運動",
-    "activityPkno": "44823",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44823&ACT_SOURCE_TP_CD=02",
+    "activityName": "115年高雄市「非認證村里運動專班」",
+    "activityPkno": "44881",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150414~1150630",
-    "rawCoursePeriod": "1150812~1151029",
-    "matchScore": 23,
+    "rawCoursePeriod": "1150813~1151028",
+    "matchScore": 22,
     "matchReasons": [
       "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
+      "辦理單位完全相同",
+      "辦理日期重疊"
     ]
   }
 ]
