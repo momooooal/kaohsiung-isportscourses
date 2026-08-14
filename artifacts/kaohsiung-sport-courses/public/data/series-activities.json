@@ -2418,54 +2418,6 @@
     "rawActivityPeriod": "1150809"
   },
   {
-    "id": "series-44872",
-    "itemType": "series-activity",
-    "activityPkno": "44872",
-    "activityNo": "A000025052",
-    "title": "英雄爸媽挑戰村",
-    "category": "其他運動",
-    "categorySource": "official-api",
-    "location": "高雄市前鎮區成功路39號",
-    "district": "前鎮區",
-    "districts": [
-      "前鎮區"
-    ],
-    "address": "高雄市前鎮區成功路39號",
-    "time": "0800~1700",
-    "startDate": "2026-08-16",
-    "endDate": "2026-08-17",
-    "status": "即將開始",
-    "spotsTotal": null,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "不適用",
-    "description": "為提升家長參與度與整體活動滿意度，特於主場外規劃「家長運動體驗區」，提供健康檢測、成人運動體驗、休憩服務及親子共學內容，使家長在陪同孩童參與競賽之餘，也能獲得健康促進與運動體驗，強化全民運動推廣效益，並延伸小小英雄運動會之品牌價值。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44872&ACT_SOURCE_TP_CD=02",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44872&ACT_SOURCE_TP_CD=02",
-    "activityWebsite": "",
-    "organizer": "高雄市政府運動發展局",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "",
-    "contactName": "高雄市政府運動發展局 楊舒涵 (07)5813680#406",
-    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
-    "sessions": [
-      {
-        "dates": "115/08/16~115/08/17",
-        "time": "0800~1700",
-        "address": "高雄市前鎮區成功路39號",
-        "topic": "英雄爸媽挑戰村"
-      }
-    ],
-    "topics": [
-      "英雄爸媽挑戰村"
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "county": "高雄市",
-    "countyVerified": true,
-    "rawActivityPeriod": "1150816~1150817"
-  },
-  {
     "id": "series-44877",
     "itemType": "series-activity",
     "activityPkno": "44877",
@@ -2940,6 +2892,54 @@
     "county": "高雄市",
     "countyVerified": true,
     "rawActivityPeriod": "1151004"
+  },
+  {
+    "id": "series-44872",
+    "itemType": "series-activity",
+    "activityPkno": "44872",
+    "activityNo": "A000025052",
+    "title": "無齡運動體驗博覽會",
+    "category": "其他運動",
+    "categorySource": "official-api",
+    "location": "高雄市前鎮區成功路39號",
+    "district": "前鎮區",
+    "districts": [
+      "前鎮區"
+    ],
+    "address": "高雄市前鎮區成功路39號",
+    "time": "0800~1700",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-16",
+    "status": "即將開始",
+    "spotsTotal": null,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "不適用",
+    "description": "「運動不分年齡，健康一起動起來！」",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44872&ACT_SOURCE_TP_CD=02",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44872&ACT_SOURCE_TP_CD=02",
+    "activityWebsite": "",
+    "organizer": "高雄市政府運動發展局",
+    "targetAudience": "不限制參與對象及比例",
+    "studentCategory": "",
+    "contactName": "高雄市政府運動發展局 楊舒涵 (07)5813680#406",
+    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
+    "sessions": [
+      {
+        "dates": "115/10/16~115/10/16",
+        "time": "0800~1700",
+        "address": "高雄市前鎮區成功路39號",
+        "topic": "無齡運動體驗博覽會"
+      }
+    ],
+    "topics": [
+      "無齡運動體驗博覽會"
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "county": "高雄市",
+    "countyVerified": true,
+    "rawActivityPeriod": "1151016"
   },
   {
     "id": "series-44880",
