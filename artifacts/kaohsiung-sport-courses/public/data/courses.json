@@ -5360,7 +5360,7 @@
     "address": "高雄市桃源區桃源里北進巷180號",
     "time": "1830~2000",
     "startDate": "2026-06-22",
-    "endDate": "2026-09-21",
+    "endDate": "2026-09-24",
     "registrationStartDate": "2026-04-29",
     "registrationEndDate": "2026-04-29",
     "status": "報名已截止",
@@ -5393,7 +5393,14 @@
       },
       {
         "topic": "桃源里運動班-體適能(一般)",
-        "dates": "1150803~1150921 每周一,四",
+        "dates": "1150803~1150813 每周一,四",
+        "time": "1830~2000",
+        "location": "桃源區運動球場",
+        "address": "高雄市桃源區桃源里北進巷180號"
+      },
+      {
+        "topic": "桃源里運動班-體適能(一般)",
+        "dates": "1150820~1150924 每周一,四",
         "time": "1830~2000",
         "location": "桃源區運動球場",
         "address": "高雄市桃源區桃源里北進巷180號"
@@ -5406,7 +5413,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
-    "rawCoursePeriod": "1150622~1150921",
+    "rawCoursePeriod": "1150622~1150924",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
