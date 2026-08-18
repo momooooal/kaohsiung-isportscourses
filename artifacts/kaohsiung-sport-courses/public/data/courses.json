@@ -3987,7 +3987,7 @@
     "address": "高雄市甲仙區大田里新興路49-1號",
     "time": "0930~1130",
     "startDate": "2026-05-25",
-    "endDate": "2026-08-14",
+    "endDate": "2026-08-24",
     "registrationStartDate": "2026-04-29",
     "registrationEndDate": "2026-04-29",
     "status": "報名已截止",
@@ -4010,6 +4010,13 @@
         "time": "0930~1130",
         "location": "甲仙區大田老人活動中心",
         "address": "高雄市甲仙區大田里新興路49-1號"
+      },
+      {
+        "topic": "大田里運動班-有氧(銀髮)",
+        "dates": "1150821~1150824 每周一,五",
+        "time": "0930~1130",
+        "location": "甲仙區大田老人活動中心",
+        "address": "高雄市甲仙區大田里新興路49-1號"
       }
     ],
     "source": "運動i臺灣計畫",
@@ -4019,7 +4026,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
-    "rawCoursePeriod": "1150525~1150814",
+    "rawCoursePeriod": "1150525~1150824",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -9211,17 +9218,17 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "台灣全適能健康促進協會運動班-全方位體適能",
-    "activityPkno": "44824",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44824&ACT_SOURCE_TP_CD=02",
+    "activityName": "115年高雄市「非認證村里運動專班」",
+    "activityPkno": "44881",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150407~1150430",
     "rawCoursePeriod": "1150805~1151030",
-    "matchScore": 14,
+    "matchScore": 19,
     "matchReasons": [
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
+      "官方場次地址完全相同",
+      "官方場次主題完全相同",
+      "辦理日期重疊"
     ]
   },
   {
@@ -9349,6 +9356,78 @@
     ]
   },
   {
+    "id": "course-4862",
+    "coursePkno": "4862",
+    "title": "山東里銀髮運動C班-體適能",
+    "category": "體適能運動",
+    "location": "山東運動公園",
+    "district": "小港區",
+    "address": "高雄市小港區山東里飛機路479巷與飛機路521巷旁",
+    "time": "1800~1930、0830~1000",
+    "startDate": "2026-08-12",
+    "endDate": "2026-10-28",
+    "registrationStartDate": "2026-04-29",
+    "registrationEndDate": "2026-04-29",
+    "status": "報名已截止",
+    "spotsTotal": 20,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "得標廠商媒合合格師資",
+    "description": "體適能",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4862",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4862",
+    "organizer": "高雄市政府運動發展局",
+    "targetAudience": "不限制參與對象及比例、銀髮族",
+    "studentCategory": "銀髮族",
+    "contactName": "楊舒涵",
+    "contactPhone": "(07)5813680#406",
+    "sessions": [
+      {
+        "topic": "山東里運動班-體適能(銀髮C)",
+        "dates": "1150812",
+        "time": "1800~1930",
+        "location": "山東運動公園",
+        "address": "高雄市小港區山東里飛機路479巷與飛機路521巷旁"
+      },
+      {
+        "topic": "山東里運動班-體適能(銀髮C)",
+        "dates": "1150818~1151028 每周二,三",
+        "time": "0830~1000",
+        "location": "山東運動公園",
+        "address": "高雄市小港區東里飛機路479巷與飛機路521巷旁"
+      },
+      {
+        "topic": "山東里運動班-體適能(銀髮C)",
+        "dates": "1151012",
+        "time": "0830~1000",
+        "location": "山東運動公園",
+        "address": "高雄市小港區東里飛機路479巷與飛機路521巷旁"
+      },
+      {
+        "topic": "山東里運動班-體適能(銀髮C)",
+        "dates": "1151019",
+        "time": "0830~1000",
+        "location": "山東運動公園",
+        "address": "高雄市小港區東里飛機路479巷與飛機路521巷旁"
+      }
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "activityName": "115年高雄市「非認證村里運動專班」",
+    "activityPkno": "44881",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "high",
+    "rawRegistrationPeriod": "1150429~1150429",
+    "rawCoursePeriod": "1150812~1151028",
+    "matchScore": 27,
+    "matchReasons": [
+      "官方場次地址完全相同",
+      "官方場次主題完全相同",
+      "辦理單位完全相同",
+      "辦理日期重疊"
+    ]
+  },
+  {
     "id": "course-4861",
     "coursePkno": "4861",
     "title": "隆昌里成人運動班2",
@@ -9356,7 +9435,7 @@
     "location": "隆昌兒童公園",
     "district": "楠梓區",
     "address": "高雄市楠梓區後昌路837巷46號對面",
-    "time": "0930~1100、1400~1530、1800~1930",
+    "time": "1930~2100、1800~1930",
     "startDate": "2026-08-13",
     "endDate": "2026-10-29",
     "registrationStartDate": "2026-04-29",
@@ -9378,14 +9457,14 @@
       {
         "topic": "隆昌里成人運動班2",
         "dates": "1150818~1151027 每周二",
-        "time": "0930~1100",
+        "time": "1930~2100",
         "location": "隆昌兒童公園",
         "address": "高雄市楠梓區後昌路837巷46號對面"
       },
       {
         "topic": "隆昌里成人運動班2",
         "dates": "1150820~1151029 每周四",
-        "time": "1400~1530",
+        "time": "1930~2100",
         "location": "隆昌兒童公園",
         "address": "高雄市楠梓區後昌路837巷46號對面"
       },
@@ -9405,9 +9484,10 @@
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150813~1151029",
-    "matchScore": 24,
+    "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
+      "官方場次主題完全相同",
       "辦理單位完全相同",
       "辦理日期重疊",
       "活動與課程名稱部分相近"
@@ -9421,9 +9501,9 @@
     "location": "隆昌兒童公園",
     "district": "楠梓區",
     "address": "高雄市楠梓區後昌路837巷46號對面",
-    "time": "1800~1930、1400~1530、1500~1630、1400~1500",
+    "time": "1800~1930、1400~1530",
     "startDate": "2026-08-13",
-    "endDate": "2026-10-28",
+    "endDate": "2026-10-30",
     "registrationStartDate": "2026-04-14",
     "registrationEndDate": "2026-06-30",
     "status": "報名已截止",
@@ -9456,8 +9536,8 @@
       },
       {
         "topic": "隆昌里銀髮族運動班2",
-        "dates": "1150819~1151028 每周三",
-        "time": "1500~1630",
+        "dates": "1150821~1150918 每周五",
+        "time": "1400~1530",
         "location": "隆昌兒童公園",
         "address": "高雄市楠梓區後昌路837巷46號對面"
       },
@@ -9471,7 +9551,14 @@
       {
         "topic": "隆昌里銀髮族運動班2",
         "dates": "1151002",
-        "time": "1400~1500",
+        "time": "1400~1530",
+        "location": "隆昌兒童公園",
+        "address": "高雄市楠梓區後昌路837巷46號對面"
+      },
+      {
+        "topic": "隆昌里銀髮族運動班2",
+        "dates": "1151016~1151030 每周五",
+        "time": "1400~1530",
         "location": "隆昌兒童公園",
         "address": "高雄市楠梓區後昌路837巷46號對面"
       }
@@ -9483,7 +9570,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150414~1150630",
-    "rawCoursePeriod": "1150813~1151028",
+    "rawCoursePeriod": "1150813~1151030",
     "matchScore": 22,
     "matchReasons": [
       "官方場次地址完全相同",
