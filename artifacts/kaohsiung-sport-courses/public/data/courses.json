@@ -7525,7 +7525,7 @@
     "address": "高雄市新興區文橫二路143巷11號B1",
     "time": "1630~1800",
     "startDate": "2026-07-06",
-    "endDate": "2026-09-23",
+    "endDate": "2026-09-30",
     "registrationStartDate": "2026-06-01",
     "registrationEndDate": "2026-07-05",
     "status": "報名已截止",
@@ -7635,7 +7635,7 @@
       },
       {
         "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150819",
+        "dates": "1150930",
         "time": "1630~1800",
         "location": "WASSUP舞蹈教室",
         "address": "高雄市新興區文橫二路143巷11號B1"
@@ -7718,7 +7718,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150601~1150705",
-    "rawCoursePeriod": "1150706~1150923",
+    "rawCoursePeriod": "1150706~1150930",
     "matchScore": 19,
     "matchReasons": [
       "官方場次地址完全相同",
