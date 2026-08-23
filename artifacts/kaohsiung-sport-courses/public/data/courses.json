@@ -5694,7 +5694,7 @@
     "address": "高雄市苓雅區仁政里中山二路410號3F",
     "time": "1800~1930",
     "startDate": "2026-07-01",
-    "endDate": "2026-09-21",
+    "endDate": "2026-09-23",
     "registrationStartDate": "2026-06-01",
     "registrationEndDate": "2026-06-30",
     "status": "報名已截止",
@@ -5818,7 +5818,7 @@
       },
       {
         "topic": "有氧體能K-pop運動專班",
-        "dates": "1150824",
+        "dates": "1150923",
         "time": "1800~1930",
         "location": "Nias Dance Studio",
         "address": "高雄市苓雅區仁政里中山二路410號3F"
@@ -5887,7 +5887,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150601~1150630",
-    "rawCoursePeriod": "1150701~1150921",
+    "rawCoursePeriod": "1150701~1150923",
     "matchScore": 19,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -6170,7 +6170,7 @@
     "address": "高雄市苓雅區中正一路99號",
     "time": "1830~2000",
     "startDate": "2026-07-02",
-    "endDate": "2026-09-24",
+    "endDate": "2026-10-01",
     "registrationStartDate": "2026-04-01",
     "registrationEndDate": "2026-04-01",
     "status": "報名已截止",
@@ -6294,13 +6294,6 @@
       },
       {
         "topic": "高科大減重體適能運動班",
-        "dates": "1150824",
-        "time": "1830~2000",
-        "location": "高雄市苓雅運動園區",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "高科大減重體適能運動班",
         "dates": "1150827",
         "time": "1830~2000",
         "location": "高雄市苓雅運動園區",
@@ -6354,6 +6347,13 @@
         "time": "1830~2000",
         "location": "高雄市苓雅運動園區",
         "address": "高雄市苓雅區中正一路99號"
+      },
+      {
+        "topic": "高科大減重體適能運動班",
+        "dates": "1151001",
+        "time": "1830~2000",
+        "location": "高雄市苓雅運動園區",
+        "address": "高雄市苓雅區中正一路99號"
       }
     ],
     "source": "運動i臺灣計畫",
@@ -6363,7 +6363,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44814&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150401~1150401",
-    "rawCoursePeriod": "1150702~1150924",
+    "rawCoursePeriod": "1150702~1151001",
     "matchScore": 31,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -7277,13 +7277,6 @@
       },
       {
         "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150824",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
         "dates": "1150828",
         "time": "0900~1030",
         "location": "高雄市大社區觀音社區發展協會",
@@ -7459,7 +7452,7 @@
     "address": "高雄市左營區先鋒路293號1樓",
     "time": "1500~1630、1530~1700",
     "startDate": "2026-07-06",
-    "endDate": "2026-09-24",
+    "endDate": "2026-10-01",
     "registrationStartDate": "2026-07-04",
     "registrationEndDate": "2026-07-05",
     "status": "報名已截止",
@@ -7485,7 +7478,7 @@
       },
       {
         "topic": "Zumba我最搖擺(第二梯次)",
-        "dates": "8月3,6,10,13,17,20,24,27,31日",
+        "dates": "8月3,6,10,13,17,20,27,31日",
         "time": "1530~1700",
         "location": "左營區崇實/自助里聯合活動中心1樓",
         "address": "高雄市左營區先鋒路293號1樓"
@@ -7493,6 +7486,13 @@
       {
         "topic": "Zumba我最搖擺(第二梯次)",
         "dates": "9月3,7,10,14,17,21,24日",
+        "time": "1530~1700",
+        "location": "左營區崇實/自助里聯合活動中心1樓",
+        "address": "高雄市左營區先鋒路293號1樓"
+      },
+      {
+        "topic": "Zumba我最搖擺(第二梯次)",
+        "dates": "1151001",
         "time": "1530~1700",
         "location": "左營區崇實/自助里聯合活動中心1樓",
         "address": "高雄市左營區先鋒路293號1樓"
@@ -7505,7 +7505,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44834&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150704~1150705",
-    "rawCoursePeriod": "1150706~1150924",
+    "rawCoursePeriod": "1150706~1151001",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -7525,7 +7525,7 @@
     "address": "高雄市新興區文橫二路143巷11號B1",
     "time": "1630~1800",
     "startDate": "2026-07-06",
-    "endDate": "2026-09-30",
+    "endDate": "2026-10-05",
     "registrationStartDate": "2026-06-01",
     "registrationEndDate": "2026-07-05",
     "status": "報名已截止",
@@ -7642,7 +7642,7 @@
       },
       {
         "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150824",
+        "dates": "1151005",
         "time": "1630~1800",
         "location": "WASSUP舞蹈教室",
         "address": "高雄市新興區文橫二路143巷11號B1"
@@ -7718,7 +7718,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150601~1150705",
-    "rawCoursePeriod": "1150706~1150930",
+    "rawCoursePeriod": "1150706~1151005",
     "matchScore": 19,
     "matchReasons": [
       "官方場次地址完全相同",
