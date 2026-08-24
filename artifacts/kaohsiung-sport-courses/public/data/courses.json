@@ -1259,7 +1259,7 @@
     "address": "高雄市六龜區中庄195號",
     "time": "1430~1600、1000~1130",
     "startDate": "2026-04-16",
-    "endDate": "2026-07-15",
+    "endDate": "2026-07-16",
     "registrationStartDate": "2026-04-08",
     "registrationEndDate": "2026-04-15",
     "status": "報名已截止",
@@ -1285,7 +1285,7 @@
       },
       {
         "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150416~1150715 每周四",
+        "dates": "1150416~1150716 每周四",
         "time": "1000~1130",
         "location": "中興里活動中心",
         "address": "高雄市六龜區中庄195號"
@@ -1298,7 +1298,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150408~1150415",
-    "rawCoursePeriod": "1150416~1150715",
+    "rawCoursePeriod": "1150416~1150716",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -1318,7 +1318,7 @@
     "address": "高雄市六龜區光明巷40號",
     "time": "1400~1530、0930~1100",
     "startDate": "2026-04-16",
-    "endDate": "2026-07-16",
+    "endDate": "2026-07-17",
     "registrationStartDate": "2026-04-08",
     "registrationEndDate": "2026-04-15",
     "status": "報名已截止",
@@ -1344,7 +1344,7 @@
       },
       {
         "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150416~1150716 每周五",
+        "dates": "1150416~1150717 每周五",
         "time": "0930~1100",
         "location": "文武里活動中心",
         "address": "高雄市六龜區光明巷40號"
@@ -1357,7 +1357,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150408~1150415",
-    "rawCoursePeriod": "1150416~1150716",
+    "rawCoursePeriod": "1150416~1150717",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -7172,212 +7172,6 @@
     ]
   },
   {
-    "id": "course-4811",
-    "coursePkno": "4811",
-    "title": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-    "category": "體適能運動、其它(體適能運動)",
-    "location": "高雄市大社區觀音社區發展協會",
-    "district": "大社區",
-    "address": "高雄市大社區觀音里新生街51號",
-    "time": "0900~1030",
-    "startDate": "2026-07-06",
-    "endDate": "2026-10-08",
-    "registrationStartDate": "2026-04-01",
-    "registrationEndDate": "2026-04-01",
-    "status": "報名已截止",
-    "spotsTotal": 30,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "中華民國體適能瑜珈協會師資",
-    "description": "課程將依學員的體適能狀況，採取循序漸進的方式，從基礎暖身與核心穩定開始，逐步延伸至心肺耐力、肌力、柔軟度與平衡訓練，並搭配功能性動作練習，讓學員能安全且有效地提升體能。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4811",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4811",
-    "organizer": "中華民國體適能瑜珈協會",
-    "targetAudience": "銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "袁安兒",
-    "contactPhone": "(07)3832855",
-    "sessions": [
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150706",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150710",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150720",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150724",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150727",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150731",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150803",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150807",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150810",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150813",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150817",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150821",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150828",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150831",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150904",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150907",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150910",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150914",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150918",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150921",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1150924",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1151005",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(大社觀音)",
-        "dates": "1151008",
-        "time": "0900~1030",
-        "location": "高雄市大社區觀音社區發展協會",
-        "address": "高雄市大社區觀音里新生街51號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "中華民國體適能瑜珈協會—活力體適能運動班",
-    "activityPkno": "44840",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44840&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150401~1150401",
-    "rawCoursePeriod": "1150706~1151008",
-    "matchScore": 31,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
-    ]
-  },
-  {
     "id": "course-3845",
     "coursePkno": "3845",
     "title": "山東里銀髮運動A班-體適能",
@@ -7787,219 +7581,6 @@
     ]
   },
   {
-    "id": "course-3958",
-    "coursePkno": "3958",
-    "title": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-    "category": "體適能運動、其它(體適能運動)",
-    "location": "永安中正堂",
-    "district": "永安區",
-    "address": "高雄市永安區永安里永安路43號",
-    "time": "0930~1100",
-    "startDate": "2026-07-08",
-    "endDate": "2026-10-07",
-    "registrationStartDate": "2026-04-01",
-    "registrationEndDate": "2026-04-01",
-    "status": "報名已截止",
-    "spotsTotal": 30,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "中華民國體適能瑜珈協會師資",
-    "description": "課程將依學員的體適能狀況，採取循序漸進的方式，從基礎暖身與核心穩定開始，逐步延伸至心肺耐力、肌力、柔軟度與平衡訓練，並搭配功能性動作練習，讓學員能安全且有效地提升體能。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3958",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3958",
-    "organizer": "中華民國體適能瑜珈協會",
-    "targetAudience": "銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "袁安兒",
-    "contactPhone": "(07)3832855",
-    "sessions": [
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150708",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150715",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150717",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150722",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150724",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150729",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150731",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150805",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150807",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150812",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150814",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150819",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150821",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150826",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150828",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150902",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150904",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150909",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150911",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150916",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150918",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1150923",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1151002",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      },
-      {
-        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
-        "dates": "1151007",
-        "time": "0930~1100",
-        "location": "永安中正堂",
-        "address": "高雄市永安區永安里永安路43號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "中華民國體適能瑜珈協會—活力體適能運動班",
-    "activityPkno": "44840",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44840&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150401~1150401",
-    "rawCoursePeriod": "1150708~1151007",
-    "matchScore": 31,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
-    ]
-  },
-  {
     "id": "course-3921",
     "coursePkno": "3921",
     "title": "跑步班A",
@@ -8030,140 +7611,6 @@
         "topic": "跑步訓練",
         "dates": "1150714",
         "time": "1820~1950",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150726",
-        "time": "0530~0700",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150802",
-        "time": "0530~0700",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150809",
-        "time": "0530~0700",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150814",
-        "time": "1800~1930",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150821",
-        "time": "1800~1930",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150830",
-        "time": "0530~0700",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150904",
-        "time": "1800~1930",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150913",
-        "time": "0530~0700",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150920",
-        "time": "0530~0700",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150927",
-        "time": "0530~0700",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1151016",
-        "time": "1800~1930",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150701~1150707",
-    "rawCoursePeriod": "1150714~1151016",
-    "matchScore": 19,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理日期重疊"
-    ]
-  },
-  {
-    "id": "course-4831",
-    "coursePkno": "4831",
-    "title": "跑步班B",
-    "category": "跑步、其它()",
-    "location": "苓雅運動園區田徑場",
-    "district": "苓雅區",
-    "address": "高雄市苓雅區中正一路99號",
-    "time": "1820~1950、0830~1000、0530~0700、1800~1930",
-    "startDate": "2026-07-14",
-    "endDate": "2026-10-16",
-    "registrationStartDate": "2026-07-01",
-    "registrationEndDate": "2026-07-07",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "本市優秀選手及專業物理治療師及運動防護師",
-    "description": "協助跑步小白以完成5-10公里為目標 並透過跑步知識、技術、動作並結合運動生理學、運動傷害防護、運動營養學 提高跑步小白從願意跑到持續跑，養成運動習慣。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4831",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4831",
-    "organizer": "高雄市體育總會定向越野委員會",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "一般",
-    "contactName": "柯廷緯",
-    "contactPhone": "(07)5813680#811",
-    "sessions": [
-      {
-        "topic": "跑步訓練",
-        "dates": "1150714",
-        "time": "1820~1950",
-        "location": "苓雅運動園區田徑場",
-        "address": "高雄市苓雅區中正一路99號"
-      },
-      {
-        "topic": "跑步訓練",
-        "dates": "1150718",
-        "time": "0830~1000",
         "location": "苓雅運動園區田徑場",
         "address": "高雄市苓雅區中正一路99號"
       },

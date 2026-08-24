@@ -1,10 +1,10 @@
 {
-  "lastAttemptAt": "2026-08-24T16:25:43+08:00",
-  "lastSuccessfulAt": "2026-08-24T16:26:47+08:00",
+  "lastAttemptAt": "2026-08-25T06:59:42+08:00",
+  "lastSuccessfulAt": "2026-08-25T07:00:42+08:00",
   "status": "success",
   "message": "同步完成",
-  "courseCount": 92,
-  "unmatchedCount": 0,
+  "courseCount": 89,
+  "unmatchedCount": 2,
   "regularDetailCount": 92,
   "activityDetailCount": 36,
   "warnings": [
@@ -17,8 +17,8 @@
     "seriesActivities": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_01V1.aspx?ACT_TP_CD=2&MENU_PRG_CD=1&ITEM_PRG_CD=2"
   },
   "syncMode": "GitHub Actions 定時同步（非即時）",
-  "seriesLastAttemptAt": "2026-08-24T16:25:43+08:00",
-  "seriesLastSuccessfulAt": "2026-08-24T16:26:47+08:00",
+  "seriesLastAttemptAt": "2026-08-25T06:59:42+08:00",
+  "seriesLastSuccessfulAt": "2026-08-25T07:00:42+08:00",
   "seriesStatus": "success",
   "seriesMessage": "系列活動同步完成",
   "seriesActivityCount": 42,

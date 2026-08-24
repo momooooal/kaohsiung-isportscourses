@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "coursePkno": "4811",
+    "title": "體瑜協—銀髮活力體適能運動班(大社觀音)",
+    "organizer": "中華民國體適能瑜珈協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4811",
+    "district": "大社區",
+    "bestCandidate": {
+      "score": 6,
+      "reasons": [
+        "辦理日期重疊",
+        "活動與課程名稱高度相近"
+      ],
+      "activityPkno": "44840",
+      "title": "中華民國體適能瑜珈協會—活力體適能運動班",
+      "organizer": "",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44840&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 6，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3958",
+    "title": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
+    "organizer": "中華民國體適能瑜珈協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3958",
+    "district": "永安區",
+    "bestCandidate": {
+      "score": 6,
+      "reasons": [
+        "辦理日期重疊",
+        "活動與課程名稱高度相近"
+      ],
+      "activityPkno": "44840",
+      "title": "中華民國體適能瑜珈協會—活力體適能運動班",
+      "organizer": "",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44840&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 6，未達 7 分門檻"
+  }
+]
