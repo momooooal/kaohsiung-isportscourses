@@ -1427,9 +1427,9 @@
     "location": "新武里活動中心",
     "district": "鳳山區",
     "address": "高雄市鳳山區武營路84巷45號",
-    "time": "1900~2030",
+    "time": "1900~2030、2000~2130",
     "startDate": "2026-04-17",
-    "endDate": "2026-07-13",
+    "endDate": "2026-07-15",
     "registrationStartDate": "2026-04-08",
     "registrationEndDate": "2026-04-16",
     "status": "報名已截止",
@@ -1452,6 +1452,13 @@
         "time": "1900~2030",
         "location": "新武里活動中心",
         "address": "高雄市鳳山區武營路84巷45號"
+      },
+      {
+        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
+        "dates": "1150715",
+        "time": "2000~2130",
+        "location": "新武里活動中心",
+        "address": "高雄市鳳山區武營路84巷45號"
       }
     ],
     "source": "運動i臺灣計畫",
@@ -1461,7 +1468,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150408~1150416",
-    "rawCoursePeriod": "1150417~1150713",
+    "rawCoursePeriod": "1150417~1150715",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -4112,7 +4119,7 @@
     "address": "高雄市前鎮區廣西路357號",
     "time": "0900~1030",
     "startDate": "2026-06-01",
-    "endDate": "2026-08-24",
+    "endDate": "2026-08-31",
     "registrationStartDate": "2026-04-08",
     "registrationEndDate": "2026-05-31",
     "status": "報名已截止",
@@ -4131,7 +4138,7 @@
     "sessions": [
       {
         "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150601~1150824 每周一,五",
+        "dates": "1150601~1150831 每周一,五",
         "time": "0900~1030",
         "location": "廣西路357號",
         "address": "高雄市前鎮區廣西路357號"
@@ -4144,7 +4151,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150408~1150531",
-    "rawCoursePeriod": "1150601~1150824",
+    "rawCoursePeriod": "1150601~1150831",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -8334,7 +8341,7 @@
     "district": "鳳山區",
     "address": "高雄市鳳山區高雄市鳳山區曹公路6號",
     "time": "0930~1100",
-    "startDate": "2026-07-20",
+    "startDate": "2026-07-17",
     "endDate": "2026-10-14",
     "registrationStartDate": "2026-04-08",
     "registrationEndDate": "2026-07-12",
@@ -8354,7 +8361,7 @@
     "sessions": [
       {
         "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150717~1151014 每周一,三",
+        "dates": "1150717~1151014 每周三,五",
         "time": "0930~1100",
         "location": "鳳崗里活動中心",
         "address": "高雄市鳳山區高雄市鳳山區曹公路6號"
@@ -8367,7 +8374,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150408~1150712",
-    "rawCoursePeriod": "1150720~1151014",
+    "rawCoursePeriod": "1150717~1151014",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
