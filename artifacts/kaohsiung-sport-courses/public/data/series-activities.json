@@ -2512,7 +2512,7 @@
     "address": "高雄市左營區世運大道100號",
     "time": "1800~1930",
     "startDate": "2026-08-19",
-    "endDate": "2026-08-28",
+    "endDate": "2026-09-11",
     "status": "進行中",
     "spotsTotal": null,
     "spotsAvailable": null,
@@ -2541,13 +2541,13 @@
         "topic": "匹克球挑戰賽"
       },
       {
-        "dates": "115/08/26",
+        "dates": "115/09/09",
         "time": "1800~1930",
         "address": "高雄市左營區世運大道100號",
         "topic": "匹克球挑戰賽"
       },
       {
-        "dates": "115/08/28",
+        "dates": "115/09/11",
         "time": "1800~1930",
         "address": "高雄市左營區世運大道100號",
         "topic": "匹克球挑戰賽"
@@ -2560,7 +2560,7 @@
     "sourceVerified": true,
     "county": "高雄市",
     "countyVerified": true,
-    "rawActivityPeriod": "1150819~1150828"
+    "rawActivityPeriod": "1150819~1150911"
   },
   {
     "id": "series-44878",
