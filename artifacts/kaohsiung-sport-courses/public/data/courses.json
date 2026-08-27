@@ -6442,7 +6442,7 @@
     "address": "高雄市左營區立信路22號2樓",
     "time": "1815~1945",
     "startDate": "2026-07-03",
-    "endDate": "2026-09-27",
+    "endDate": "2026-10-02",
     "registrationStartDate": "2026-05-31",
     "registrationEndDate": "2026-06-01",
     "status": "報名已截止",
@@ -6475,7 +6475,14 @@
       },
       {
         "topic": "Zumba我最搖擺(第三梯次)",
-        "dates": "9月4,6,11,13,18,20,24,27日",
+        "dates": "9月4,6,11,13,18,20,27日",
+        "time": "1815~1945",
+        "location": "新上新中新下新光里聯合活動中心2樓",
+        "address": "高雄市左營區立信路22號2樓"
+      },
+      {
+        "topic": "Zumba我最搖擺(第三梯次)",
+        "dates": "1151002",
         "time": "1815~1945",
         "location": "新上新中新下新光里聯合活動中心2樓",
         "address": "高雄市左營區立信路22號2樓"
@@ -6488,7 +6495,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44834&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150531~1150601",
-    "rawCoursePeriod": "1150703~1150927",
+    "rawCoursePeriod": "1150703~1151002",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -7984,6 +7991,20 @@
       {
         "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
         "dates": "1151007",
+        "time": "0930~1100",
+        "location": "永安中正堂",
+        "address": "高雄市永安區永安里永安路43號"
+      },
+      {
+        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
+        "dates": "1150908",
+        "time": "0930~1100",
+        "location": "永安中正堂",
+        "address": "高雄市永安區永安里永安路43號"
+      },
+      {
+        "topic": "體瑜協—銀髮活力體適能運動班(永安中正堂)",
+        "dates": "1150915",
         "time": "0930~1100",
         "location": "永安中正堂",
         "address": "高雄市永安區永安里永安路43號"
