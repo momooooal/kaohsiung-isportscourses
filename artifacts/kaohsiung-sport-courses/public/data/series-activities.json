@@ -206,60 +206,6 @@
     "rawActivityPeriod": "1150329"
   },
   {
-    "id": "series-44873",
-    "itemType": "series-activity",
-    "activityPkno": "44873",
-    "activityNo": "A000025053",
-    "title": "WePlay 運動探索節",
-    "category": "親子活動",
-    "categorySource": "official-api",
-    "location": "高雄市鳳山區三多一路1號",
-    "district": "鳳山區",
-    "districts": [
-      "鳳山區"
-    ],
-    "address": "高雄市鳳山區三多一路1號",
-    "time": "1100~1700、0800~1700",
-    "startDate": "2026-04-03",
-    "endDate": "2026-08-30",
-    "status": "進行中",
-    "spotsTotal": null,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "不適用",
-    "description": "本活動以「多元運動體驗」與「全民參與」為核心，透過低門檻、趣味化及適合各年齡層的體適能挑戰站，讓市民在輕鬆互動中體驗運動的多樣性，培養規律身體活動習慣。活動結合衛武營園區環境，設置體驗區、反應訓練、平衡挑戰與親子合作任務等，提升市民對基礎身體素質的認識與自我覺察。透過遊戲化參與方式，打造易參與、可重複、具吸引力的全民運動推廣活動，增進城市對運動的支持度與參與熱度。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44873&ACT_SOURCE_TP_CD=02",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44873&ACT_SOURCE_TP_CD=02",
-    "activityWebsite": "",
-    "organizer": "高雄市政府運動發展局",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "",
-    "contactName": "高雄市政府運動發展局 呂孟珊 (07)5813680#408",
-    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
-    "sessions": [
-      {
-        "dates": "115/04/03~115/04/06",
-        "time": "1100~1700",
-        "address": "高雄市鳳山區三多一路1號",
-        "topic": "WePlay 運動探索節"
-      },
-      {
-        "dates": "115/08/30~115/08/30",
-        "time": "0800~1700",
-        "address": "高雄市鳳山區三多一路1號",
-        "topic": "WePlay 運動探索節"
-      }
-    ],
-    "topics": [
-      "WePlay 運動探索節"
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "county": "高雄市",
-    "countyVerified": true,
-    "rawActivityPeriod": "1150403~1150830"
-  },
-  {
     "id": "series-44887",
     "itemType": "series-activity",
     "activityPkno": "44887",
@@ -2978,6 +2924,54 @@
     "county": "高雄市",
     "countyVerified": true,
     "rawActivityPeriod": "1151004"
+  },
+  {
+    "id": "series-44873",
+    "itemType": "series-activity",
+    "activityPkno": "44873",
+    "activityNo": "A000025053",
+    "title": "2026高雄樂齡運動會",
+    "category": "銀髮族活動",
+    "categorySource": "official-api",
+    "location": "高雄市前鎮區成功二路39號",
+    "district": "前鎮區",
+    "districts": [
+      "前鎮區"
+    ],
+    "address": "高雄市前鎮區成功二路39號",
+    "time": "1000~1700",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-18",
+    "status": "即將開始",
+    "spotsTotal": null,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "不適用",
+    "description": "樂齡五大項體驗：邀請民間團體共同推展，規劃球類、健康有氧、律動舞蹈、武術氣功與阻力運動的示範及體驗。闖關集章活動：設置至少五個趣味關卡，每日發放一千張闖關卡，民眾集滿五個章即可兌換限量紀念品。",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44873&ACT_SOURCE_TP_CD=02",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44873&ACT_SOURCE_TP_CD=02",
+    "activityWebsite": "",
+    "organizer": "高雄市政府運動發展局",
+    "targetAudience": "不限制參與對象及比例",
+    "studentCategory": "",
+    "contactName": "高雄市政府運動發展局 呂孟珊 (07)5813680#408",
+    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
+    "sessions": [
+      {
+        "dates": "115/10/16~115/10/18",
+        "time": "1000~1700",
+        "address": "高雄市前鎮區成功二路39號",
+        "topic": "2026高雄樂齡運動會"
+      }
+    ],
+    "topics": [
+      "2026高雄樂齡運動會"
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "county": "高雄市",
+    "countyVerified": true,
+    "rawActivityPeriod": "1151016~1151018"
   },
   {
     "id": "series-44872",
