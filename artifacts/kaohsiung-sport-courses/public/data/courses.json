@@ -5091,7 +5091,7 @@
     "address": "高雄市苓雅區建軍路270、272、274號騎樓",
     "time": "0900~1030",
     "startDate": "2026-06-12",
-    "endDate": "2026-09-09",
+    "endDate": "2026-09-11",
     "registrationStartDate": "2026-04-29",
     "registrationEndDate": "2026-04-29",
     "status": "報名已截止",
@@ -5135,6 +5135,13 @@
         "time": "0900~1030",
         "location": "建軍里辦公處",
         "address": "高雄市苓雅區建軍路270、272、274號騎樓"
+      },
+      {
+        "topic": "建軍里運動班-舞蹈(銀髮A)",
+        "dates": "1150911",
+        "time": "0900~1030",
+        "location": "建軍里辦公處",
+        "address": "高雄市苓雅區建軍路270、272、274號騎樓"
       }
     ],
     "source": "運動i臺灣計畫",
@@ -5144,7 +5151,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
-    "rawCoursePeriod": "1150612~1150909",
+    "rawCoursePeriod": "1150612~1150911",
     "matchScore": 27,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -5374,7 +5381,7 @@
     "address": "高雄市桃源區桃源里北進巷180號",
     "time": "1830~2000",
     "startDate": "2026-06-22",
-    "endDate": "2026-10-12",
+    "endDate": "2026-10-15",
     "registrationStartDate": "2026-04-29",
     "registrationEndDate": "2026-04-29",
     "status": "報名已截止",
@@ -5414,7 +5421,7 @@
       },
       {
         "topic": "桃源里運動班-體適能(一般)",
-        "dates": "1150903~1151012 每周一,四",
+        "dates": "1150907~1151015 每周一,四",
         "time": "1830~2000",
         "location": "桃源區運動球場",
         "address": "高雄市桃源區桃源里北進巷180號"
@@ -5427,7 +5434,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
-    "rawCoursePeriod": "1150622~1151012",
+    "rawCoursePeriod": "1150622~1151015",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
