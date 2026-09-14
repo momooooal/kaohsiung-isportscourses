@@ -3447,18 +3447,17 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "左營運動中心-全民瘋運動",
+    "activityName": "全民瘋運動",
     "activityPkno": "44823",
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44823&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150414~1150430",
     "rawCoursePeriod": "1150513~1150805",
-    "matchScore": 23,
+    "matchScore": 19,
     "matchReasons": [
       "官方場次地址完全相同",
       "官方場次主題完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
+      "辦理日期重疊"
     ]
   },
   {
