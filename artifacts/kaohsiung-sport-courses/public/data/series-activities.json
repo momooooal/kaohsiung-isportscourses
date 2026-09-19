@@ -2493,15 +2493,16 @@
     "category": "其他球類",
     "categorySource": "official-api",
     "location": "高雄市左營區世運大道100號",
-    "district": "左營區",
+    "district": "多區辦理",
     "districts": [
-      "左營區"
+      "左營區",
+      "鳥松區"
     ],
     "address": "高雄市左營區世運大道100號",
-    "time": "1800~1930",
+    "time": "1800~1930、0900~1030、1030~1200",
     "startDate": "2026-08-19",
-    "endDate": "2026-09-11",
-    "status": "已結束",
+    "endDate": "2026-09-20",
+    "status": "進行中",
     "spotsTotal": null,
     "spotsAvailable": null,
     "fee": "未提供",
@@ -2539,6 +2540,18 @@
         "time": "1800~1930",
         "address": "高雄市左營區世運大道100號",
         "topic": "匹克球挑戰賽"
+      },
+      {
+        "dates": "115/09/20",
+        "time": "0900~1030",
+        "address": "高雄市鳥松區松埔北巷32號之12",
+        "topic": "匹克球挑戰賽"
+      },
+      {
+        "dates": "115/09/20",
+        "time": "1030~1200",
+        "address": "高雄市鳥松區松埔北巷32號之12",
+        "topic": "匹克球挑戰賽"
       }
     ],
     "topics": [
@@ -2548,7 +2561,7 @@
     "sourceVerified": true,
     "county": "高雄市",
     "countyVerified": true,
-    "rawActivityPeriod": "1150819~1150911"
+    "rawActivityPeriod": "1150819~1150920"
   },
   {
     "id": "series-44878",
