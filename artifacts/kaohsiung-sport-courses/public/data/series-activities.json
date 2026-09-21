@@ -2934,6 +2934,54 @@
     "rawActivityPeriod": "1151003"
   },
   {
+    "id": "series-44813",
+    "itemType": "series-activity",
+    "activityPkno": "44813",
+    "activityNo": "A000024993",
+    "title": "全國登山日—揪伴港都登山趣",
+    "category": "登山健行",
+    "categorySource": "official-api",
+    "location": "高雄市大社區神農里翠屏路110號",
+    "district": "大社區",
+    "districts": [
+      "大社區"
+    ],
+    "address": "高雄市大社區神農里翠屏路110號",
+    "time": "0800~1200",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-03",
+    "status": "即將開始",
+    "spotsTotal": null,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "不適用",
+    "description": "將於115年10月1日至10月25日期間擇一日，於觀音山辦理「全國登山日—揪伴港都登山趣」活動。活動以運動結合環境永續為核心，傳遞正確的運動知能與觀念，鼓勵民眾在享受運動樂趣的同時，也能一同守護自然生態。並串聯多方通路，規劃多元且豐富的主題攤位闖關活動。歡迎對登山活動有興趣，且具備獨立行走能力與中等強度體能的民眾踴躍參與，共同體驗運動平權與多元共融。",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44813&ACT_SOURCE_TP_CD=02",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44813&ACT_SOURCE_TP_CD=02",
+    "activityWebsite": "",
+    "organizer": "國立高雄科技大學",
+    "targetAudience": "不限制參與對象及比例",
+    "studentCategory": "",
+    "contactName": "國立高雄科技大學 袁安兒 (07)3814526#13529",
+    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
+    "sessions": [
+      {
+        "dates": "115/10/03",
+        "time": "0800~1200",
+        "address": "高雄市大社區神農里翠屏路110號",
+        "topic": "全國登山日—揪伴港都登山健行趣"
+      }
+    ],
+    "topics": [
+      "全國登山日—揪伴港都登山健行趣"
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "county": "高雄市",
+    "countyVerified": true,
+    "rawActivityPeriod": "1151003"
+  },
+  {
     "id": "series-44855",
     "itemType": "series-activity",
     "activityPkno": "44855",
@@ -3130,7 +3178,7 @@
     "itemType": "series-activity",
     "activityPkno": "44836",
     "activityNo": "A000025016",
-    "title": "2026風行盃年終賽",
+    "title": "2026風行盃迷你網球年終賽",
     "category": "網球活動",
     "categorySource": "official-api",
     "location": "高雄市鳳山區立志街281號",
@@ -3147,7 +3195,7 @@
     "spotsAvailable": null,
     "fee": "須收取費用，實際費用請洽活動主辦單位",
     "instructor": "不適用",
-    "description": "[2026風行盃UTR年終賽]",
+    "description": "[2026風行盃迷你網球年終賽]",
     "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44836&ACT_SOURCE_TP_CD=02",
     "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44836&ACT_SOURCE_TP_CD=02",
     "activityWebsite": "",
@@ -3161,64 +3209,16 @@
         "dates": "10月17,18日",
         "time": "0900~1700",
         "address": "高雄市鳳山區立志街281號",
-        "topic": "2026風行盃年終賽"
+        "topic": "2026風行盃迷你網球年終賽"
       }
     ],
     "topics": [
-      "2026風行盃年終賽"
+      "2026風行盃迷你網球年終賽"
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
     "county": "高雄市",
     "countyVerified": true,
     "rawActivityPeriod": "1151017~1151018"
-  },
-  {
-    "id": "series-44813",
-    "itemType": "series-activity",
-    "activityPkno": "44813",
-    "activityNo": "A000024993",
-    "title": "全國登山日—揪伴港都登山趣",
-    "category": "登山健行",
-    "categorySource": "official-api",
-    "location": "高雄市大社區翠屏路110號",
-    "district": "大社區",
-    "districts": [
-      "大社區"
-    ],
-    "address": "高雄市大社區翠屏路110號",
-    "time": "0900~1200",
-    "startDate": "2026-10-25",
-    "endDate": "2026-10-25",
-    "status": "即將開始",
-    "spotsTotal": null,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "不適用",
-    "description": "將於115年10月1日至10月25日期間擇一日，於觀音山辦理「全國登山日—揪伴港都登山趣」活動。活動以運動結合環境永續為核心，傳遞正確的運動知能與觀念，鼓勵民眾在享受運動樂趣的同時，也能一同守護自然生態。並串聯多方通路，規劃多元且豐富的主題攤位闖關活動。歡迎對登山活動有興趣，且具備獨立行走能力與中等強度體能的民眾踴躍參與，共同體驗運動平權與多元共融。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44813&ACT_SOURCE_TP_CD=02",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44813&ACT_SOURCE_TP_CD=02",
-    "activityWebsite": "",
-    "organizer": "國立高雄科技大學",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "",
-    "contactName": "國立高雄科技大學 袁安兒 (07)3814526#13529",
-    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
-    "sessions": [
-      {
-        "dates": "115/10/25",
-        "time": "0900~1200",
-        "address": "高雄市大社區翠屏路110號",
-        "topic": "全國登山日—揪伴港都登山趣"
-      }
-    ],
-    "topics": [
-      "全國登山日—揪伴港都登山趣"
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "county": "高雄市",
-    "countyVerified": true,
-    "rawActivityPeriod": "1151025"
   }
 ]
