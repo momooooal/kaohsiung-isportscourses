@@ -1427,9 +1427,9 @@
     "location": "新武里活動中心",
     "district": "鳳山區",
     "address": "高雄市鳳山區武營路84巷45號",
-    "time": "1900~2030、2000~2130",
+    "time": "1900~2030",
     "startDate": "2026-04-17",
-    "endDate": "2026-07-15",
+    "endDate": "2026-07-13",
     "registrationStartDate": "2026-04-08",
     "registrationEndDate": "2026-04-16",
     "status": "報名已截止",
@@ -1452,13 +1452,6 @@
         "time": "1900~2030",
         "location": "新武里活動中心",
         "address": "高雄市鳳山區武營路84巷45號"
-      },
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150715",
-        "time": "2000~2130",
-        "location": "新武里活動中心",
-        "address": "高雄市鳳山區武營路84巷45號"
       }
     ],
     "source": "運動i臺灣計畫",
@@ -1468,7 +1461,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150408~1150416",
-    "rawCoursePeriod": "1150417~1150715",
+    "rawCoursePeriod": "1150417~1150713",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -5598,7 +5591,7 @@
     "address": "高雄市前鎮區翠亨北路原住民聚會所",
     "time": "0930~1100",
     "startDate": "2026-07-01",
-    "endDate": "2026-09-25",
+    "endDate": "2026-09-30",
     "registrationStartDate": "2026-04-08",
     "registrationEndDate": "2026-06-30",
     "status": "報名已截止",
@@ -5617,7 +5610,7 @@
     "sessions": [
       {
         "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150701~1150925 每周三,五",
+        "dates": "1150701~1150930 每周三,五",
         "time": "0930~1100",
         "location": "原住民聚會所",
         "address": "高雄市前鎮區翠亨北路原住民聚會所"
@@ -5630,7 +5623,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150408~1150630",
-    "rawCoursePeriod": "1150701~1150925",
+    "rawCoursePeriod": "1150701~1150930",
     "matchScore": 17,
     "matchReasons": [
       "官方場次主題完全相同",
