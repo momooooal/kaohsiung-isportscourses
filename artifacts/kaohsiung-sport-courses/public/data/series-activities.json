@@ -107,7 +107,7 @@
     "itemType": "series-activity",
     "activityPkno": "44835",
     "activityNo": "A000025015",
-    "title": "女力量・心呼吸",
+    "title": "女力量 心呼吸",
     "category": "運動樂活",
     "categorySource": "official-api",
     "location": "高雄市苓雅區中正一路99號",
@@ -116,15 +116,15 @@
       "苓雅區"
     ],
     "address": "高雄市苓雅區中正一路99號",
-    "time": "1600~2100、1300~1700",
+    "time": "1600~2100、1630~1900",
     "startDate": "2026-03-22",
-    "endDate": "2026-10-11",
+    "endDate": "2026-10-03",
     "status": "進行中",
     "spotsTotal": null,
     "spotsAvailable": null,
     "fee": "須收取費用，實際費用請洽活動主辦單位",
     "instructor": "不適用",
-    "description": "一、健康講座: 包括飲食控管、體態調整或親子運動等系列內容。",
+    "description": "一、健康講座(三月): 包括飲食控管、體態調整或親子運動等系列內容。",
     "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44835&ACT_SOURCE_TP_CD=02",
     "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44835&ACT_SOURCE_TP_CD=02",
     "activityWebsite": "",
@@ -141,8 +141,8 @@
         "topic": "女力量・心呼吸 - 靜呼吸"
       },
       {
-        "dates": "10月11日",
-        "time": "1300~1700",
+        "dates": "10月3日",
+        "time": "1630~1900",
         "address": "高雄市苓雅區中正一路96號",
         "topic": "女力量・心呼吸 - 動呼吸"
       }
@@ -155,7 +155,7 @@
     "sourceVerified": true,
     "county": "高雄市",
     "countyVerified": true,
-    "rawActivityPeriod": "1150322~1151011"
+    "rawActivityPeriod": "1150322~1151003"
   },
   {
     "id": "series-44818",
