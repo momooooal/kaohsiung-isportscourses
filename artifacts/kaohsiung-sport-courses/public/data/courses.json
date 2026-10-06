@@ -3313,7 +3313,7 @@
     "address": "高雄市左營區果峰街8號",
     "time": "0930~1100、0900~1200、0900~1030",
     "startDate": "2026-05-12",
-    "endDate": "2026-10-05",
+    "endDate": "2026-10-07",
     "registrationStartDate": "2026-04-29",
     "registrationEndDate": "2026-04-29",
     "status": "報名已截止",
@@ -3360,7 +3360,7 @@
       },
       {
         "topic": "銀髮運動班-體適能2",
-        "dates": "1150930~1151005 每周一,三",
+        "dates": "1150930~1151007 每周一,三",
         "time": "0930~1100",
         "location": "寶隆社區活動中心",
         "address": "高雄市甲仙區寶隆里嶺頂巷1號"
@@ -3373,7 +3373,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
-    "rawCoursePeriod": "1150512~1151005",
+    "rawCoursePeriod": "1150512~1151007",
     "matchScore": 27,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -4531,9 +4531,9 @@
     "location": "甲仙和安活動中心",
     "district": "甲仙區",
     "address": "高雄市甲仙區中山路56號",
-    "time": "0830~1000、0900~1030",
+    "time": "0830~1000、0900~1030、0950~1120",
     "startDate": "2026-06-03",
-    "endDate": "2026-10-05",
+    "endDate": "2026-10-12",
     "registrationStartDate": "2026-04-29",
     "registrationEndDate": "2026-04-29",
     "status": "報名已截止",
@@ -4591,6 +4591,20 @@
         "time": "0900~1030",
         "location": "甲仙和安活動中心",
         "address": "高雄市甲仙區中山路56號"
+      },
+      {
+        "topic": "銀髮運動班-體適能",
+        "dates": "1151006",
+        "time": "0950~1120",
+        "location": "甲仙和安活動中心",
+        "address": "高雄市甲仙區中山路56號"
+      },
+      {
+        "topic": "銀髮運動班-體適能",
+        "dates": "1151012",
+        "time": "0900~1030",
+        "location": "甲仙和安活動中心",
+        "address": "高雄市甲仙區中山路56號"
       }
     ],
     "source": "運動i臺灣計畫",
@@ -4600,7 +4614,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
-    "rawCoursePeriod": "1150603~1151005",
+    "rawCoursePeriod": "1150603~1151012",
     "matchScore": 27,
     "matchReasons": [
       "官方場次地址完全相同",
