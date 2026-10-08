@@ -2289,8 +2289,8 @@
     "itemType": "series-activity",
     "activityPkno": "44868",
     "activityNo": "A000025048",
-    "title": "GO Kaohsiung！全民一起健走",
-    "category": "親子活動",
+    "title": "GO Pickleball！全民一起玩匹克球",
+    "category": "其他球類",
     "categorySource": "official-api",
     "location": "高雄市鳳山區新強里15鄰輜汽路281號",
     "district": "多區辦理",
@@ -2299,15 +2299,15 @@
       "苓雅區"
     ],
     "address": "高雄市鳳山區新強里15鄰輜汽路281號",
-    "time": "0800~1700",
+    "time": "0800~1700、0900~1200、1400~1700",
     "startDate": "2026-08-01",
-    "endDate": "2026-10-10",
+    "endDate": "2026-10-25",
     "status": "進行中",
     "spotsTotal": null,
     "spotsAvailable": null,
     "fee": "未提供",
     "instructor": "不適用",
-    "description": "讓我們一起用雙腳丈量城市，燃燒熱情、提升體力，打造活力滿點的健康高雄！",
+    "description": "想嘗試近期熱門的匹克球運動嗎？無論是初次接觸的新手，還是喜歡運動的朋友，都歡迎一起來體驗！",
     "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44868&ACT_SOURCE_TP_CD=02",
     "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44868&ACT_SOURCE_TP_CD=02",
     "activityWebsite": "",
@@ -2324,21 +2324,39 @@
         "topic": "兒童節主題活動"
       },
       {
-        "dates": "115/10/10~115/10/10",
-        "time": "0800~1700",
-        "address": "高雄市苓雅區五福一路67號",
-        "topic": "國慶日主題活動"
+        "dates": "115/10/24",
+        "time": "0900~1200",
+        "address": "高雄市苓雅區中正一路96號",
+        "topic": "匹克球系列體驗"
+      },
+      {
+        "dates": "115/10/24",
+        "time": "1400~1700",
+        "address": "高雄市苓雅區中正一路96號",
+        "topic": "匹克球系列體驗"
+      },
+      {
+        "dates": "115/10/25",
+        "time": "0900~1200",
+        "address": "高雄市苓雅區中正一路96號",
+        "topic": "匹克球系列體驗"
+      },
+      {
+        "dates": "115/10/25",
+        "time": "1400~1700",
+        "address": "高雄市苓雅區中正一路96號",
+        "topic": "匹克球系列體驗"
       }
     ],
     "topics": [
       "兒童節主題活動",
-      "國慶日主題活動"
+      "匹克球系列體驗"
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
     "county": "高雄市",
     "countyVerified": true,
-    "rawActivityPeriod": "1150801~1151010"
+    "rawActivityPeriod": "1150801~1151025"
   },
   {
     "id": "series-44825",
