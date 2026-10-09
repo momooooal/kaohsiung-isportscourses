@@ -8595,9 +8595,9 @@
     "location": "砂崙國小羽球館",
     "district": "茄萣區",
     "address": "高雄市茄萣區文化路81號",
-    "time": "1800~1930、0830~1000、1930~2100",
+    "time": "1800~1930、0830~1000、1930~2100、0800~1000",
     "startDate": "2026-07-29",
-    "endDate": "2026-10-17",
+    "endDate": "2026-10-24",
     "registrationStartDate": "2026-05-21",
     "registrationEndDate": "2026-07-10",
     "status": "報名已截止",
@@ -8781,6 +8781,13 @@
         "time": "0830~1000",
         "location": "砂崙國小羽球館",
         "address": "高雄市茄萣區文化路81號"
+      },
+      {
+        "topic": "驗收成果展比賽",
+        "dates": "1151024",
+        "time": "0800~1000",
+        "location": "砂崙國小羽球館",
+        "address": "高雄市茄萣區文化路81號"
       }
     ],
     "source": "運動i臺灣計畫",
@@ -8790,7 +8797,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150521~1150710",
-    "rawCoursePeriod": "1150729~1151017",
+    "rawCoursePeriod": "1150729~1151024",
     "matchScore": 19,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -8806,9 +8813,9 @@
     "location": "砂崙國小羽球館",
     "district": "茄萣區",
     "address": "高雄市茄萣區文化路81號",
-    "time": "1930~2100、1000~1130",
+    "time": "1930~2100、1000~1130、1000~1200",
     "startDate": "2026-07-31",
-    "endDate": "2026-10-17",
+    "endDate": "2026-10-24",
     "registrationStartDate": "2026-05-21",
     "registrationEndDate": "2026-07-10",
     "status": "報名已截止",
@@ -8992,6 +8999,13 @@
         "time": "1000~1130",
         "location": "砂崙國小羽球館",
         "address": "高雄市茄萣區文化路81號"
+      },
+      {
+        "topic": "驗收成果展比賽",
+        "dates": "1151024",
+        "time": "1000~1200",
+        "location": "砂崙國小羽球館",
+        "address": "高雄市茄萣區文化路81號"
       }
     ],
     "source": "運動i臺灣計畫",
@@ -9001,7 +9015,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150521~1150710",
-    "rawCoursePeriod": "1150731~1151017",
+    "rawCoursePeriod": "1150731~1151024",
     "matchScore": 19,
     "matchReasons": [
       "官方場次地址完全相同",
