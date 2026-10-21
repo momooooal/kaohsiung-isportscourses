@@ -1241,8 +1241,9 @@
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150408~1150414",
     "rawCoursePeriod": "1150415~1150717",
-    "matchScore": 17,
+    "matchScore": 29,
     "matchReasons": [
+      "官方場次地址完全相同",
       "官方場次主題完全相同",
       "辦理單位完全相同",
       "辦理日期重疊",
@@ -5638,8 +5639,9 @@
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150408~1150630",
     "rawCoursePeriod": "1150701~1150930",
-    "matchScore": 17,
+    "matchScore": 29,
     "matchReasons": [
+      "官方場次地址完全相同",
       "官方場次主題完全相同",
       "辦理單位完全相同",
       "辦理日期重疊",
@@ -8318,7 +8320,7 @@
     "address": "高雄市鳳山區武營路84巷45號",
     "time": "1900~2030",
     "startDate": "2026-07-17",
-    "endDate": "2026-10-19",
+    "endDate": "2026-10-23",
     "registrationStartDate": "2026-04-29",
     "registrationEndDate": "2026-04-29",
     "status": "報名已截止",
@@ -8362,6 +8364,13 @@
         "time": "1900~2030",
         "location": "鳳山新武里活動中心",
         "address": "高雄市鳳山區武營路84巷45號"
+      },
+      {
+        "topic": "新武里運動班-體適能(銀髮)",
+        "dates": "10月21,23日",
+        "time": "1900~2030",
+        "location": "鳳山新武里活動中心",
+        "address": "高雄市鳳山區武營路84巷45號"
       }
     ],
     "source": "運動i臺灣計畫",
@@ -8371,7 +8380,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
-    "rawCoursePeriod": "1150717~1151019",
+    "rawCoursePeriod": "1150717~1151023",
     "matchScore": 27,
     "matchReasons": [
       "官方場次地址完全相同",
