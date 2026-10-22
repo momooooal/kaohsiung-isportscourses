@@ -2455,6 +2455,102 @@
     "rawActivityPeriod": "1150808"
   },
   {
+    "id": "series-44875",
+    "itemType": "series-activity",
+    "activityPkno": "44875",
+    "activityNo": "A000025055",
+    "title": "TGF社會聯賽第一梯次",
+    "category": "其他運動",
+    "categorySource": "official-api",
+    "location": "高雄市前鎮區班超路63號",
+    "district": "前鎮區",
+    "districts": [
+      "前鎮區"
+    ],
+    "address": "高雄市前鎮區班超路63號",
+    "time": "0800~1200",
+    "startDate": "2026-08-09",
+    "endDate": "2026-08-09",
+    "status": "已結束",
+    "spotsTotal": null,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "不適用",
+    "description": "賽事提供完善的分級制度（包含公開組、一般組、熱血挑戰與運動組、女力組及港都南人與南孩組），滿足不同實力球隊的需求。",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44875&ACT_SOURCE_TP_CD=02",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44875&ACT_SOURCE_TP_CD=02",
+    "activityWebsite": "",
+    "organizer": "高雄市政府運動發展局",
+    "targetAudience": "不限制參與對象及比例",
+    "studentCategory": "",
+    "contactName": "高雄市政府運動發展局 楊舒涵 (07)5813680#406",
+    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
+    "sessions": [
+      {
+        "dates": "115/08/09",
+        "time": "0800~1200",
+        "address": "高雄市前鎮區班超路63號",
+        "topic": "TGF社會聯賽第一梯次"
+      }
+    ],
+    "topics": [
+      "TGF社會聯賽第一梯次"
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "county": "高雄市",
+    "countyVerified": true,
+    "rawActivityPeriod": "1150809"
+  },
+  {
+    "id": "series-44876",
+    "itemType": "series-activity",
+    "activityPkno": "44876",
+    "activityNo": "A000025056",
+    "title": "TGF社會聯賽第二梯次",
+    "category": "其他運動",
+    "categorySource": "official-api",
+    "location": "高雄市前鎮區班超路63號",
+    "district": "前鎮區",
+    "districts": [
+      "前鎮區"
+    ],
+    "address": "高雄市前鎮區班超路63號",
+    "time": "1300~1700",
+    "startDate": "2026-08-09",
+    "endDate": "2026-08-09",
+    "status": "已結束",
+    "spotsTotal": null,
+    "spotsAvailable": null,
+    "fee": "未提供",
+    "instructor": "不適用",
+    "description": "賽事提供完善的分級制度（包含公開組、一般組、熱血挑戰與運動組、女力組及港都南人與南孩組），滿足不同實力球隊的需求。",
+    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44876&ACT_SOURCE_TP_CD=02",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44876&ACT_SOURCE_TP_CD=02",
+    "activityWebsite": "",
+    "organizer": "高雄市政府運動發展局",
+    "targetAudience": "不限制參與對象及比例",
+    "studentCategory": "",
+    "contactName": "高雄市政府運動發展局 楊舒涵 (07)5813680#406",
+    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
+    "sessions": [
+      {
+        "dates": "115/08/09",
+        "time": "1300~1700",
+        "address": "高雄市前鎮區班超路63號",
+        "topic": "村里動動動運動特區第二梯次"
+      }
+    ],
+    "topics": [
+      "村里動動動運動特區第二梯次"
+    ],
+    "source": "運動i臺灣計畫",
+    "sourceVerified": true,
+    "county": "高雄市",
+    "countyVerified": true,
+    "rawActivityPeriod": "1150809"
+  },
+  {
     "id": "series-44830",
     "itemType": "series-activity",
     "activityPkno": "44830",
@@ -2636,102 +2732,6 @@
     "county": "高雄市",
     "countyVerified": true,
     "rawActivityPeriod": "1150901~1150909"
-  },
-  {
-    "id": "series-44875",
-    "itemType": "series-activity",
-    "activityPkno": "44875",
-    "activityNo": "A000025055",
-    "title": "村里動動動運動特區第一梯次",
-    "category": "其他運動",
-    "categorySource": "official-api",
-    "location": "高雄市苓雅區中正一路99號",
-    "district": "苓雅區",
-    "districts": [
-      "苓雅區"
-    ],
-    "address": "高雄市苓雅區中正一路99號",
-    "time": "0800~1700",
-    "startDate": "2026-09-05",
-    "endDate": "2026-09-05",
-    "status": "已結束",
-    "spotsTotal": null,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "不適用",
-    "description": "結合「運動村里」常態性運動課程，辨理學習成果發表。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44875&ACT_SOURCE_TP_CD=02",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44875&ACT_SOURCE_TP_CD=02",
-    "activityWebsite": "",
-    "organizer": "高雄市政府運動發展局",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "",
-    "contactName": "高雄市政府運動發展局 楊舒涵 (07)5813680#406",
-    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
-    "sessions": [
-      {
-        "dates": "115/09/05",
-        "time": "0800~1700",
-        "address": "高雄市苓雅區中正一路99號",
-        "topic": "村里動動動運動特區第一梯次"
-      }
-    ],
-    "topics": [
-      "村里動動動運動特區第一梯次"
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "county": "高雄市",
-    "countyVerified": true,
-    "rawActivityPeriod": "1150905"
-  },
-  {
-    "id": "series-44876",
-    "itemType": "series-activity",
-    "activityPkno": "44876",
-    "activityNo": "A000025056",
-    "title": "村里動動動運動特區第二梯次",
-    "category": "其他運動",
-    "categorySource": "official-api",
-    "location": "高雄市苓雅區中正一路99號",
-    "district": "苓雅區",
-    "districts": [
-      "苓雅區"
-    ],
-    "address": "高雄市苓雅區中正一路99號",
-    "time": "0800~1700",
-    "startDate": "2026-09-06",
-    "endDate": "2026-09-06",
-    "status": "已結束",
-    "spotsTotal": null,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "不適用",
-    "description": "結合「運動村里」常態性運動課程，辨理學習成果發表。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44876&ACT_SOURCE_TP_CD=02",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=2&PKNO=44876&ACT_SOURCE_TP_CD=02",
-    "activityWebsite": "",
-    "organizer": "高雄市政府運動發展局",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "",
-    "contactName": "高雄市政府運動發展局 楊舒涵 (07)5813680#406",
-    "contactPhone": "全國登山日北部場/南部場 主辦單位電話：(02)2594-2108",
-    "sessions": [
-      {
-        "dates": "115/09/06",
-        "time": "0800~1700",
-        "address": "高雄市苓雅區中正一路99號",
-        "topic": "村里動動動運動特區第二梯次"
-      }
-    ],
-    "topics": [
-      "村里動動動運動特區第二梯次"
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "county": "高雄市",
-    "countyVerified": true,
-    "rawActivityPeriod": "1150906"
   },
   {
     "id": "series-44874",
