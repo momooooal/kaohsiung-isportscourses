@@ -8320,7 +8320,7 @@
     "address": "高雄市鳳山區武營路84巷45號",
     "time": "1900~2030",
     "startDate": "2026-07-17",
-    "endDate": "2026-10-23",
+    "endDate": "2026-10-28",
     "registrationStartDate": "2026-04-29",
     "registrationEndDate": "2026-04-29",
     "status": "報名已截止",
@@ -8360,14 +8360,21 @@
       },
       {
         "topic": "新武里運動班-體適能(銀髮)",
-        "dates": "1150810~1150921 每周一,五",
+        "dates": "1150807~1150821 每周一,五",
         "time": "1900~2030",
         "location": "鳳山新武里活動中心",
         "address": "高雄市鳳山區武營路84巷45號"
       },
       {
         "topic": "新武里運動班-體適能(銀髮)",
-        "dates": "10月21,23日",
+        "dates": "10月21,28日",
+        "time": "1900~2030",
+        "location": "鳳山新武里活動中心",
+        "address": "高雄市鳳山區武營路84巷45號"
+      },
+      {
+        "topic": "新武里運動班-體適能(銀髮)",
+        "dates": "1150828~1150921 每周一,五",
         "time": "1900~2030",
         "location": "鳳山新武里活動中心",
         "address": "高雄市鳳山區武營路84巷45號"
@@ -8380,7 +8387,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
-    "rawCoursePeriod": "1150717~1151023",
+    "rawCoursePeriod": "1150717~1151028",
     "matchScore": 27,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -9324,7 +9331,7 @@
     "location": "德北活動中心",
     "district": "三民區",
     "address": "高雄市三民區德北街170號",
-    "time": "0900~1030",
+    "time": "0900~1030、1330~1500",
     "startDate": "2026-08-05",
     "endDate": "2026-10-30",
     "registrationStartDate": "2026-04-07",
@@ -9352,14 +9359,28 @@
       },
       {
         "topic": "六大主題運動班",
-        "dates": "1150807~1150918 每周五",
+        "dates": "1150807~1150904 每周五",
+        "time": "1330~1500",
+        "location": "德北活動中心",
+        "address": "高雄市三民區德北街170號"
+      },
+      {
+        "topic": "六大主題運動班",
+        "dates": "1150911~1150918 每周五",
         "time": "0900~1030",
         "location": "德北活動中心",
         "address": "高雄市三民區德北街170號"
       },
       {
         "topic": "六大主題運動班",
-        "dates": "1151002~1151030 每周五",
+        "dates": "1151016~1151030 每周五",
+        "time": "0900~1030",
+        "location": "德北活動中心",
+        "address": "高雄市三民區德北街170號"
+      },
+      {
+        "topic": "六大主題運動班",
+        "dates": "1151002~1151002 每周五",
         "time": "0900~1030",
         "location": "德北活動中心",
         "address": "高雄市三民區德北街170號"
@@ -9390,7 +9411,7 @@
     "district": "前金區",
     "address": "高雄市前金區中華三路30號",
     "time": "0820~0950、1530~1700",
-    "startDate": "2026-08-12",
+    "startDate": "2026-08-08",
     "endDate": "2026-10-31",
     "registrationStartDate": "2026-08-01",
     "registrationEndDate": "2026-08-07",
@@ -9410,7 +9431,7 @@
     "sessions": [
       {
         "topic": "銀髮族運動推廣課程",
-        "dates": "1150815~1151031 每周六",
+        "dates": "1150808~1151031 每周六",
         "time": "0820~0950",
         "location": "長生全方位銀髮健身俱樂部",
         "address": "高雄市前金區中華三路30號"
@@ -9430,7 +9451,7 @@
     "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44839&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150801~1150807",
-    "rawCoursePeriod": "1150812~1151031",
+    "rawCoursePeriod": "1150808~1151031",
     "matchScore": 31,
     "matchReasons": [
       "官方場次地址完全相同",
