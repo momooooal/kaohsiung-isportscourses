@@ -36,19 +36,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "高雄市體育總會樂齡運動班-槌球",
-    "activityPkno": "44846",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44846&ACT_SOURCE_TP_CD=02",
+    "activityName": "高雄市體育總會樂齡運動指導班-排舞",
+    "activityPkno": "44847",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44847&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150320~1150401",
     "rawCoursePeriod": "1150406~1150625",
-    "matchScore": 32,
+    "matchScore": 12,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位高度相符",
       "辦理日期重疊",
-      "活動內容包含課程地點",
       "活動與課程名稱高度相近"
     ]
   },
@@ -96,124 +93,17 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "高雄市體育總會婦女運動指導班-多元健身運動",
-    "activityPkno": "44852",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44852&ACT_SOURCE_TP_CD=02",
+    "activityName": "高雄市體育總會樂齡運動指導班-排舞",
+    "activityPkno": "44847",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44847&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150301~1150401",
     "rawCoursePeriod": "1150407~1150630",
-    "matchScore": 32,
+    "matchScore": 12,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位高度相符",
       "辦理日期重疊",
-      "活動內容包含課程地點",
       "活動與課程名稱高度相近"
-    ]
-  },
-  {
-    "id": "course-3979",
-    "coursePkno": "3979",
-    "title": "老當益健運動共學班左營/埤東班",
-    "category": "舞蹈、地板滾球、瑜珈、健行、體適能運動",
-    "location": "左營老人活動中心",
-    "district": "左營區",
-    "address": "高雄市左營區左營區蓮潭路30號",
-    "time": "1400~1530",
-    "startDate": "2026-04-09",
-    "endDate": "2026-07-10",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-04-09",
-    "status": "報名已截止",
-    "spotsTotal": 30,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "宸堉 彥宇",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3979",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3979",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150409~1150710 每周四,五",
-        "time": "1400~1530",
-        "location": "左營老人活動中心",
-        "address": "高雄市左營區左營區蓮潭路30號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150409",
-    "rawCoursePeriod": "1150409~1150710",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
-    "id": "course-3991",
-    "coursePkno": "3991",
-    "title": "老當益健運動共學小港/龍鳳班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "龍鳳宮",
-    "district": "小港區",
-    "address": "高雄市小港區岐山一路30-7號",
-    "time": "0830~1000",
-    "startDate": "2026-04-10",
-    "endDate": "2026-07-13",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-04-09",
-    "status": "報名已截止",
-    "spotsTotal": 30,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "巫承顗 李宥樑",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3991",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3991",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150410~1150713 每周一,五",
-        "time": "0830~1000",
-        "location": "龍鳳宮",
-        "address": "高雄市小港區岐山一路30-7號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150409",
-    "rawCoursePeriod": "1150410~1150713",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
     ]
   },
   {
@@ -330,19 +220,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "水中有氧-銀髮族、健身班",
-    "activityPkno": "44817",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44817&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "攀樹指導員養成班",
+    "activityPkno": "44820",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44820&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150402~1150402",
     "rawCoursePeriod": "1150411~1150627",
-    "matchScore": 31,
+    "matchScore": 8,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
+      "辦理單位完全相同"
     ]
   },
   {
@@ -459,17 +345,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "水中有氧-銀髮族、健身班",
-    "activityPkno": "44817",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44817&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "攀樹指導員養成班",
+    "activityPkno": "44820",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44820&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150407~1150408",
     "rawCoursePeriod": "1150411~1150627",
-    "matchScore": 22,
+    "matchScore": 8,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊"
+      "辦理單位完全相同"
     ]
   },
   {
@@ -586,17 +470,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "水中有氧-銀髮族、健身班",
-    "activityPkno": "44817",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44817&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "攀樹指導員養成班",
+    "activityPkno": "44820",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44820&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150407~1150408",
     "rawCoursePeriod": "1150411~1150627",
-    "matchScore": 22,
+    "matchScore": 8,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊"
+      "辦理單位完全相同"
     ]
   },
   {
@@ -713,19 +595,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "水中有氧-銀髮族、健身班",
-    "activityPkno": "44817",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44817&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "攀樹指導員養成班",
+    "activityPkno": "44820",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44820&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150402~1150402",
     "rawCoursePeriod": "1150412~1150628",
-    "matchScore": 31,
+    "matchScore": 8,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
+      "辦理單位完全相同"
     ]
   },
   {
@@ -842,17 +720,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "水中有氧-銀髮族、健身班",
-    "activityPkno": "44817",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44817&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "攀樹指導員養成班",
+    "activityPkno": "44820",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44820&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150407~1150408",
     "rawCoursePeriod": "1150412~1150628",
-    "matchScore": 22,
+    "matchScore": 8,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊"
+      "辦理單位完全相同"
     ]
   },
   {
@@ -969,76 +845,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "水中有氧-銀髮族、健身班",
-    "activityPkno": "44817",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44817&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "攀樹指導員養成班",
+    "activityPkno": "44820",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44820&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150407~1150408",
     "rawCoursePeriod": "1150412~1150628",
-    "matchScore": 22,
+    "matchScore": 8,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊"
-    ]
-  },
-  {
-    "id": "course-3993",
-    "coursePkno": "3993",
-    "title": "老當益健運動共學班前鎮/ 竹西班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "竹西里社區中心",
-    "district": "前鎮區",
-    "address": "高雄市前鎮區廣東三街73號3 樓",
-    "time": "1330~1500、1500~1630",
-    "startDate": "2026-04-13",
-    "endDate": "2026-07-13",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-04-12",
-    "status": "報名已截止",
-    "spotsTotal": 30,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "鄭蘋",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3993",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3993",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150413~1150713 每周一",
-        "time": "1330~1500",
-        "location": "竹西里社區中心",
-        "address": "高雄市前鎮區廣東三街73號3 樓"
-      },
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150413~1150710 每周五",
-        "time": "1500~1630",
-        "location": "竹西里社區中心",
-        "address": "高雄市前鎮區廣東三街73號3 樓"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150412",
-    "rawCoursePeriod": "1150413~1150713",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
+      "辦理單位完全相同"
     ]
   },
   {
@@ -1078,346 +893,17 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "高雄市體育總會樂齡運動班-外丹功",
-    "activityPkno": "44849",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44849&ACT_SOURCE_TP_CD=02",
+    "activityName": "高雄市體育總會樂齡運動指導班-排舞",
+    "activityPkno": "44847",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44847&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "0000115~0000406",
     "rawCoursePeriod": "1150413~1150702",
-    "matchScore": 32,
+    "matchScore": 12,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位高度相符",
       "辦理日期重疊",
-      "活動內容包含課程地點",
       "活動與課程名稱高度相近"
-    ]
-  },
-  {
-    "id": "course-3992",
-    "coursePkno": "3992",
-    "title": "老當益健運動共學班鳳山/ 武漢班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "武漢里活動中心",
-    "district": "鳳山區",
-    "address": "高雄市鳳山區武營路239巷23號",
-    "time": "1400~1530",
-    "startDate": "2026-04-13",
-    "endDate": "2026-07-01",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-04-12",
-    "status": "報名已截止",
-    "spotsTotal": 30,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "朱純慧 秉洋",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3992",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3992",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150413~1150701 每周一,三",
-        "time": "1400~1530",
-        "location": "武漢里活動中心",
-        "address": "高雄市鳳山區武營路239巷23號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150412",
-    "rawCoursePeriod": "1150413~1150701",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
-    "id": "course-3994",
-    "coursePkno": "3994",
-    "title": "老當益健運動共學班湖內/公館班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "高雄市湖內區公舘社區發展協會",
-    "district": "湖內區",
-    "address": "高雄市湖內區中正路一段53巷1號",
-    "time": "0930~1100",
-    "startDate": "2026-04-14",
-    "endDate": "2026-06-30",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-04-13",
-    "status": "報名已截止",
-    "spotsTotal": 25,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "李坤津 陳姵如",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3994",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3994",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150414~1150701 每周一,二",
-        "time": "0930~1100",
-        "location": "高雄市湖內區公舘社區發展協會",
-        "address": "高雄市湖內區中正路一段53巷1號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150413",
-    "rawCoursePeriod": "1150414~1150630",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
-    "id": "course-3998",
-    "coursePkno": "3998",
-    "title": "老當益健運動共學班鳳山/ 文德班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "鳳山浸信教會",
-    "district": "鳳山區",
-    "address": "高雄市鳳山區文德里文安街18號",
-    "time": "0930~1100",
-    "startDate": "2026-04-15",
-    "endDate": "2026-07-17",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-04-14",
-    "status": "報名已截止",
-    "spotsTotal": 30,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "碧琳",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3998",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3998",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150415~1150717 每周三,五",
-        "time": "0930~1100",
-        "location": "鳳山浸信教會",
-        "address": "高雄市鳳山區文德里文安街18號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150414",
-    "rawCoursePeriod": "1150415~1150717",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
-    "id": "course-4000",
-    "coursePkno": "4000",
-    "title": "老當益健運動共學班六龜/ 中興班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "中興里活動中心",
-    "district": "六龜區",
-    "address": "高雄市六龜區中庄195號",
-    "time": "1430~1600、1000~1130",
-    "startDate": "2026-04-16",
-    "endDate": "2026-07-16",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-04-15",
-    "status": "報名已截止",
-    "spotsTotal": 15,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "鄭漢吾",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4000",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4000",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150416~1150715 每周三",
-        "time": "1430~1600",
-        "location": "中興里活動中心",
-        "address": "高雄市六龜區中庄195號"
-      },
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150416~1150716 每周四",
-        "time": "1000~1130",
-        "location": "中興里活動中心",
-        "address": "高雄市六龜區中庄195號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150415",
-    "rawCoursePeriod": "1150416~1150716",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
-    "id": "course-4001",
-    "coursePkno": "4001",
-    "title": "老當益健運動共學班六龜/ 文武班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "文武里活動中心",
-    "district": "六龜區",
-    "address": "高雄市六龜區光明巷40號",
-    "time": "1400~1530、0930~1100",
-    "startDate": "2026-04-16",
-    "endDate": "2026-07-17",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-04-15",
-    "status": "報名已截止",
-    "spotsTotal": 15,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "鄭漢吾",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4001",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4001",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150416~1150716 每周四",
-        "time": "1400~1530",
-        "location": "文武里活動中心",
-        "address": "高雄市六龜區光明巷40號"
-      },
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150416~1150717 每周五",
-        "time": "0930~1100",
-        "location": "文武里活動中心",
-        "address": "高雄市六龜區光明巷40號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150415",
-    "rawCoursePeriod": "1150416~1150717",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
-    "id": "course-4374",
-    "coursePkno": "4374",
-    "title": "老當益健運動共學班 苓雅/苓雅運動中心班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "苓雅運動中心401教室",
-    "district": "苓雅區",
-    "address": "高雄市苓雅區中正一路96號",
-    "time": "0830~1000",
-    "startDate": "2026-04-16",
-    "endDate": "2026-07-06",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-04-15",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "鄭漢吾",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4374",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4374",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150416~1150706 每周一,四",
-        "time": "0830~1000",
-        "location": "苓雅運動中心401教室",
-        "address": "高雄市苓雅區中正一路96號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150415",
-    "rawCoursePeriod": "1150416~1150706",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
     ]
   },
   {
@@ -1457,19 +943,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
+    "activityName": "全民一起瘋-運動健身舞蹈",
+    "activityPkno": "44821",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44821&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150408~1150416",
     "rawCoursePeriod": "1150417~1150713",
-    "matchScore": 29,
+    "matchScore": 14,
     "matchReasons": [
       "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
+      "辦理日期重疊"
     ]
   },
   {
@@ -1544,19 +1027,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年中華國際全方位照護學會社區運動促進課程",
-    "activityPkno": "44826",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44826&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "銀髮族運動推廣課程",
+    "activityPkno": "44839",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44839&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150403~1150415",
     "rawCoursePeriod": "1150418~1150711",
-    "matchScore": 31,
+    "matchScore": 8,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
+      "辦理單位完全相同"
     ]
   },
   {
@@ -1603,19 +1082,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "高雄市體育總會職工運動指導班-木球",
-    "activityPkno": "44858",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44858&ACT_SOURCE_TP_CD=02",
+    "activityName": "高雄市體育總會樂齡運動指導班-排舞",
+    "activityPkno": "44847",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44847&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150402~1150410",
     "rawCoursePeriod": "1150422~1150715",
-    "matchScore": 32,
+    "matchScore": 12,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位高度相符",
       "辦理日期重疊",
-      "活動內容包含課程地點",
       "活動與課程名稱高度相近"
     ]
   },
@@ -1656,19 +1132,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年中華國際全方位照護學會社區運動促進課程",
-    "activityPkno": "44826",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44826&ACT_SOURCE_TP_CD=02",
+    "activityName": "銀髮族運動推廣課程",
+    "activityPkno": "44839",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44839&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150407~1150430",
     "rawCoursePeriod": "1150504~1150722",
-    "matchScore": 31,
+    "matchScore": 20,
     "matchReasons": [
       "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
+      "辦理單位完全相同"
     ]
   },
   {
@@ -3369,16 +2842,14 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "115年高雄市「認證村里運動專班」",
+    "activityPkno": "44863",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150512~1151007",
-    "matchScore": 27,
+    "matchScore": 10,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位完全相同",
       "辦理日期重疊"
     ]
@@ -3455,224 +2926,6 @@
     ]
   },
   {
-    "id": "course-3918",
-    "coursePkno": "3918",
-    "title": "茄萣區全民運動發展協會-親子羽球基礎課程",
-    "category": "羽球",
-    "location": "砂崙國小羽球館",
-    "district": "茄萣區",
-    "address": "高雄市茄萣區文化路81號",
-    "time": "0830~1000、1930~2100、1800~2100",
-    "startDate": "2026-05-16",
-    "endDate": "2026-08-05",
-    "registrationStartDate": "2026-04-07",
-    "registrationEndDate": "2026-04-29",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "邱偉哲 教練",
-    "description": "1.握拍與發球基礎 2.高遠球基礎 3.網前球基礎 4.基本綜合練習 5.平球與推撲 6.殺球入門 7.步伐整合 8.基本戰術概念 9.接發球與變化 10.雙打基礎",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3918",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3918",
-    "organizer": "高雄市茄萣區全民運動發展協會",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "一般",
-    "contactName": "楊中睿",
-    "contactPhone": "(07)5813680#406",
-    "sessions": [
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150516",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150523",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150530",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150606",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150613",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150620",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150627",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150704",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150717",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150718",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150725",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150801",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150520",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150527",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150603",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150610",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150617",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150624",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150701",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150708",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150715",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150722",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150729",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球基礎課程",
-        "dates": "1150805",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "驗收成果展比賽",
-        "dates": "1150724",
-        "time": "1800~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150407~1150429",
-    "rawCoursePeriod": "1150516~1150805",
-    "matchScore": 19,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理日期重疊"
-    ]
-  },
-  {
     "id": "course-3858",
     "coursePkno": "3858",
     "title": "富邦人壽有氧運動班-(職工)",
@@ -3737,16 +2990,14 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "115年高雄市「認證村里運動專班」",
+    "activityPkno": "44863",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150519~1150818",
-    "matchScore": 27,
+    "matchScore": 10,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位完全相同",
       "辦理日期重疊"
     ]
@@ -3963,18 +3214,17 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
+    "activityName": "115年高雄市「認證村里運動專班」",
+    "activityPkno": "44863",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150521~1150814",
-    "matchScore": 27,
+    "matchScore": 12,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位完全相同",
-      "辦理日期重疊"
+      "辦理日期重疊",
+      "活動與課程名稱部分相近"
     ]
   },
   {
@@ -4103,58 +3353,6 @@
     ]
   },
   {
-    "id": "course-4003",
-    "coursePkno": "4003",
-    "title": "老當益健運動共學班前鎮/忠孝班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "廣西路357號",
-    "district": "前鎮區",
-    "address": "高雄市前鎮區廣西路357號",
-    "time": "0900~1030",
-    "startDate": "2026-06-01",
-    "endDate": "2026-08-31",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-05-31",
-    "status": "報名已截止",
-    "spotsTotal": 25,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "吳瑩萱、林育安",
-    "description": "課程以北歐式健走為核心，結合伸展有氧激勵與平衡，設計符合中高齡需求之精準運動內容，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4003",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4003",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150601~1150831 每周一,五",
-        "time": "0900~1030",
-        "location": "廣西路357號",
-        "address": "高雄市前鎮區廣西路357號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150531",
-    "rawCoursePeriod": "1150601~1150831",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
     "id": "course-3653",
     "coursePkno": "3653",
     "title": "龍子里運動班-瑜珈(一般)",
@@ -4197,58 +3395,6 @@
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150601~1150819",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
-    "id": "course-4004",
-    "coursePkno": "4004",
-    "title": "老當益健運動共學班前鎮/竹西班 (成人班)",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "竹西里社區中心",
-    "district": "前鎮區",
-    "address": "高雄市前鎮區廣東三街73號3 樓",
-    "time": "2000~2130",
-    "startDate": "2026-06-02",
-    "endDate": "2026-08-20",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-06-01",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "劉韋成",
-    "description": "強調多元、全套式的健身訓練，並搭配簡易訓練理論，以自主學習導向的課程，協助中壯年掌握正確運動知能並養成規律運動習慣。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4004",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4004",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "一般",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150602~1150820 每周二,四",
-        "time": "2000~2130",
-        "location": "竹西里社區中心",
-        "address": "高雄市前鎮區廣東三街73號3 樓"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150601",
-    "rawCoursePeriod": "1150602~1150820",
     "matchScore": 29,
     "matchReasons": [
       "官方場次地址完全相同",
@@ -4610,16 +3756,14 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "115年高雄市「認證村里運動專班」",
+    "activityPkno": "44863",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150603~1151012",
-    "matchScore": 27,
+    "matchScore": 10,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位完全相同",
       "辦理日期重疊"
     ]
@@ -5153,228 +4297,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "115年高雄市「認證村里運動專班」",
+    "activityPkno": "44863",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150612~1150911",
-    "matchScore": 27,
+    "matchScore": 10,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位完全相同",
-      "辦理日期重疊"
-    ]
-  },
-  {
-    "id": "course-3927",
-    "coursePkno": "3927",
-    "title": "JS K-pop運動專班",
-    "category": "舞蹈",
-    "location": "JS Dance",
-    "district": "鹽埕區",
-    "address": "高雄市鹽埕區瀨南街166-2號",
-    "time": "1930~2100、1900~2100",
-    "startDate": "2026-06-12",
-    "endDate": "2026-09-11",
-    "registrationStartDate": "2026-05-01",
-    "registrationEndDate": "2026-05-31",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "林佑真/孫國智",
-    "description": "舞蹈",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3927",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3927",
-    "organizer": "高雄市大樹區體育會",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "一般",
-    "contactName": "林佑真",
-    "contactPhone": "0906558619",
-    "sessions": [
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150908",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150612",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150616",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150623",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150911",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150703",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150707",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150710",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150714",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150717",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150721",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150724",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150728",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150731",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150804",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150807",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150811",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150814",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150818",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150821",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150825",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150828",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150901",
-        "time": "1900~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      },
-      {
-        "topic": "JS K-pop運動專班",
-        "dates": "1150904",
-        "time": "1930~2100",
-        "location": "JS Dance",
-        "address": "高雄市鹽埕區瀨南街166-2號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150501~1150531",
-    "rawCoursePeriod": "1150612~1150911",
-    "matchScore": 19,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理日期重疊"
     ]
   },
@@ -5509,19 +4440,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
+    "activityName": "全民瘋運動",
+    "activityPkno": "44823",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44823&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150624~1150916",
-    "matchScore": 29,
+    "matchScore": 14,
     "matchReasons": [
       "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
+      "辦理日期重疊"
     ]
   },
   {
@@ -5582,70 +4510,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "115年高雄市「認證村里運動專班」",
+    "activityPkno": "44863",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150630~1150922",
-    "matchScore": 27,
+    "matchScore": 10,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位完全相同",
       "辦理日期重疊"
-    ]
-  },
-  {
-    "id": "course-4005",
-    "coursePkno": "4005",
-    "title": "老當益健運動共學班前鎮/興邦班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "原住民聚會所",
-    "district": "前鎮區",
-    "address": "高雄市前鎮區翠亨北路原住民聚會所",
-    "time": "0930~1100",
-    "startDate": "2026-07-01",
-    "endDate": "2026-09-30",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-06-30",
-    "status": "報名已截止",
-    "spotsTotal": 30,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "楊彥均",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4005",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4005",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150701~1150930 每周三,五",
-        "time": "0930~1100",
-        "location": "原住民聚會所",
-        "address": "高雄市前鎮區翠亨北路原住民聚會所"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150630",
-    "rawCoursePeriod": "1150701~1150930",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
     ]
   },
   {
@@ -5692,281 +4566,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "115年高雄市「認證村里運動專班」",
+    "activityPkno": "44863",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150701~1150924",
-    "matchScore": 27,
+    "matchScore": 10,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位完全相同",
       "辦理日期重疊"
-    ]
-  },
-  {
-    "id": "course-3928",
-    "coursePkno": "3928",
-    "title": "有氧體能K-pop運動專班",
-    "category": "舞蹈、瑜珈",
-    "location": "Nias Dance Studio",
-    "district": "苓雅區",
-    "address": "高雄市苓雅區仁政里中山二路410號3F",
-    "time": "1800~1930",
-    "startDate": "2026-07-01",
-    "endDate": "2026-09-23",
-    "registrationStartDate": "2026-06-01",
-    "registrationEndDate": "2026-06-30",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "黃品耀/鍾沐容",
-    "description": "有氧舞蹈/K-pop舞蹈",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3928",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3928",
-    "organizer": "高雄市大樹區體育會",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "一般",
-    "contactName": "黃品耀",
-    "contactPhone": "0916140247",
-    "sessions": [
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150701",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150706",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150708",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150713",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150715",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150720",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150722",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150727",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150729",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150803",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150805",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150810",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150812",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150817",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150819",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150923",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150826",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150831",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150902",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150907",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150909",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150914",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150916",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      },
-      {
-        "topic": "有氧體能K-pop運動專班",
-        "dates": "1150921",
-        "time": "1800~1930",
-        "location": "Nias Dance Studio",
-        "address": "高雄市苓雅區仁政里中山二路410號3F"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150601~1150630",
-    "rawCoursePeriod": "1150701~1150923",
-    "matchScore": 19,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理日期重疊"
-    ]
-  },
-  {
-    "id": "course-4006",
-    "coursePkno": "4006",
-    "title": "老當益健運動共學班三民/ 達勇班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "無家者關懷老幼扶持協會",
-    "district": "三民區",
-    "address": "高雄市三民區九如二路301號",
-    "time": "0930~1100",
-    "startDate": "2026-07-02",
-    "endDate": "2026-09-22",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-07-01",
-    "status": "報名已截止",
-    "spotsTotal": 25,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "鄭蘋",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4006",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4006",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150702~1150922 每周二,四",
-        "time": "0930~1100",
-        "location": "無家者關懷老幼扶持協會",
-        "address": "高雄市三民區九如二路301號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150701",
-    "rawCoursePeriod": "1150702~1150922",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
     ]
   },
   {
@@ -6734,58 +5343,6 @@
     ]
   },
   {
-    "id": "course-4375",
-    "coursePkno": "4375",
-    "title": "老當益健運動共學班苓雅/ 苓雅運動中心班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "苓雅運動中心401",
-    "district": "苓雅區",
-    "address": "高雄市苓雅區中正一路96號",
-    "time": "0830~1000",
-    "startDate": "2026-07-03",
-    "endDate": "2026-09-22",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-07-02",
-    "status": "報名已截止",
-    "spotsTotal": 25,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "劉韋成",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4375",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4375",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150703~1150922 每周二,五",
-        "time": "0830~1000",
-        "location": "苓雅運動中心401",
-        "address": "高雄市苓雅區中正一路96號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150702",
-    "rawCoursePeriod": "1150703~1150922",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
     "id": "course-3603",
     "coursePkno": "3603",
     "title": "高科大減重體適能運動班(二五)",
@@ -7485,16 +6042,14 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "115年高雄市「認證村里運動專班」",
+    "activityPkno": "44863",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150706~1150929",
-    "matchScore": 27,
+    "matchScore": 10,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位完全相同",
       "辦理日期重疊"
     ]
@@ -7570,217 +6125,6 @@
       "辦理單位完全相同",
       "辦理日期重疊",
       "活動與課程名稱部分相近"
-    ]
-  },
-  {
-    "id": "course-3929",
-    "coursePkno": "3929",
-    "title": "K-pop MV有氧成果運動專班",
-    "category": "舞蹈、瑜珈",
-    "location": "WASSUP舞蹈教室",
-    "district": "新興區",
-    "address": "高雄市新興區文橫二路143巷11號B1",
-    "time": "1630~1800",
-    "startDate": "2026-07-06",
-    "endDate": "2026-10-05",
-    "registrationStartDate": "2026-06-01",
-    "registrationEndDate": "2026-07-05",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "鐘沐容/黃品耀",
-    "description": "K-pop MV有氧",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3929",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3929",
-    "organizer": "高雄市大樹區體育會",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "一般",
-    "contactName": "鐘沐容",
-    "contactPhone": "0916140247",
-    "sessions": [
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150706",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150708",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150713",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150715",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150720",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150722",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150727",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150729",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150803",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150805",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150810",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150812",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150817",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150930",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1151005",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150826",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150831",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150902",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150907",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150909",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150914",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150916",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150921",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      },
-      {
-        "topic": "K-pop MV有氧成果運動專班",
-        "dates": "1150923",
-        "time": "1630~1800",
-        "location": "WASSUP舞蹈教室",
-        "address": "高雄市新興區文橫二路143巷11號B1"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150601~1150705",
-    "rawCoursePeriod": "1150706~1151005",
-    "matchScore": 19,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理日期重疊"
     ]
   },
   {
@@ -8163,16 +6507,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
+    "activityName": "國立高雄科技大學—減重體適能運動班",
+    "activityPkno": "44814",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44814&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150701~1150707",
     "rawCoursePeriod": "1150714~1151016",
-    "matchScore": 19,
+    "matchScore": 14,
     "matchReasons": [
       "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理日期重疊"
     ]
   },
@@ -8297,16 +6640,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
+    "activityName": "國立高雄科技大學—減重體適能運動班",
+    "activityPkno": "44814",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44814&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150701~1150707",
     "rawCoursePeriod": "1150714~1151016",
-    "matchScore": 19,
+    "matchScore": 14,
     "matchReasons": [
       "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理日期重疊"
     ]
   },
@@ -8382,174 +6724,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
+    "activityName": "全民一起瘋-運動健身舞蹈",
+    "activityPkno": "44821",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44821&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150717~1151028",
-    "matchScore": 27,
+    "matchScore": 14,
     "matchReasons": [
       "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
       "辦理日期重疊"
-    ]
-  },
-  {
-    "id": "course-4008",
-    "coursePkno": "4008",
-    "title": "老當益健運動共學班鳳山/鳳崗班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "鳳崗里活動中心",
-    "district": "鳳山區",
-    "address": "高雄市鳳山區高雄市鳳山區曹公路6號",
-    "time": "0930~1100",
-    "startDate": "2026-07-17",
-    "endDate": "2026-10-14",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-07-12",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "碧琳",
-    "description": "提供基本健身及自主學習的運動保健課程，協助銀髮族掌握正確健康知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4008",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4008",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150717~1151014 每周三,五",
-        "time": "0930~1100",
-        "location": "鳳崗里活動中心",
-        "address": "高雄市鳳山區高雄市鳳山區曹公路6號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150712",
-    "rawCoursePeriod": "1150717~1151014",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
-    "id": "course-4009",
-    "coursePkno": "4009",
-    "title": "老當益健運動共學班六龜/中興班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "中興里活動中心",
-    "district": "六龜區",
-    "address": "高雄市六龜區中興里中庄194號",
-    "time": "0930~1100",
-    "startDate": "2026-07-22",
-    "endDate": "2026-10-08",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-07-21",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "鄭漢吾",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4009",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4009",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150722~1151008 每周三,四",
-        "time": "0930~1100",
-        "location": "中興里活動中心",
-        "address": "高雄市六龜區中興里中庄194號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150721",
-    "rawCoursePeriod": "1150722~1151008",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
-    ]
-  },
-  {
-    "id": "course-3982",
-    "coursePkno": "3982",
-    "title": "老當益健運動共學班六龜/文武班",
-    "category": "地板滾球、瑜珈、健行、體適能運動、體操",
-    "location": "文武里活動中心",
-    "district": "六龜區",
-    "address": "高雄市六龜區光明巷40號",
-    "time": "1400~1530",
-    "startDate": "2026-07-22",
-    "endDate": "2026-10-08",
-    "registrationStartDate": "2026-04-08",
-    "registrationEndDate": "2026-07-21",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "鄭漢吾",
-    "description": "本活動旨在整合專業場域與人力，提供自主學習的運動保健課程，協助銀髮族掌握正確知能並養成規律運動習慣，全面實踐終生健康。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3982",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3982",
-    "organizer": "國家健康運動師資培育協會",
-    "targetAudience": "不限制參與對象及比例、銀髮族",
-    "studentCategory": "銀髮族",
-    "contactName": "鄭漢吾",
-    "contactPhone": "0918054555",
-    "sessions": [
-      {
-        "topic": "協助銀髮族掌握正確知能並養成規律運動習慣",
-        "dates": "1150722~1151008 每周三,四",
-        "time": "1400~1530",
-        "location": "文武里活動中心",
-        "address": "高雄市六龜區光明巷40號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年銀髮運動專班-老當益健運動共學班",
-    "activityPkno": "44884",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44884&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150408~1150721",
-    "rawCoursePeriod": "1150722~1151008",
-    "matchScore": 29,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
     ]
   },
   {
@@ -8589,454 +6773,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
+    "activityName": "全民一起瘋-運動健身舞蹈",
+    "activityPkno": "44821",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44821&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150728~1151015",
-    "matchScore": 27,
+    "matchScore": 12,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊"
-    ]
-  },
-  {
-    "id": "course-3920",
-    "coursePkno": "3920",
-    "title": "茄萣區全民運動發展協會-羽球訓練課程",
-    "category": "羽球",
-    "location": "砂崙國小羽球館",
-    "district": "茄萣區",
-    "address": "高雄市茄萣區文化路81號",
-    "time": "1800~1930、0830~1000、1930~2100、0800~1000",
-    "startDate": "2026-07-29",
-    "endDate": "2026-10-24",
-    "registrationStartDate": "2026-05-21",
-    "registrationEndDate": "2026-07-10",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "邱偉哲 長榮大學-運動競技學系 學士 淡江大學-管理科學學所 碩士 C 級羽球教練 中華羽球協會 C 級羽球裁判 中華羽球協會 C 級羽球裁判 中華殘障體育運動總會",
-    "description": "透過專業教學與訓練規劃，課程重視 動作正確性、體能協 調性與心理穩定度。課程內容包含： • 基礎動作訓練 • 技術提升 • 體能與協調訓練 • 比賽策略與實戰應用 依學員程度調整課程，無論是 興趣培養、競技提升或校隊 發展，皆可制定合適的訓練計畫。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3920",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3920",
-    "organizer": "高雄市茄萣區全民運動發展協會",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "一般",
-    "contactName": "楊中睿",
-    "contactPhone": "(07)5813680#406",
-    "sessions": [
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150729",
-        "time": "1800~1930",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150801",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150805",
-        "time": "1800~1930",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150808",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150812",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150815",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150819",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150822",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150826",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150829",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150902",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150905",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150909",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150912",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150916",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150919",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150923",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150926",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150930",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151003",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151007",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151010",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151014",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151017",
-        "time": "0830~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "驗收成果展比賽",
-        "dates": "1151024",
-        "time": "0800~1000",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150521~1150710",
-    "rawCoursePeriod": "1150729~1151024",
-    "matchScore": 19,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理日期重疊"
-    ]
-  },
-  {
-    "id": "course-4800",
-    "coursePkno": "4800",
-    "title": "茄萣區全民運動發展協會-羽球訓練課程2",
-    "category": "羽球",
-    "location": "砂崙國小羽球館",
-    "district": "茄萣區",
-    "address": "高雄市茄萣區文化路81號",
-    "time": "1930~2100、1000~1130、1000~1200",
-    "startDate": "2026-07-31",
-    "endDate": "2026-10-24",
-    "registrationStartDate": "2026-05-21",
-    "registrationEndDate": "2026-07-10",
-    "status": "報名已截止",
-    "spotsTotal": 20,
-    "spotsAvailable": null,
-    "fee": "未提供",
-    "instructor": "邱偉哲 長榮大學-運動競技學系 學士 淡江大學-管理科學學所 碩士 C 級羽球教練 中華羽球協會 C 級羽球裁判 中華羽球協會 C 級羽球裁判 中華殘障體育運動總會",
-    "description": "透過專業教學與訓練規劃，課程重視 動作正確性、體能協 調性與心理穩定度。課程內容包含： • 基礎動作訓練 • 技術提升 • 體能與協調訓練 • 比賽策略與實戰應用 依學員程度調整課程，無論是 興趣培養、競技提升或校隊 發展，皆可制定合適的訓練計畫。",
-    "registrationUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4800",
-    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4800",
-    "organizer": "高雄市茄萣區全民運動發展協會",
-    "targetAudience": "不限制參與對象及比例",
-    "studentCategory": "一般",
-    "contactName": "楊中睿",
-    "contactPhone": "(07)5813680#406",
-    "sessions": [
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150731",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150801",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150807",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150808",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150814",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150815",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150821",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150822",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150828",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150829",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150904",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150905",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150911",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150912",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150918",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150919",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150925",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1150926",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151002",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151003",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151009",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151010",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151016",
-        "time": "1930~2100",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "羽球訓練課程",
-        "dates": "1151017",
-        "time": "1000~1130",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      },
-      {
-        "topic": "驗收成果展比賽",
-        "dates": "1151024",
-        "time": "1000~1200",
-        "location": "砂崙國小羽球館",
-        "address": "高雄市茄萣區文化路81號"
-      }
-    ],
-    "source": "運動i臺灣計畫",
-    "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
-    "rawRegistrationPeriod": "1150521~1150710",
-    "rawCoursePeriod": "1150731~1151024",
-    "matchScore": 19,
-    "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理日期重疊"
+      "官方場次地址完全相同"
     ]
   },
   {
@@ -9310,16 +7055,15 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "高雄市大昌里運動班-體適能肌力訓練",
+    "activityPkno": "44819",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44819&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150407~1150430",
     "rawCoursePeriod": "1150805~1151030",
-    "matchScore": 19,
+    "matchScore": 10,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
+      "辦理單位完全相同",
       "辦理日期重疊"
     ]
   },
@@ -9388,18 +7132,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "台灣全適能健康促進協會運動班-全方位體適能",
-    "activityPkno": "44824",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44824&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "高雄市大昌里運動班-體適能肌力訓練",
+    "activityPkno": "44819",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44819&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150407~1150430",
     "rawCoursePeriod": "1150805~1151030",
-    "matchScore": 26,
+    "matchScore": 10,
     "matchReasons": [
-      "官方場次地址完全相同",
       "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱高度相近"
+      "辦理日期重疊"
     ]
   },
   {
@@ -9540,16 +7282,14 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
-    "matchConfidence": "high",
+    "activityName": "115年高雄市「認證村里運動專班」",
+    "activityPkno": "44863",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02",
+    "matchConfidence": "medium",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150812~1151028",
-    "matchScore": 27,
+    "matchScore": 10,
     "matchReasons": [
-      "官方場次地址完全相同",
-      "官方場次主題完全相同",
       "辦理單位完全相同",
       "辦理日期重疊"
     ]
@@ -9612,19 +7352,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
+    "activityName": "全民瘋運動",
+    "activityPkno": "44823",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44823&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150429~1150429",
     "rawCoursePeriod": "1150813~1151029",
-    "matchScore": 29,
+    "matchScore": 14,
     "matchReasons": [
       "官方場次地址完全相同",
-      "官方場次主題完全相同",
-      "辦理單位完全相同",
-      "辦理日期重疊",
-      "活動與課程名稱部分相近"
+      "辦理日期重疊"
     ]
   },
   {
@@ -9720,16 +7457,16 @@
     ],
     "source": "運動i臺灣計畫",
     "sourceVerified": true,
-    "activityName": "115年高雄市「非認證村里運動專班」",
-    "activityPkno": "44881",
-    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44881&ACT_SOURCE_TP_CD=02",
+    "activityName": "全民瘋運動",
+    "activityPkno": "44823",
+    "activityDetailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44823&ACT_SOURCE_TP_CD=02",
     "matchConfidence": "high",
     "rawRegistrationPeriod": "1150414~1150630",
     "rawCoursePeriod": "1150813~1151030",
-    "matchScore": 22,
+    "matchScore": 19,
     "matchReasons": [
       "官方場次地址完全相同",
-      "辦理單位完全相同",
+      "官方場次主題完全相同",
       "辦理日期重疊"
     ]
   }

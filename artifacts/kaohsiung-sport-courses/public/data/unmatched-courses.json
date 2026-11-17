@@ -1,1 +1,419 @@
-[]
+[
+  {
+    "coursePkno": "3979",
+    "title": "老當益健運動共學班左營/埤東班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3979",
+    "district": "左營區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3991",
+    "title": "老當益健運動共學小港/龍鳳班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3991",
+    "district": "小港區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3992",
+    "title": "老當益健運動共學班鳳山/ 武漢班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3992",
+    "district": "鳳山區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3993",
+    "title": "老當益健運動共學班前鎮/ 竹西班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3993",
+    "district": "前鎮區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3994",
+    "title": "老當益健運動共學班湖內/公館班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3994",
+    "district": "湖內區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3998",
+    "title": "老當益健運動共學班鳳山/ 文德班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3998",
+    "district": "鳳山區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4374",
+    "title": "老當益健運動共學班 苓雅/苓雅運動中心班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4374",
+    "district": "苓雅區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4000",
+    "title": "老當益健運動共學班六龜/ 中興班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4000",
+    "district": "六龜區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4001",
+    "title": "老當益健運動共學班六龜/ 文武班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4001",
+    "district": "六龜區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3918",
+    "title": "茄萣區全民運動發展協會-親子羽球基礎課程",
+    "organizer": "高雄市茄萣區全民運動發展協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3918",
+    "district": "茄萣區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4003",
+    "title": "老當益健運動共學班前鎮/忠孝班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4003",
+    "district": "前鎮區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4004",
+    "title": "老當益健運動共學班前鎮/竹西班 (成人班)",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4004",
+    "district": "前鎮區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3927",
+    "title": "JS K-pop運動專班",
+    "organizer": "高雄市大樹區體育會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3927",
+    "district": "鹽埕區",
+    "bestCandidate": {
+      "score": 4,
+      "reasons": [
+        "辦理日期重疊",
+        "活動與課程名稱部分相近"
+      ],
+      "activityPkno": "44863",
+      "title": "115年高雄市「認證村里運動專班」",
+      "organizer": "高雄市政府運動發展局",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44863&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 4，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3928",
+    "title": "有氧體能K-pop運動專班",
+    "organizer": "高雄市大樹區體育會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3928",
+    "district": "苓雅區",
+    "bestCandidate": {
+      "score": 4,
+      "reasons": [
+        "辦理日期重疊",
+        "活動與課程名稱部分相近"
+      ],
+      "activityPkno": "44814",
+      "title": "國立高雄科技大學—減重體適能運動班",
+      "organizer": "國立高雄科技大學",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44814&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 4，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4005",
+    "title": "老當益健運動共學班前鎮/興邦班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4005",
+    "district": "前鎮區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4006",
+    "title": "老當益健運動共學班三民/ 達勇班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4006",
+    "district": "三民區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4375",
+    "title": "老當益健運動共學班苓雅/ 苓雅運動中心班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4375",
+    "district": "苓雅區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3929",
+    "title": "K-pop MV有氧成果運動專班",
+    "organizer": "高雄市大樹區體育會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3929",
+    "district": "新興區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4008",
+    "title": "老當益健運動共學班鳳山/鳳崗班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4008",
+    "district": "鳳山區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3982",
+    "title": "老當益健運動共學班六龜/文武班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3982",
+    "district": "六龜區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4009",
+    "title": "老當益健運動共學班六龜/中興班",
+    "organizer": "國家健康運動師資培育協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4009",
+    "district": "六龜區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "3920",
+    "title": "茄萣區全民運動發展協會-羽球訓練課程",
+    "organizer": "高雄市茄萣區全民運動發展協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=3920",
+    "district": "茄萣區",
+    "bestCandidate": {
+      "score": 4,
+      "reasons": [
+        "辦理日期重疊",
+        "活動與課程名稱部分相近"
+      ],
+      "activityPkno": "44823",
+      "title": "全民瘋運動",
+      "organizer": "財團法人高雄市基督教青年會左營運動中心",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=44823&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 4，未達 7 分門檻"
+  },
+  {
+    "coursePkno": "4800",
+    "title": "茄萣區全民運動發展協會-羽球訓練課程2",
+    "organizer": "高雄市茄萣區全民運動發展協會",
+    "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/PFM05/PFM0560M_02V1.aspx?PKNO=4800",
+    "district": "茄萣區",
+    "bestCandidate": {
+      "score": 2,
+      "reasons": [
+        "辦理日期重疊"
+      ],
+      "activityPkno": "45220",
+      "title": "舞出精彩~ 銀髮運動趣",
+      "organizer": "社團法人台灣長照運動舞蹈協會",
+      "detailUrl": "https://isports.sa.gov.tw/Apps/TIS/TIS02/TIS0201M_02V1.aspx?SYS=TIS&MENU_PRG_CD=1&ITEM_PRG_CD=3&PKNO=45220&ACT_SOURCE_TP_CD=02"
+    },
+    "reason": "最佳配對分數僅 2，未達 7 分門檻"
+  }
+]
